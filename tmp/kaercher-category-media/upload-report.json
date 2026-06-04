@@ -1,0 +1,247 @@
+{
+  "workspaceId": "0ZuKB000000OFTj0AO",
+  "created_or_updated": 0,
+  "errors": [
+    {
+      "step": "upload-parse",
+      "category": "Hochdruckreiniger",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCRY4QH4AHH5FPJH6PNN5HDTFPSU\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t6k\",\"size\":25772},\"url\":\"/cms/media/MCRY4QH4AHH5FPJH6PNN5HDTFPSU?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCRY4QH4AHH5FPJH6PNN5HDTFPSU\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Hochdruckreiniger",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCFHBKZ67W75DJDFMDNELIFSN2AY\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t6p\",\"size\":33373},\"url\":\"/cms/media/MCFHBKZ67W75DJDFMDNELIFSN2AY?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCFHBKZ67W75DJDFMDNELIFSN2AY\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Sauger",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MC3WCRSMQW6FHJZHRHVIFA7QRZPA\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t6u\",\"size\":12801},\"url\":\"/cms/media/MC3WCRSMQW6FHJZHRHVIFA7QRZPA?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MC3WCRSMQW6FHJZHRHVIFA7QRZPA\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Sauger",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCPSKMYYJ4JRHFZEN3RFQFJVK6V4\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t6z\",\"size\":18170},\"url\":\"/cms/media/MCPSKMYYJ4JRHFZEN3RFQFJVK6V4?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCPSKMYYJ4JRHFZEN3RFQFJVK6V4\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Nass-/Trockensauger",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCEVH3N33B3JAKNC4NNOUIFGIJOE\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t74\",\"size\":20467},\"url\":\"/cms/media/MCEVH3N33B3JAKNC4NNOUIFGIJOE?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCEVH3N33B3JAKNC4NNOUIFGIJOE\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Nass-/Trockensauger",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCIAYYRMPJERBE7KB3KXVIW7KEKM\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t79\",\"size\":26988},\"url\":\"/cms/media/MCIAYYRMPJERBE7KB3KXVIW7KEKM?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCIAYYRMPJERBE7KB3KXVIW7KEKM\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Reinigungsroboter",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCC3AQSTWEEZBMXO5INQGZOZSTLA\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t7E\",\"size\":19908},\"url\":\"/cms/media/MCC3AQSTWEEZBMXO5INQGZOZSTLA?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCC3AQSTWEEZBMXO5INQGZOZSTLA\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Reinigungsroboter",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCA3T22IZIEVEKPCDTGYMUJFJEPE\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t7J\",\"size\":27501},\"url\":\"/cms/media/MCA3T22IZIEVEKPCDTGYMUJFJEPE?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCA3T22IZIEVEKPCDTGYMUJFJEPE\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Industrielle Absaugtechnik",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MC2RGLGM4LAFCTHFRX76ZCWTWNLM\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t7O\",\"size\":19735},\"url\":\"/cms/media/MC2RGLGM4LAFCTHFRX76ZCWTWNLM?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MC2RGLGM4LAFCTHFRX76ZCWTWNLM\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Industrielle Absaugtechnik",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MC3666QK5ULFBZ5MRVKSBII3KMAE\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t7T\",\"size\":26787},\"url\":\"/cms/media/MC3666QK5ULFBZ5MRVKSBII3KMAE?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MC3666QK5ULFBZ5MRVKSBII3KMAE\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Scheuer-/Scheuersaugmaschinen",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCUCJEWQ43X5DRPIXAZIIXCNQ3SY\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t7Y\",\"size\":24556},\"url\":\"/cms/media/MCUCJEWQ43X5DRPIXAZIIXCNQ3SY?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCUCJEWQ43X5DRPIXAZIIXCNQ3SY\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Scheuer-/Scheuersaugmaschinen",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCCRPKLKZHK5FB7MLSCPZ7W6SF3Y\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t7d\",\"size\":31892},\"url\":\"/cms/media/MCCRPKLKZHK5FB7MLSCPZ7W6SF3Y?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCCRPKLKZHK5FB7MLSCPZ7W6SF3Y\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Kehr- und Kehrsaugmaschinen",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCJMHOL6UQYJA3HN7VHCCPWYI7ZU\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t7i\",\"size\":21831},\"url\":\"/cms/media/MCJMHOL6UQYJA3HN7VHCCPWYI7ZU?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCJMHOL6UQYJA3HN7VHCCPWYI7ZU\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Kehr- und Kehrsaugmaschinen",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCHINX7QYOKVCBLN2G3SIFNORRDY\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t7n\",\"size\":29656},\"url\":\"/cms/media/MCHINX7QYOKVCBLN2G3SIFNORRDY?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCHINX7QYOKVCBLN2G3SIFNORRDY\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Fenster- und Oberflaechensauger",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCCPCELXJMMRAARP3MFPU7MMDUGY\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t7s\",\"size\":16353},\"url\":\"/cms/media/MCCPCELXJMMRAARP3MFPU7MMDUGY?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCCPCELXJMMRAARP3MFPU7MMDUGY\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Fenster- und Oberflaechensauger",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MC35PTODZSMRDEROSX3345Z6LMBY\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t7x\",\"size\":23124},\"url\":\"/cms/media/MC35PTODZSMRDEROSX3345Z6LMBY?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MC35PTODZSMRDEROSX3345Z6LMBY\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Kommunaltechnik",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCHSMAGM36QZBG5KWAJC6N65H3PE\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t82\",\"size\":26122},\"url\":\"/cms/media/MCHSMAGM36QZBG5KWAJC6N65H3PE?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCHSMAGM36QZBG5KWAJC6N65H3PE\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Kommunaltechnik",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MC7B3MNBMF6RGJBMF2A4S4LU574Q\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t87\",\"size\":33249},\"url\":\"/cms/media/MC7B3MNBMF6RGJBMF2A4S4LU574Q?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MC7B3MNBMF6RGJBMF2A4S4LU574Q\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Geraete fuer Aussenbereiche",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCWX45N2QCBZHFRPRPPDOFRCOCFI\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t8C\",\"size\":17446},\"url\":\"/cms/media/MCWX45N2QCBZHFRPRPPDOFRCOCFI?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCWX45N2QCBZHFRPRPPDOFRCOCFI\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Geraete fuer Aussenbereiche",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCCZ4VJJ74FVFTNKQEOGI5GMG32A\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t8H\",\"size\":23855},\"url\":\"/cms/media/MCCZ4VJJ74FVFTNKQEOGI5GMG32A?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCCZ4VJJ74FVFTNKQEOGI5GMG32A\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Generatoren und Schmutzwasserpumpe",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCL6SHSREJ3ZFH5BPHYMDZPSDS24\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t8M\",\"size\":29013},\"url\":\"/cms/media/MCL6SHSREJ3ZFH5BPHYMDZPSDS24?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCL6SHSREJ3ZFH5BPHYMDZPSDS24\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Generatoren und Schmutzwasserpumpe",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCQZBK435U5ND63NHOWVJBCKDSJU\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t8R\",\"size\":36859},\"url\":\"/cms/media/MCQZBK435U5ND63NHOWVJBCKDSJU?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCQZBK435U5ND63NHOWVJBCKDSJU\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Teppichreiniger",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCW26LSRDAB5CQPNWTPITAEDM2FA\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t8W\",\"size\":14296},\"url\":\"/cms/media/MCW26LSRDAB5CQPNWTPITAEDM2FA?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCW26LSRDAB5CQPNWTPITAEDM2FA\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Teppichreiniger",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCCY3ZTY2AOREHLDE4TTVPQ653SU\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t8b\",\"size\":19740},\"url\":\"/cms/media/MCCY3ZTY2AOREHLDE4TTVPQ653SU?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCCY3ZTY2AOREHLDE4TTVPQ653SU\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Dampfreiniger/-sauger",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCT66VGKW5S5EUFOD5EBZHMVTPOU\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t8g\",\"size\":13743},\"url\":\"/cms/media/MCT66VGKW5S5EUFOD5EBZHMVTPOU?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCT66VGKW5S5EUFOD5EBZHMVTPOU\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Dampfreiniger/-sauger",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCG6XMTHR7L5A45PZGX5CAM6WXSM\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t8l\",\"size\":18979},\"url\":\"/cms/media/MCG6XMTHR7L5A45PZGX5CAM6WXSM?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCG6XMTHR7L5A45PZGX5CAM6WXSM\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Wasserspender",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCG5V474XTWJCMZH6NZSX4IJIYXQ\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t8q\",\"size\":13735},\"url\":\"/cms/media/MCG5V474XTWJCMZH6NZSX4IJIYXQ?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCG5V474XTWJCMZH6NZSX4IJIYXQ\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Wasserspender",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCSB3YKKYK6ZE4ZM6TRCHRGIG4SM\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t8v\",\"size\":19464},\"url\":\"/cms/media/MCSB3YKKYK6ZE4ZM6TRCHRGIG4SM?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCSB3YKKYK6ZE4ZM6TRCHRGIG4SM\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Trockeneisreinigung",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCTX4BR6DCPBEU7LGULIN6D7K6BE\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t90\",\"size\":15359},\"url\":\"/cms/media/MCTX4BR6DCPBEU7LGULIN6D7K6BE?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCTX4BR6DCPBEU7LGULIN6D7K6BE\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Trockeneisreinigung",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCSORTLZA3FBEZVB7BE4MH7FODRQ\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t95\",\"size\":21371},\"url\":\"/cms/media/MCSORTLZA3FBEZVB7BE4MH7FODRQ?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCSORTLZA3FBEZVB7BE4MH7FODRQ\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Fahrzeugreinigungssysteme",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCV7YGN23ZTFCBFHTHQPBS6JLHTM\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t9A\",\"size\":30461},\"url\":\"/cms/media/MCV7YGN23ZTFCBFHTHQPBS6JLHTM?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCV7YGN23ZTFCBFHTHQPBS6JLHTM\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Fahrzeugreinigungssysteme",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MC2SAV7R4DKJADFOSQDMPSLQWQJ4\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t9F\",\"size\":37930},\"url\":\"/cms/media/MC2SAV7R4DKJADFOSQDMPSLQWQJ4?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MC2SAV7R4DKJADFOSQDMPSLQWQJ4\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Wasserrecycling",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCJO4BJSXDYBCKLE5S7XSGD36KIA\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t9K\",\"size\":12556},\"url\":\"/cms/media/MCJO4BJSXDYBCKLE5S7XSGD36KIA?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCJO4BJSXDYBCKLE5S7XSGD36KIA\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Wasserrecycling",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MC5N7XYNLEDVEWHBCTZZPMW5XX7A\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t9P\",\"size\":17600},\"url\":\"/cms/media/MC5N7XYNLEDVEWHBCTZZPMW5XX7A?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MC5N7XYNLEDVEWHBCTZZPMW5XX7A\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Manuelles Reinigungsequipment",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCSZY3KRRPL5DTBMLSBGZPGQ6MO4\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t9U\",\"size\":26227},\"url\":\"/cms/media/MCSZY3KRRPL5DTBMLSBGZPGQ6MO4?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCSZY3KRRPL5DTBMLSBGZPGQ6MO4\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Manuelles Reinigungsequipment",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCWIG5EWNMXZF4VONFNRCW5SLUQA\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t9Z\",\"size\":33108},\"url\":\"/cms/media/MCWIG5EWNMXZF4VONFNRCW5SLUQA?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCWIG5EWNMXZF4VONFNRCW5SLUQA\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Vernetzte Reinigung",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCBV4QDLEXXZGC7K4BKEQM2UZDHY\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t9e\",\"size\":13583},\"url\":\"/cms/media/MCBV4QDLEXXZGC7K4BKEQM2UZDHY?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCBV4QDLEXXZGC7K4BKEQM2UZDHY\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Vernetzte Reinigung",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MCIRHNMVJBTJAABMGSQ6ZLEUAYDA\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t9j\",\"size\":20175},\"url\":\"/cms/media/MCIRHNMVJBTJAABMGSQ6ZLEUAYDA?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCIRHNMVJBTJAABMGSQ6ZLEUAYDA\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Merchandising",
+      "kind": "tile",
+      "body": "{\"apiName\":\"MCKYDTKNA33FBKBFVFPN57QJBBLA\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t9o\",\"size\":30729},\"url\":\"/cms/media/MCKYDTKNA33FBKBFVFPN57QJBBLA?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MCKYDTKNA33FBKBFVFPN57QJBBLA\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    },
+    {
+      "step": "upload-parse",
+      "category": "Merchandising",
+      "kind": "banner",
+      "body": "{\"apiName\":\"MC6DEDW64EZJHX5H4KY7DHMSS55E\",\"contentBody\":{\"sfdc_cms:media\":{\"source\":{\"mimeType\":\"image/png\",\"type\":\"file\",\"ref\":\"0sNKB00000F0t9t\",\"size\":37547},\"url\":\"/cms/media/MC6DEDW64EZJHX5H4KY7DHMSS55E?version=1.1\"}},\"contentFqn\":null,\"contentKey\":\"MC6DEDW64EZJHX5H4KY7DHMSS55E\",\"contentSpace\":{\"id\":\"0ZuKB000000OFTj0AO\",\"resourceUrl\":\"/services/data/v66.0/connect/cms/spaces/0ZuKB000000OFTj\"},\"contentType\":{\"fullyQualifiedName\":\"sfdc_cms__image\"},\"contentVersion\":1,\"createdBy\":{\"id\":\"005KB000"
+    }
+  ],
+  "items": []
+}

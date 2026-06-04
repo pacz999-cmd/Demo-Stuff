@@ -1,0 +1,7 @@
+Id,Name,Username,IsActive,UserType,CurrencyIsoCode,Account.Name
+005J90000023kQIIAY,Klara Sommer,klara@example.com,true,PowerCustomerSuccess,USD,LGV Sonnengemüse eingetragene Genossenschaft
+005J9000002BJQaIAO,Bob Hodges,bob.hodges@storm-bb38d9e08dde65.com,true,PowerCustomerSuccess,USD,"Omega, Inc."
+005J90000023jsEIAQ,Chris Post,chris.post@storm-bb38d9e08dde65.com,true,PowerCustomerSuccess,USD,"Omega, Inc."
+005J9000002BJQZIA4,James Wu,james.wu@storm-bb38d9e08dde65.com,true,PowerCustomerSuccess,USD,"Omega, Inc."
+005J9000002BJRLIA4,Lauren Bailey,lauren.bailey@storm-bb38d9e08dde65.com,true,PowerCustomerSuccess,USD,"Omega, Inc."
+005J90000023jsFIAQ,Mark Kingston,mark.kingston@storm-bb38d9e08dde65.com,true,PowerCustomerSuccess,USD,"Omega, Inc."

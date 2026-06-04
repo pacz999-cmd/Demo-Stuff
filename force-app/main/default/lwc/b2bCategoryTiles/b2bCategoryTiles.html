@@ -1,0 +1,19 @@
+<template>
+    <section class="wrap">
+        <div class="header">
+            <h2>{title}</h2>
+            <p>{subtitle}</p>
+        </div>
+
+        <div class="grid">
+            <template for:each={parsedTiles} for:item="tile">
+                <a key={tile.id} class="tile" href={tile.url}>
+                    <div class="image-wrap">
+                        <img src={tile.image} alt={tile.label} loading="lazy" />
+                    </div>
+                    <div class="label">{tile.label}</div>
+                </a>
+            </template>
+        </div>
+    </section>
+</template>

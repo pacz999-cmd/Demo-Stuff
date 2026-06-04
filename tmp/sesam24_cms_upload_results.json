@@ -1,0 +1,406 @@
+{
+  "spaceId": "0ZuJ9000000p1iUKAQ",
+  "results": [
+    {
+      "slug": "mais",
+      "title": "Mais",
+      "file": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/tmp/sesam24-cms-images/mais.jpg",
+      "createResponse": {
+        "apiName": "MCBBATYSJ7ERAANOBXBZ6BQT7HPM",
+        "contentBody": {
+          "sfdc_cms:media": {
+            "source": {
+              "mimeType": "image/jpeg",
+              "type": "file",
+              "ref": "0sNJ900000JUtZJ",
+              "size": 100894
+            },
+            "url": "/cms/media/MCBBATYSJ7ERAANOBXBZ6BQT7HPM?version=1.1"
+          }
+        },
+        "contentFqn": null,
+        "contentKey": "MCBBATYSJ7ERAANOBXBZ6BQT7HPM",
+        "contentSpace": {
+          "id": "0ZuJ9000000p1iUKAQ",
+          "resourceUrl": "/services/data/v66.0/connect/cms/spaces/0ZuJ9000000p1iU"
+        },
+        "contentType": {
+          "fullyQualifiedName": "sfdc_cms__image"
+        },
+        "contentVersion": 1,
+        "createdBy": {
+          "id": "005J90000023jjZIAQ",
+          "name": "Patrick Czieso",
+          "resourceUrl": "/services/data/v66.0/chatter/users/005J90000023jjZIAQ"
+        },
+        "createdDate": "2026-06-03T09:50:35.000Z",
+        "externalId": null,
+        "folder": {
+          "id": "9PuJ9000000p5ukKAA",
+          "resourceUrl": "/services/data/v66.0/connect/cms/folders/9PuJ9000000p5ukKAA"
+        },
+        "isPublished": false,
+        "language": "de",
+        "lastModifiedBy": {
+          "id": "005J90000023jjZIAQ",
+          "name": "Patrick Czieso",
+          "resourceUrl": "/services/data/v66.0/chatter/users/005J90000023jjZIAQ"
+        },
+        "lastModifiedDate": "2026-06-03T09:50:35.000Z",
+        "managedContentId": "20YJ9000002EvSMMA0",
+        "managedContentVariantId": "9PsJ9000007hEvsKAE",
+        "managedContentVersionId": "5OUJ900000GcHvPOAV",
+        "status": {
+          "label": "Draft",
+          "status": "Draft"
+        },
+        "title": "sesam24 Mais",
+        "urlName": "sesam24-mais",
+        "variantVersion": "1.1"
+      },
+      "managedContentId": "20YJ9000002EvSMMA0",
+      "contentKey": "MCBBATYSJ7ERAANOBXBZ6BQT7HPM",
+      "deliveryResponse": [
+        {
+          "errorCode": "NOT_FOUND",
+          "message": "The requested resource does not exist"
+        }
+      ]
+    },
+    {
+      "slug": "sojabohnen",
+      "title": "Sojabohnen",
+      "file": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/tmp/sesam24-cms-images/sojabohnen.jpg",
+      "createResponse": {
+        "apiName": "MCWZAN7EWJKVEFFM4O2OJNJJZECU",
+        "contentBody": {
+          "sfdc_cms:media": {
+            "source": {
+              "mimeType": "image/jpeg",
+              "type": "file",
+              "ref": "0sNJ900000JUtZO",
+              "size": 268793
+            },
+            "url": "/cms/media/MCWZAN7EWJKVEFFM4O2OJNJJZECU?version=1.1"
+          }
+        },
+        "contentFqn": null,
+        "contentKey": "MCWZAN7EWJKVEFFM4O2OJNJJZECU",
+        "contentSpace": {
+          "id": "0ZuJ9000000p1iUKAQ",
+          "resourceUrl": "/services/data/v66.0/connect/cms/spaces/0ZuJ9000000p1iU"
+        },
+        "contentType": {
+          "fullyQualifiedName": "sfdc_cms__image"
+        },
+        "contentVersion": 1,
+        "createdBy": {
+          "id": "005J90000023jjZIAQ",
+          "name": "Patrick Czieso",
+          "resourceUrl": "/services/data/v66.0/chatter/users/005J90000023jjZIAQ"
+        },
+        "createdDate": "2026-06-03T09:50:36.000Z",
+        "externalId": null,
+        "folder": {
+          "id": "9PuJ9000000p5ukKAA",
+          "resourceUrl": "/services/data/v66.0/connect/cms/folders/9PuJ9000000p5ukKAA"
+        },
+        "isPublished": false,
+        "language": "de",
+        "lastModifiedBy": {
+          "id": "005J90000023jjZIAQ",
+          "name": "Patrick Czieso",
+          "resourceUrl": "/services/data/v66.0/chatter/users/005J90000023jjZIAQ"
+        },
+        "lastModifiedDate": "2026-06-03T09:50:36.000Z",
+        "managedContentId": "20YJ9000002EvSRMA0",
+        "managedContentVariantId": "9PsJ9000007hEvxKAE",
+        "managedContentVersionId": "5OUJ900000GcHvUOAV",
+        "status": {
+          "label": "Draft",
+          "status": "Draft"
+        },
+        "title": "sesam24 Sojabohnen",
+        "urlName": "sesam24-sojabohnen",
+        "variantVersion": "1.1"
+      },
+      "managedContentId": "20YJ9000002EvSRMA0",
+      "contentKey": "MCWZAN7EWJKVEFFM4O2OJNJJZECU",
+      "deliveryResponse": [
+        {
+          "errorCode": "NOT_FOUND",
+          "message": "The requested resource does not exist"
+        }
+      ]
+    },
+    {
+      "slug": "oelpflanzen",
+      "title": "Oelpflanzen",
+      "file": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/tmp/sesam24-cms-images/oelpflanzen.jpg",
+      "createResponse": {
+        "apiName": "MCWBCFZXNG7NBWNFZFWUW3KDHUUI",
+        "contentBody": {
+          "sfdc_cms:media": {
+            "source": {
+              "mimeType": "image/jpeg",
+              "type": "file",
+              "ref": "0sNJ900000JUtZT",
+              "size": 51714
+            },
+            "url": "/cms/media/MCWBCFZXNG7NBWNFZFWUW3KDHUUI?version=1.1"
+          }
+        },
+        "contentFqn": null,
+        "contentKey": "MCWBCFZXNG7NBWNFZFWUW3KDHUUI",
+        "contentSpace": {
+          "id": "0ZuJ9000000p1iUKAQ",
+          "resourceUrl": "/services/data/v66.0/connect/cms/spaces/0ZuJ9000000p1iU"
+        },
+        "contentType": {
+          "fullyQualifiedName": "sfdc_cms__image"
+        },
+        "contentVersion": 1,
+        "createdBy": {
+          "id": "005J90000023jjZIAQ",
+          "name": "Patrick Czieso",
+          "resourceUrl": "/services/data/v66.0/chatter/users/005J90000023jjZIAQ"
+        },
+        "createdDate": "2026-06-03T09:50:37.000Z",
+        "externalId": null,
+        "folder": {
+          "id": "9PuJ9000000p5ukKAA",
+          "resourceUrl": "/services/data/v66.0/connect/cms/folders/9PuJ9000000p5ukKAA"
+        },
+        "isPublished": false,
+        "language": "de",
+        "lastModifiedBy": {
+          "id": "005J90000023jjZIAQ",
+          "name": "Patrick Czieso",
+          "resourceUrl": "/services/data/v66.0/chatter/users/005J90000023jjZIAQ"
+        },
+        "lastModifiedDate": "2026-06-03T09:50:37.000Z",
+        "managedContentId": "20YJ9000002EvSWMA0",
+        "managedContentVariantId": "9PsJ9000007hEw2KAE",
+        "managedContentVersionId": "5OUJ900000GcHvZOAV",
+        "status": {
+          "label": "Draft",
+          "status": "Draft"
+        },
+        "title": "sesam24 Oelpflanzen",
+        "urlName": "sesam24-oelpflanzen",
+        "variantVersion": "1.1"
+      },
+      "managedContentId": "20YJ9000002EvSWMA0",
+      "contentKey": "MCWBCFZXNG7NBWNFZFWUW3KDHUUI",
+      "deliveryResponse": [
+        {
+          "errorCode": "NOT_FOUND",
+          "message": "The requested resource does not exist"
+        }
+      ]
+    },
+    {
+      "slug": "zwischenfruechte",
+      "title": "Zwischenfruechte",
+      "file": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/tmp/sesam24-cms-images/zwischenfruechte.jpg",
+      "createResponse": {
+        "apiName": "MC4WY7XYBAX5EO7FBJEEGB2P2ZSE",
+        "contentBody": {
+          "sfdc_cms:media": {
+            "source": {
+              "mimeType": "image/jpeg",
+              "type": "file",
+              "ref": "0sNJ900000JUtZY",
+              "size": 13199945
+            },
+            "url": "/cms/media/MC4WY7XYBAX5EO7FBJEEGB2P2ZSE?version=1.1"
+          }
+        },
+        "contentFqn": null,
+        "contentKey": "MC4WY7XYBAX5EO7FBJEEGB2P2ZSE",
+        "contentSpace": {
+          "id": "0ZuJ9000000p1iUKAQ",
+          "resourceUrl": "/services/data/v66.0/connect/cms/spaces/0ZuJ9000000p1iU"
+        },
+        "contentType": {
+          "fullyQualifiedName": "sfdc_cms__image"
+        },
+        "contentVersion": 1,
+        "createdBy": {
+          "id": "005J90000023jjZIAQ",
+          "name": "Patrick Czieso",
+          "resourceUrl": "/services/data/v66.0/chatter/users/005J90000023jjZIAQ"
+        },
+        "createdDate": "2026-06-03T09:50:52.000Z",
+        "externalId": null,
+        "folder": {
+          "id": "9PuJ9000000p5ukKAA",
+          "resourceUrl": "/services/data/v66.0/connect/cms/folders/9PuJ9000000p5ukKAA"
+        },
+        "isPublished": false,
+        "language": "de",
+        "lastModifiedBy": {
+          "id": "005J90000023jjZIAQ",
+          "name": "Patrick Czieso",
+          "resourceUrl": "/services/data/v66.0/chatter/users/005J90000023jjZIAQ"
+        },
+        "lastModifiedDate": "2026-06-03T09:50:52.000Z",
+        "managedContentId": "20YJ9000002EvSbMAK",
+        "managedContentVariantId": "9PsJ9000007hEw7KAE",
+        "managedContentVersionId": "5OUJ900000GcHveOAF",
+        "status": {
+          "label": "Draft",
+          "status": "Draft"
+        },
+        "title": "sesam24 Zwischenfruechte",
+        "urlName": "sesam24-zwischenfruechte",
+        "variantVersion": "1.1"
+      },
+      "managedContentId": "20YJ9000002EvSbMAK",
+      "contentKey": "MC4WY7XYBAX5EO7FBJEEGB2P2ZSE",
+      "deliveryResponse": [
+        {
+          "errorCode": "NOT_FOUND",
+          "message": "The requested resource does not exist"
+        }
+      ]
+    },
+    {
+      "slug": "wintergetreide",
+      "title": "Wintergetreide",
+      "file": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/tmp/sesam24-cms-images/wintergetreide.jpg",
+      "createResponse": {
+        "apiName": "MCNWG46TBLSJHN5I3ETOFWWALJNM",
+        "contentBody": {
+          "sfdc_cms:media": {
+            "source": {
+              "mimeType": "image/jpeg",
+              "type": "file",
+              "ref": "0sNJ900000JUtZd",
+              "size": 133291
+            },
+            "url": "/cms/media/MCNWG46TBLSJHN5I3ETOFWWALJNM?version=1.1"
+          }
+        },
+        "contentFqn": null,
+        "contentKey": "MCNWG46TBLSJHN5I3ETOFWWALJNM",
+        "contentSpace": {
+          "id": "0ZuJ9000000p1iUKAQ",
+          "resourceUrl": "/services/data/v66.0/connect/cms/spaces/0ZuJ9000000p1iU"
+        },
+        "contentType": {
+          "fullyQualifiedName": "sfdc_cms__image"
+        },
+        "contentVersion": 1,
+        "createdBy": {
+          "id": "005J90000023jjZIAQ",
+          "name": "Patrick Czieso",
+          "resourceUrl": "/services/data/v66.0/chatter/users/005J90000023jjZIAQ"
+        },
+        "createdDate": "2026-06-03T09:50:53.000Z",
+        "externalId": null,
+        "folder": {
+          "id": "9PuJ9000000p5ukKAA",
+          "resourceUrl": "/services/data/v66.0/connect/cms/folders/9PuJ9000000p5ukKAA"
+        },
+        "isPublished": false,
+        "language": "de",
+        "lastModifiedBy": {
+          "id": "005J90000023jjZIAQ",
+          "name": "Patrick Czieso",
+          "resourceUrl": "/services/data/v66.0/chatter/users/005J90000023jjZIAQ"
+        },
+        "lastModifiedDate": "2026-06-03T09:50:53.000Z",
+        "managedContentId": "20YJ9000002EvSgMAK",
+        "managedContentVariantId": "9PsJ9000007hEwCKAU",
+        "managedContentVersionId": "5OUJ900000GcHvjOAF",
+        "status": {
+          "label": "Draft",
+          "status": "Draft"
+        },
+        "title": "sesam24 Wintergetreide",
+        "urlName": "sesam24-wintergetreide",
+        "variantVersion": "1.1"
+      },
+      "managedContentId": "20YJ9000002EvSgMAK",
+      "contentKey": "MCNWG46TBLSJHN5I3ETOFWWALJNM",
+      "deliveryResponse": [
+        {
+          "errorCode": "NOT_FOUND",
+          "message": "The requested resource does not exist"
+        }
+      ]
+    },
+    {
+      "slug": "futter-gruenland",
+      "title": "Futter-und-Gruenland",
+      "file": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/tmp/sesam24-cms-images/futter-gruenland.jpg",
+      "createResponse": {
+        "apiName": "MCJACQZK6ECBG4NPJH7ZSS6RFYKQ",
+        "contentBody": {
+          "sfdc_cms:media": {
+            "source": {
+              "mimeType": "image/jpeg",
+              "type": "file",
+              "ref": "0sNJ900000JUtZi",
+              "size": 258406
+            },
+            "url": "/cms/media/MCJACQZK6ECBG4NPJH7ZSS6RFYKQ?version=1.1"
+          }
+        },
+        "contentFqn": null,
+        "contentKey": "MCJACQZK6ECBG4NPJH7ZSS6RFYKQ",
+        "contentSpace": {
+          "id": "0ZuJ9000000p1iUKAQ",
+          "resourceUrl": "/services/data/v66.0/connect/cms/spaces/0ZuJ9000000p1iU"
+        },
+        "contentType": {
+          "fullyQualifiedName": "sfdc_cms__image"
+        },
+        "contentVersion": 1,
+        "createdBy": {
+          "id": "005J90000023jjZIAQ",
+          "name": "Patrick Czieso",
+          "resourceUrl": "/services/data/v66.0/chatter/users/005J90000023jjZIAQ"
+        },
+        "createdDate": "2026-06-03T09:50:55.000Z",
+        "externalId": null,
+        "folder": {
+          "id": "9PuJ9000000p5ukKAA",
+          "resourceUrl": "/services/data/v66.0/connect/cms/folders/9PuJ9000000p5ukKAA"
+        },
+        "isPublished": false,
+        "language": "de",
+        "lastModifiedBy": {
+          "id": "005J90000023jjZIAQ",
+          "name": "Patrick Czieso",
+          "resourceUrl": "/services/data/v66.0/chatter/users/005J90000023jjZIAQ"
+        },
+        "lastModifiedDate": "2026-06-03T09:50:55.000Z",
+        "managedContentId": "20YJ9000002EvSlMAK",
+        "managedContentVariantId": "9PsJ9000007hEwHKAU",
+        "managedContentVersionId": "5OUJ900000GcHvoOAF",
+        "status": {
+          "label": "Draft",
+          "status": "Draft"
+        },
+        "title": "sesam24 Futter-und-Gruenland",
+        "urlName": "sesam24-futter-gruenland",
+        "variantVersion": "1.1"
+      },
+      "managedContentId": "20YJ9000002EvSlMAK",
+      "contentKey": "MCJACQZK6ECBG4NPJH7ZSS6RFYKQ",
+      "deliveryResponse": [
+        {
+          "errorCode": "NOT_FOUND",
+          "message": "The requested resource does not exist"
+        }
+      ]
+    }
+  ],
+  "publishResponse": {
+    "deploymentId": "0jkJ9000008KZ4PIAW",
+    "description": "#DEPLOYED",
+    "publishDate": "2026-06-03T09:51:07.000Z"
+  }
+}

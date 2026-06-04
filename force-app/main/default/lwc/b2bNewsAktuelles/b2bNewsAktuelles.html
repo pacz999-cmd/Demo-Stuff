@@ -1,0 +1,65 @@
+<template>
+    <section class="wrap">
+        <div class="head-grid">
+            <div>
+                <h2>{title}</h2>
+                <p>{subtitle}</p>
+            </div>
+            <div class="filters">
+                <a href={allUrl} class="is-active">{filterAllLabel}</a>
+                <a href={postsUrl}>{filterPostsLabel}</a>
+                <a href={eventsUrl}>{filterEventsLabel}</a>
+            </div>
+        </div>
+
+        <template if:true={showIframe}>
+            <div class="frame-wrap">
+                <iframe
+                    class="news-frame"
+                    src={iframeUrl}
+                    title="News und Aktuelles"
+                    loading="lazy"
+                ></iframe>
+            </div>
+        </template>
+
+        <template if:false={showIframe}>
+            <div class="cards">
+                <a class={item1Class} href={item1Url} style={item1Style}>
+                    <p class="kicker">{item1Kicker}</p>
+                    <h3>{item1Title}</h3>
+                    <p>{item1Text}</p>
+                </a>
+                <a class={item2Class} href={item2Url} style={item2Style}>
+                    <p class="kicker">{item2Kicker}</p>
+                    <h3>{item2Title}</h3>
+                    <p>{item2Text}</p>
+                </a>
+                <a class={item3Class} href={item3Url} style={item3Style}>
+                    <p class="kicker">{item3Kicker}</p>
+                    <h3>{item3Title}</h3>
+                    <p>{item3Text}</p>
+                </a>
+                <a class={item4Class} href={item4Url} style={item4Style}>
+                    <p class="kicker">{item4Kicker}</p>
+                    <h3>{item4Title}</h3>
+                    <p>{item4Text}</p>
+                </a>
+                <a class={item5Class} href={item5Url} style={item5Style}>
+                    <p class="kicker">{item5Kicker}</p>
+                    <h3>{item5Title}</h3>
+                    <p>{item5Text}</p>
+                </a>
+                <a class={item6Class} href={item6Url} style={item6Style}>
+                    <p class="kicker">{item6Kicker}</p>
+                    <h3>{item6Title}</h3>
+                    <p>{item6Text}</p>
+                </a>
+            </div>
+
+            <div class="cta-wrap">
+                <a class="cta" href={allNewsButtonUrl}>{allNewsButtonLabel}</a>
+            </div>
+        </template>
+    </section>
+</template>

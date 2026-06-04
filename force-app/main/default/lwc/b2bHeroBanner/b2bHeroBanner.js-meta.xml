@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>B2B Hero Banner</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="eyebrow" type="String" label="Eyebrow Text" />
+            <property name="headline" type="String" label="Headline" />
+            <property name="subtext" type="String" label="Subtext" />
+            <property name="primaryCtaLabel" type="String" label="Primary CTA Label" />
+            <property name="primaryCtaUrl" type="String" label="Primary CTA URL" />
+            <property name="secondaryCtaLabel" type="String" label="Secondary CTA Label" />
+            <property name="secondaryCtaUrl" type="String" label="Secondary CTA URL" />
+            <property name="backgroundImageUrl" type="String" label="Background Image URL" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

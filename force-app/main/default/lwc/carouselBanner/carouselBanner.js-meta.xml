@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Carousel Banner</masterLabel>
+    <description>Auto-rotating banner carousel for LWR sites.</description>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Banner 1 Name" name="banner1Name" type="String" default="New feature"/>
+            <property label="Banner 1 Subtitle" name="banner1Subtitle" type="String" default="Discover updates and improvements."/>
+            <property label="Banner 1 CTA Label" name="banner1CtaLabel" type="String" default="Learn more"/>
+            <property label="Banner 1 CTA URL" name="banner1CtaUrl" type="String" default="#"/>
+            <property label="Banner 1 Image" name="banner1Image" type="ContentReference" filter="cms_image"/>
+
+            <property label="Banner 2 Name" name="banner2Name" type="String" default="Spare parts discount"/>
+            <property
+                label="Banner 2 Subtitle"
+                name="banner2Subtitle"
+                type="String"
+                default="*Free standard delivery with no minimum order value and prioritized order processing for online spare parts orders."
+            />
+            <property label="Banner 2 CTA Label" name="banner2CtaLabel" type="String" default="Order now!"/>
+            <property label="Banner 2 CTA URL" name="banner2CtaUrl" type="String" default="#"/>
+            <property label="Banner 2 Image" name="banner2Image" type="ContentReference" filter="cms_image"/>
+
+            <property label="Banner 3 Name" name="banner3Name" type="String" default="iiQWorks"/>
+            <property label="Banner 3 Subtitle" name="banner3Subtitle" type="String" default="Plan and automate your production workflows."/>
+            <property label="Banner 3 CTA Label" name="banner3CtaLabel" type="String" default="Explore"/>
+            <property label="Banner 3 CTA URL" name="banner3CtaUrl" type="String" default="#"/>
+            <property label="Banner 3 Image" name="banner3Image" type="ContentReference" filter="cms_image"/>
+
+            <property label="Banner 4 Name" name="banner4Name" type="String" default="Mobile robotics"/>
+            <property label="Banner 4 Subtitle" name="banner4Subtitle" type="String" default="Boost efficiency with connected mobile robots."/>
+            <property label="Banner 4 CTA Label" name="banner4CtaLabel" type="String" default="Get started"/>
+            <property label="Banner 4 CTA URL" name="banner4CtaUrl" type="String" default="#"/>
+            <property label="Banner 4 Image" name="banner4Image" type="ContentReference" filter="cms_image"/>
+
+            <property
+                label="Rotation Seconds"
+                name="rotationSeconds"
+                type="Integer"
+                default="4"
+                min="1"
+            />
+            <property
+                label="Banner Height (px)"
+                name="bannerHeight"
+                type="Integer"
+                default="320"
+                min="200"
+                max="900"
+            />
+            <property label="Show Debug Info" name="showDebug" type="Boolean" default="false"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

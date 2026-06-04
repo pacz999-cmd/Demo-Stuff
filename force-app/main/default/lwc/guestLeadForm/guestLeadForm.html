@@ -1,0 +1,47 @@
+<template>
+    <div class="wrapper" style={wrapperStyle}>
+        <div class="grid">
+            <template for:each={baseFields} for:item="field">
+                <div class={field.containerClass} key={field.key}>
+                    <label class="field-label" for={field.key}>{field.label}</label>
+                    <input
+                        id={field.key}
+                        class="text-input"
+                        type={field.type}
+                        name={field.key}
+                        placeholder={field.placeholder}
+                        value={field.value}
+                        required={field.required}
+                        oninput={handleInput}
+                    />
+                </div>
+            </template>
+
+            <template for:each={configuredExtraFields} for:item="field">
+                <div class="field full" key={field.key}>
+                    <label class="field-label" for={field.key}>{field.label}</label>
+                    <input
+                        id={field.key}
+                        class="text-input"
+                        type="text"
+                        data-key={field.key}
+                        placeholder={field.placeholder}
+                        value={field.value}
+                        oninput={handleExtraInput}
+                    />
+                </div>
+            </template>
+        </div>
+
+        <template if:true={errorMessage}>
+            <div class="message error">{errorMessage}</div>
+        </template>
+        <template if:true={successMessage}>
+            <div class="message success">{successMessage}</div>
+        </template>
+
+        <button class="submit-button" onclick={handleSubmit} disabled={submitting}>
+            {buttonLabel}
+        </button>
+    </div>
+</template>

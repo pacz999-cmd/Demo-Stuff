@@ -1,0 +1,42 @@
+.wrap {
+    margin: 20px 0 8px;
+}
+
+h3 {
+    margin: 0 0 10px;
+    font-size: 1.1rem;
+    color: #111827;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.item {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #ffffff;
+    padding: 12px;
+}
+
+.item-title {
+    margin: 0 0 4px;
+    font-weight: 700;
+    font-size: 0.92rem;
+    color: #124b2f;
+}
+
+.item-text {
+    margin: 0;
+    font-size: 0.86rem;
+    line-height: 1.35;
+    color: #4b5563;
+}
+
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}

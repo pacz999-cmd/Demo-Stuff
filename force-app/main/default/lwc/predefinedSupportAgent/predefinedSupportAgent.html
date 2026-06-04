@@ -1,0 +1,65 @@
+<template>
+    <section class="agent-card">
+        <header class="agent-header">
+            <h2>Support Agent</h2>
+            <p>Ask about account updates or training robots.</p>
+        </header>
+
+        <div class="messages">
+            <template for:each={messages} for:item="message">
+                <div key={message.id} class={message.className}>
+                    <template lwc:if={message.isUser}>
+                        <p>{message.text}</p>
+                    </template>
+                    <template lwc:elseif={message.isThinking}>
+                        <div class="thinking">
+                            <span>Thinking</span>
+                            <span class="dot dot-1">.</span>
+                            <span class="dot dot-2">.</span>
+                            <span class="dot dot-3">.</span>
+                        </div>
+                    </template>
+                    <template lwc:elseif={message.isProductResponse}>
+                        <lightning-formatted-rich-text value={message.text}></lightning-formatted-rich-text>
+                        <div class="product-card">
+                            <a
+                                href={message.productUrl}
+                                data-url={message.productUrl}
+                                onclick={handleProductClick}
+                            >
+                                Open Product Page
+                            </a>
+                            <a
+                                href={message.productUrl}
+                                data-url={message.productUrl}
+                                onclick={handleProductClick}
+                            >
+                                <img src={message.imageUrl} alt="iiQKA Education vp Cell" />
+                            </a>
+                        </div>
+                    </template>
+                    <template lwc:else>
+                        <lightning-formatted-rich-text value={message.text}></lightning-formatted-rich-text>
+                    </template>
+                </div>
+            </template>
+        </div>
+
+        <div class="composer">
+            <lightning-textarea
+                label="Your message"
+                variant="label-hidden"
+                value={inputValue}
+                onchange={handleInputChange}
+                disabled={isAwaitingResponse}
+                placeholder="Type your question..."
+            ></lightning-textarea>
+            <lightning-button
+                label="Send"
+                variant="brand"
+                onclick={handleSend}
+                disabled={isSendDisabled}
+            ></lightning-button>
+        </div>
+    </section>
+</template>

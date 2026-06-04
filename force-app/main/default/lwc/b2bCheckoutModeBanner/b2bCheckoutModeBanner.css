@@ -1,0 +1,30 @@
+.banner {
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 12px 0;
+    border: 1px solid;
+}
+
+.banner.direct {
+    background: #eef8f2;
+    border-color: #b8dcc6;
+    color: #0f6b34;
+}
+
+.banner.distributor {
+    background: #eef4fb;
+    border-color: #bfd3ee;
+    color: #1e4e89;
+}
+
+.title {
+    margin: 0 0 3px;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.text {
+    margin: 0;
+    font-size: 0.86rem;
+    line-height: 1.35;
+}

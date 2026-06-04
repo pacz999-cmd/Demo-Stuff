@@ -1,0 +1,47 @@
+.strip {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+    margin: 24px auto;
+}
+
+.item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    background: #f5faf7;
+    border: 1px solid #dce8df;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.icon {
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
+
+.title {
+    margin: 0 0 4px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #124b2f;
+}
+
+.text {
+    margin: 0;
+    font-size: 0.86rem;
+    color: #374151;
+    line-height: 1.35;
+}
+
+@media (max-width: 1000px) {
+    .strip {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .strip {
+        grid-template-columns: 1fr;
+    }
+}

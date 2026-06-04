@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>B2B PDP Highlights</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="title" type="String" label="Titel" />
+            <property name="item1Title" type="String" label="Element 1 Titel" />
+            <property name="item1Text" type="String" label="Element 1 Text" />
+            <property name="item2Title" type="String" label="Element 2 Titel" />
+            <property name="item2Text" type="String" label="Element 2 Text" />
+            <property name="item3Title" type="String" label="Element 3 Titel" />
+            <property name="item3Text" type="String" label="Element 3 Text" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

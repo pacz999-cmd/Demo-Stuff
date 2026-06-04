@@ -1,0 +1,42 @@
+<template>
+    <div class={carouselClass} style={carouselStyle}>
+        <template lwc:if={currentImageUrl}>
+            <img class="background-image" src={currentImageUrl} alt={currentSlide.name} onerror={handleImageError} />
+        </template>
+        <div class="overlay"></div>
+
+        <div class="tabs" role="tablist" aria-label="Carousel banners">
+            <template for:each={slides} for:item="slide">
+                <button
+                    key={slide.index}
+                    class={slide.tabClass}
+                    data-index={slide.index}
+                    onclick={handleTabClick}
+                    role="tab"
+                    aria-selected={slide.isActive}
+                    title={slide.name}
+                    type="button"
+                >
+                    {slide.name}
+                </button>
+            </template>
+        </div>
+
+        <div class="content">
+            <h2>{currentSlide.name}</h2>
+            <p class="subtitle">{currentSlide.subtitle}</p>
+            <template lwc:if={currentSlide.ctaLabel}>
+                <lightning-button
+                    class="cta-button"
+                    variant="brand"
+                    label={currentSlide.ctaLabel}
+                    onclick={handleCtaClick}
+                ></lightning-button>
+            </template>
+        </div>
+
+        <template lwc:if={showDebug}>
+            <div class="debug">{debugInfo}</div>
+        </template>
+    </div>
+</template>

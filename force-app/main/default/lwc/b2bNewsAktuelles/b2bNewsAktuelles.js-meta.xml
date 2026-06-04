@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>B2B News &amp; Aktuelles</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="title" type="String" label="Titel" />
+            <property name="subtitle" type="String" label="Untertitel" />
+            <property name="filterAllLabel" type="String" label="Filter Alle Label" />
+            <property name="filterPostsLabel" type="String" label="Filter Beiträge Label" />
+            <property name="filterEventsLabel" type="String" label="Filter Termine Label" />
+            <property name="allUrl" type="String" label="Filter Alle URL" />
+            <property name="postsUrl" type="String" label="Filter Beiträge URL" />
+            <property name="eventsUrl" type="String" label="Filter Termine URL" />
+            <property name="mode" type="String" label="Modus (cards oder iframe)" />
+            <property name="iframeUrl" type="String" label="Iframe URL" />
+
+            <property name="item1Kicker" type="String" label="Teaser 1 Kicker" />
+            <property name="item1Title" type="String" label="Teaser 1 Titel" />
+            <property name="item1Text" type="String" label="Teaser 1 Text" />
+            <property name="item1Url" type="String" label="Teaser 1 URL" />
+            <property name="item1ImageUrl" type="String" label="Teaser 1 Bild-URL (optional)" />
+
+            <property name="item2Kicker" type="String" label="Teaser 2 Kicker" />
+            <property name="item2Title" type="String" label="Teaser 2 Titel" />
+            <property name="item2Text" type="String" label="Teaser 2 Text" />
+            <property name="item2Url" type="String" label="Teaser 2 URL" />
+            <property name="item2ImageUrl" type="String" label="Teaser 2 Bild-URL (optional)" />
+
+            <property name="item3Kicker" type="String" label="Teaser 3 Kicker" />
+            <property name="item3Title" type="String" label="Teaser 3 Titel" />
+            <property name="item3Text" type="String" label="Teaser 3 Text" />
+            <property name="item3Url" type="String" label="Teaser 3 URL" />
+            <property name="item3ImageUrl" type="String" label="Teaser 3 Bild-URL (optional)" />
+
+            <property name="item4Kicker" type="String" label="Teaser 4 Kicker" />
+            <property name="item4Title" type="String" label="Teaser 4 Titel" />
+            <property name="item4Text" type="String" label="Teaser 4 Text" />
+            <property name="item4Url" type="String" label="Teaser 4 URL" />
+            <property name="item4ImageUrl" type="String" label="Teaser 4 Bild-URL (optional)" />
+
+            <property name="item5Kicker" type="String" label="Teaser 5 Kicker" />
+            <property name="item5Title" type="String" label="Teaser 5 Titel" />
+            <property name="item5Text" type="String" label="Teaser 5 Text" />
+            <property name="item5Url" type="String" label="Teaser 5 URL" />
+            <property name="item5ImageUrl" type="String" label="Teaser 5 Bild-URL (optional)" />
+
+            <property name="item6Kicker" type="String" label="Teaser 6 Kicker" />
+            <property name="item6Title" type="String" label="Teaser 6 Titel" />
+            <property name="item6Text" type="String" label="Teaser 6 Text" />
+            <property name="item6Url" type="String" label="Teaser 6 URL" />
+            <property name="item6ImageUrl" type="String" label="Teaser 6 Bild-URL (optional)" />
+
+            <property name="allNewsButtonLabel" type="String" label="Button Label" />
+            <property name="allNewsButtonUrl" type="String" label="Button URL" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

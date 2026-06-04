@@ -1,0 +1,97 @@
+.agent-card {
+    border: 1px solid #dddbda;
+    border-radius: 0.5rem;
+    background: #ffffff;
+    padding: 1rem;
+}
+
+.agent-header h2 {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+.agent-header p {
+    margin: 0.25rem 0 0.75rem;
+    color: #706e6b;
+    font-size: 0.85rem;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    max-height: 24rem;
+    overflow-y: auto;
+    margin-bottom: 0.75rem;
+}
+
+.message {
+    max-width: 90%;
+    border-radius: 0.5rem;
+    padding: 0.55rem 0.7rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.message p {
+    margin: 0;
+}
+
+.message.user {
+    align-self: flex-end;
+    background: #eef4ff;
+}
+
+.message.agent {
+    align-self: flex-start;
+    background: #f7f7f7;
+}
+
+.thinking {
+    display: inline-flex;
+    align-items: baseline;
+    font-weight: 600;
+}
+
+.product-card {
+    margin-top: 0.4rem;
+    display: grid;
+    gap: 0.4rem;
+}
+
+.product-card img {
+    max-width: 15rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.dot {
+    display: inline-block;
+    width: 0.35rem;
+    animation: blink 1.2s infinite;
+}
+
+.dot-2 {
+    animation-delay: 0.2s;
+}
+
+.dot-3 {
+    animation-delay: 0.4s;
+}
+
+@keyframes blink {
+    0%,
+    80%,
+    100% {
+        opacity: 0.2;
+    }
+
+    40% {
+        opacity: 1;
+    }
+}
+
+.composer {
+    display: grid;
+    gap: 0.5rem;
+}

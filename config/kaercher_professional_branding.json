@@ -1,0 +1,72 @@
+{
+  "brand": {
+    "name": "Kaercher Professional",
+    "legalEntity": "Alfred Kaercher Vertriebs-GmbH",
+    "market": "Deutschland",
+    "focus": "Nur B2B",
+    "promise": "Systemloesungen fuer gewerbliche und industrielle Reinigungsprofis.",
+    "valuePillars": [
+      "Robust und zuverlaessig",
+      "Effizient und wirtschaftlich",
+      "Leicht und leise",
+      "Handlich und hygienisch einwandfrei"
+    ]
+  },
+  "storefront": {
+    "requiredWebstoreName": "B2B Commerce enhanced",
+    "heroHeadline": "Das Profi Sortiment fuer gewerbliche und industrielle Anwender jeder Branche.",
+    "heroSubline": "Entdecken Sie Kaercher Professional Geraete, Zubehoer und Reinigungsmittel fuer maximale Leistung im B2B-Einsatz.",
+    "primaryCtaLabel": "Professional Sortiment entdecken",
+    "secondaryCtaLabel": "Passende Loesung finden",
+    "newsletterCtaLabel": "Zum Professional Newsletter anmelden"
+  },
+  "navigation": {
+    "productCategories": [
+      "Hochdruckreiniger",
+      "Sauger",
+      "Nass-/Trockensauger",
+      "Reinigungsroboter",
+      "Industrielle Absaugtechnik",
+      "Scheuer-/Scheuersaugmaschinen",
+      "Kehr- und Kehrsaugmaschinen",
+      "Fenster- und Oberflaechensauger",
+      "Kommunaltechnik",
+      "Geraete fuer Aussenbereiche",
+      "Generatoren und Schmutzwasserpumpe",
+      "Teppichreiniger",
+      "Dampfreiniger/-sauger",
+      "Wasserspender",
+      "Trockeneisreinigung",
+      "Fahrzeugreinigungssysteme",
+      "Wasserrecycling",
+      "Manuelles Reinigungsequipment",
+      "Vernetzte Reinigung",
+      "Zubehoer",
+      "Reinigungsmittel",
+      "Ersatzteile Professional"
+    ],
+    "serviceLinks": [
+      "Haendlersuche",
+      "Kontakt zu Kaercher",
+      "myKaercher Business",
+      "Wartung und Reparatur",
+      "Servicepakete",
+      "Mietgeraete"
+    ]
+  },
+  "contentBlocks": {
+    "advisorTitle": "Kaercher Professional Produktberater",
+    "advisorText": "Mit dem Produktberater finden Sie schnell das passende Professional Geraet fuer Ihre konkrete Reinigungsaufgabe.",
+    "b2bShopTitle": "B2B Onlineshop myKaercher Business",
+    "b2bShopText": "Geschaeftskunden erhalten einen klaren Ueberblick ueber Preise, Bestellungen und Rechnungen.",
+    "dealerTitle": "Kaercher vor Ort",
+    "dealerText": "Finden Sie schnell und bequem Kaercher Haendler oder Niederlassungen in Ihrer Naehe."
+  },
+  "source": {
+    "url": "https://www.kaercher.com/de/professional.html",
+    "notes": [
+      "B2C Home and Garden Inhalte wurden bewusst ausgeschlossen.",
+      "Enthalten sind nur Professional Produktfamilien, Services und B2B Shop-Bezuege."
+    ]
+  }
+}

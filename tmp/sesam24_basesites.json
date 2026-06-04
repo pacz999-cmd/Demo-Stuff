@@ -1,0 +1,183 @@
+{
+   "baseSites" : [ {
+      "captchaConfig" : {
+         "enabled" : false
+      },
+      "channel" : "B2B",
+      "defaultLanguage" : {
+         "active" : true,
+         "isocode" : "de",
+         "name" : "German",
+         "nativeName" : "Deutsch"
+      },
+      "defaultPreviewCatalogId" : "saatbauProductCatalog",
+      "domain" : "https://sesam24.at",
+      "enableRegistration" : false,
+      "isolated" : false,
+      "name" : "AT Shop",
+      "registrationEnabled" : false,
+      "requiresAuthentication" : false,
+      "shippingValue" : 60,
+      "showCertificates" : false,
+      "stores" : [ {
+         "createReturnProcessCode" : "return-process",
+         "currencies" : [ {
+            "active" : true,
+            "isocode" : "EUR",
+            "name" : "Euro",
+            "symbol" : "€"
+         } ],
+         "defaultCurrency" : {
+            "active" : true,
+            "isocode" : "EUR",
+            "name" : "Euro",
+            "symbol" : "€"
+         },
+         "defaultLanguage" : {
+            "active" : true,
+            "isocode" : "de",
+            "name" : "German",
+            "nativeName" : "Deutsch"
+         },
+         "deliveryModes" : {
+            "deliveryModes" : [ ]
+         },
+         "expressCheckoutEnabled" : false,
+         "externalTaxEnabled" : false,
+         "languages" : [ {
+            "active" : true,
+            "isocode" : "en",
+            "name" : "English",
+            "nativeName" : "English"
+         }, {
+            "active" : true,
+            "isocode" : "de",
+            "name" : "German",
+            "nativeName" : "Deutsch"
+         } ],
+         "maxRadiusForPosSearch" : 300.0,
+         "paymentProvider" : "Mockup",
+         "submitOrderProcessCode" : "order-process"
+      } ],
+      "theme" : "sparta",
+      "uid" : "saatbau-spa",
+      "urlEncodingAttributes" : [ "storefront", "language", "currency" ],
+      "urlPatterns" : [ "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=saatbau-spa)(|\\&.*)$", "(?i)^https?://saatbau-spa\\.[^/]+(|/.*|\\?.*)$", "(?i)^https?://api\\.hybrisdev\\.com(:[\\d]+)?/rest/.*$", "(?i)^https?://localhost(:[\\d]+)?/rest/.*$", "(?i)^https?://[^/]+/saatbau-spa(|/.*|\\?.*|#.*)$", "(?i)^https?://sesam24.at\\.[^/]+(|/.*|\\?.*)$", "(?i)^https?://sesam24.at\\.[^/]+(|/.*|\\?.*)$  ", "https://sesam24.at", "https://www.sesam24.at" ]
+   }, {
+      "captchaConfig" : {
+         "enabled" : false
+      },
+      "channel" : "B2B",
+      "defaultLanguage" : {
+         "active" : true,
+         "isocode" : "pl",
+         "name" : "Polish",
+         "nativeName" : "Polski"
+      },
+      "defaultPreviewCatalogId" : "saatbauProductCatalog-PL",
+      "domain" : "https://sesam24.pl",
+      "enableRegistration" : false,
+      "isolated" : false,
+      "name" : "PL Shop",
+      "registrationEnabled" : true,
+      "requiresAuthentication" : false,
+      "showCertificates" : true,
+      "stores" : [ {
+         "createReturnProcessCode" : "return-process",
+         "currencies" : [ {
+            "active" : true,
+            "isocode" : "PLN",
+            "name" : "Polish zloty",
+            "symbol" : "zł"
+         } ],
+         "defaultCurrency" : {
+            "active" : true,
+            "isocode" : "PLN",
+            "name" : "Polish zloty",
+            "symbol" : "zł"
+         },
+         "defaultLanguage" : {
+            "active" : true,
+            "isocode" : "pl",
+            "name" : "Polish",
+            "nativeName" : "Polski"
+         },
+         "deliveryModes" : {
+            "deliveryModes" : [ ]
+         },
+         "expressCheckoutEnabled" : false,
+         "externalTaxEnabled" : false,
+         "languages" : [ {
+            "active" : true,
+            "isocode" : "pl",
+            "name" : "Polish",
+            "nativeName" : "Polski"
+         } ],
+         "maxRadiusForPosSearch" : 300.0,
+         "paymentProvider" : "Mockup",
+         "submitOrderProcessCode" : "order-process"
+      } ],
+      "theme" : "sparta",
+      "uid" : "saatbau-spa-pl",
+      "urlEncodingAttributes" : [ "storefront", "language", "currency" ],
+      "urlPatterns" : [ "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=saatbau-spa-pl)(|\\&.*)$", "(?i)^https?://saatbau-spa-pl\\.[^/]+(|/.*|\\?.*)$", "(?i)^https?://api\\.hybrisdev\\.com(:[\\d]+)?/rest/.*$", "(?i)^https?://localhost(:[\\d]+)?/rest/.*$", "(?i)^https?://[^/]+/saatbau-spa-pl(|/.*|\\?.*|#.*)$", "(?i)^https?://sesam24\\.pl\\.[^/]+(|/.*|\\?.*)$  ", "https://sesam24.pl", "https://www.sesam24.pl" ]
+   }, {
+      "captchaConfig" : {
+         "enabled" : false
+      },
+      "channel" : "B2B",
+      "defaultLanguage" : {
+         "active" : true,
+         "isocode" : "sl",
+         "name" : "Slovenian",
+         "nativeName" : "Slovenščina"
+      },
+      "defaultPreviewCatalogId" : "saatbauProductCatalog-SI",
+      "domain" : "https://sesam24.si",
+      "enableRegistration" : false,
+      "isolated" : false,
+      "name" : "SI Shop",
+      "registrationEnabled" : true,
+      "requiresAuthentication" : false,
+      "showCertificates" : false,
+      "stores" : [ {
+         "createReturnProcessCode" : "return-process",
+         "currencies" : [ {
+            "active" : true,
+            "isocode" : "EUR",
+            "name" : "Euro",
+            "symbol" : "€"
+         } ],
+         "defaultCurrency" : {
+            "active" : true,
+            "isocode" : "EUR",
+            "name" : "Euro",
+            "symbol" : "€"
+         },
+         "defaultLanguage" : {
+            "active" : true,
+            "isocode" : "sl",
+            "name" : "Slovenian",
+            "nativeName" : "Slovenščina"
+         },
+         "deliveryModes" : {
+            "deliveryModes" : [ ]
+         },
+         "expressCheckoutEnabled" : false,
+         "externalTaxEnabled" : false,
+         "languages" : [ {
+            "active" : true,
+            "isocode" : "sl",
+            "name" : "Slovenian",
+            "nativeName" : "Slovenščina"
+         } ],
+         "maxRadiusForPosSearch" : 300.0,
+         "paymentProvider" : "Mockup",
+         "submitOrderProcessCode" : "order-process"
+      } ],
+      "theme" : "sparta",
+      "uid" : "saatbau-spa-si",
+      "urlEncodingAttributes" : [ "storefront", "language", "currency" ],
+      "urlPatterns" : [ "(?i)^https?://[^/]+(/[^?]*)?\\?(.*\\&)?(site=saatbau-spa-si)(|\\&.*)$", "(?i)^https?://saatbau-spa-si\\.[^/]+(|/.*|\\?.*)$", "(?i)^https?://api\\.hybrisdev\\.com(:[\\d]+)?/rest/.*$", "(?i)^https?://localhost(:[\\d]+)?/rest/.*$", "(?i)^https?://[^/]+/saatbau-spa-si(|/.*|\\?.*|#.*)$", "(?i)^https?://jsappssi.c19q1gic2p-saatbauli1-p1-public.model-t.cc.commerce.ondemand.com\\.[^/]+(|/.*|\\?.*)$", "(?i)^https?://sesam24.si\\.[^/]+(|/.*|\\?.*)$", "https://sesam24.si", "https://www.sesam24.si", "(?i)^https?://jsappssi.c19q1gic2p-saatbauli1-p1-public.model-t.cc.commerce.ondemand.com\\.[^/]+(|/.*|\\?.*)$", "(?i)^https?://sesam24.si\\.[^/]+(|/.*|\\?.*)$" ]
+   } ]
+}

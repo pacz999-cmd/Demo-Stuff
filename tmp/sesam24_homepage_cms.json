@@ -1,0 +1,704 @@
+{
+   "uid" : "homepage",
+   "uuid" : "eyJpdGVtSWQiOiJob21lcGFnZSIsImNhdGFsb2dJZCI6InNhYXRiYXUtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+   "title" : "Startseite",
+   "template" : "LandingPage2Template",
+   "typeCode" : "ContentPage",
+   "name" : "Homepage",
+   "robotTag" : "INDEX_FOLLOW",
+   "defaultPage" : true,
+   "contentSlots" : {
+      "contentSlot" : [ {
+         "slotId" : "Section3Slot-Homepage",
+         "slotUuid" : "eyJpdGVtSWQiOiJTZWN0aW9uM1Nsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+         "position" : "Section3",
+         "name" : "Section3 Slot for Homepage",
+         "slotShared" : false,
+         "components" : {
+            "component" : [ ]
+         }
+      }, {
+         "slotId" : "Section5Slot-Homepage",
+         "slotUuid" : "eyJpdGVtSWQiOiJTZWN0aW9uNVNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+         "position" : "Section5",
+         "name" : "Content Slot",
+         "slotShared" : false,
+         "components" : {
+            "component" : [ {
+               "uid" : "cmsitem_00001003",
+               "uuid" : "eyJpdGVtSWQiOiJjbXNpdGVtXzAwMDAxMDAzIiwiY2F0YWxvZ0lkIjoic2FhdGJhdS1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+               "typeCode" : "SaatbauNewsComponent",
+               "modifiedtime" : "2022-12-01T14:43:24.46Z",
+               "name" : "News",
+               "container" : "false",
+               "synchronizationBlocked" : "false",
+               "theme" : "false",
+               "headline" : "News",
+               "url" : "https://www.saatbau.com/news-frame/"
+            } ]
+         }
+      }, {
+         "slotId" : "Section4Slot-Homepage",
+         "slotUuid" : "eyJpdGVtSWQiOiJTZWN0aW9uNFNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+         "position" : "Section4",
+         "name" : "Section4 Slot for Homepage",
+         "slotShared" : false,
+         "components" : {
+            "component" : [ ]
+         }
+      }, {
+         "slotId" : "Section2BSlot-Homepage",
+         "slotUuid" : "eyJpdGVtSWQiOiJTZWN0aW9uMkJTbG90LUhvbWVwYWdlIiwiY2F0YWxvZ0lkIjoic2FhdGJhdS1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+         "position" : "Section2B",
+         "name" : "Section2B Slot for Homepage",
+         "slotShared" : false,
+         "components" : {
+            "component" : [ ]
+         }
+      }, {
+         "slotId" : "Section1Slot-Homepage",
+         "slotUuid" : "eyJpdGVtSWQiOiJTZWN0aW9uMVNsb3QtSG9tZXBhZ2UiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+         "position" : "Section1",
+         "name" : "Section1 Slot for Homepage",
+         "slotShared" : false,
+         "components" : {
+            "component" : [ {
+               "uid" : "SaatbauHomepageCategoryContainer",
+               "uuid" : "eyJpdGVtSWQiOiJTYWF0YmF1SG9tZXBhZ2VDYXRlZ29yeUNvbnRhaW5lciIsImNhdGFsb2dJZCI6InNhYXRiYXUtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+               "typeCode" : "SaatbauCategoryComponentContainer",
+               "modifiedtime" : "2025-11-26T13:13:39.684Z",
+               "name" : "Saatbau Homepage Category Container",
+               "container" : "false",
+               "children" : "cmsitem_00004001 cmsitem_00003001 row2 cmsitem_00002006",
+               "synchronizationBlocked" : "false",
+               "theme" : "false",
+               "richText" : "Treffen Sie Ihre Auswahl aus all unseren Sorten. Mit unseren Produkten unterstützen wir eine qualitätsbewusste und werteorientierte Landwirtschaft.",
+               "headline" : "Unser Saatgut",
+               "items" : {
+                  "row1" : {
+                     "categories" : {
+                        "category0" : {
+                           "text" : "Sojabohnen",
+                           "mediaUrl" : {
+                           },
+                           "backgroundMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDAwVEpfMDAwMDAwMDAwMDAwMFRKX3VubG9jYWxpemVkXzEyMDBXeDEyMDBIIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000000TJ_0000000000000TJ_unlocalized_1200Wx1200H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/jpeg",
+                              "url" : "/medias/soy-soja31200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8MjY4NzkzfGltYWdlL2pwZWd8YUdJM0wyZ3lNUzg0T0RJNU56ZzVOems0TkRNd0wzTnZlUzF6YjJwaE16RXlNREJYZURFeU1EQklMbXB3Wnd8YjRhM2M1ZDAxNWEyODY1ZmM4MzQwODI0ZTMwOGRlMDg2N2E3ZDQ1ZjkzNjMzNTBhOGQ4ZjI0NzE5MTMyZjA0NA",
+                              "downloadUrl" : "/medias/soy-soja31200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8MjY4NzkzfGltYWdlL2pwZWd8YUdJM0wyZ3lNUzg0T0RJNU56ZzVOems0TkRNd0wzTnZlUzF6YjJwaE16RXlNREJYZURFeU1EQklMbXB3Wnd8YjRhM2M1ZDAxNWEyODY1ZmM4MzQwODI0ZTMwOGRlMDg2N2E3ZDQ1ZjkzNjMzNTBhOGQ4ZjI0NzE5MTMyZjA0NA&attachment=true"
+                           },
+                           "iconMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDA1RkRfMDAwMDAwMDAwMDAwNUZEX3VubG9jYWxpemVkXzMwMFd4MzAwSCIsImNhdGFsb2dJZCI6Im1lZGlhQ2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiRGVmYXVsdCJ9",
+                              "code" : "0000000000005FD_0000000000005FD_unlocalized_300Wx300H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/png",
+                              "url" : "/medias/soja-invers300Wx300H.png?context=bWFzdGVyfHJvb3R8MTUxMDB8aW1hZ2UvcG5nfGFEQTVMMmhtTlM4NE9EUTFOelV4TkRnME5EUTJMM052YW1GZmFXNTJaWEp6TXpBd1YzZ3pNREJJTG5CdVp3fDc0YjQ5ZjYzNWI2OTVkNjQ4YTQ4ZWE1M2Q2MzRjNDgzYTI3NmExZjBjYzI3NDMzY2M5YjBlYWM4NDUwYmI4M2Q",
+                              "downloadUrl" : "/medias/soja-invers300Wx300H.png?context=bWFzdGVyfHJvb3R8MTUxMDB8aW1hZ2UvcG5nfGFEQTVMMmhtTlM4NE9EUTFOelV4TkRnME5EUTJMM052YW1GZmFXNTJaWEp6TXpBd1YzZ3pNREJJTG5CdVp3fDc0YjQ5ZjYzNWI2OTVkNjQ4YTQ4ZWE1M2Q2MzRjNDgzYTI3NmExZjBjYzI3NDMzY2M5YjBlYWM4NDUwYmI4M2Q&attachment=true"
+                           },
+                           "url" : "CATEG2",
+                           "bgColor" : "#5fc4e1",
+                           "visibleInProductButler" : "true",
+                           "visibleInAllesSaatbau" : "true",
+                           "visibleInSortenberater" : "true"
+                        },
+                        "category1" : {
+                           "text" : "Ölpflanzen",
+                           "mediaUrl" : {
+                           },
+                           "backgroundMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDAwVEVfMDAwMDAwMDAwMDAwMFRFX3VubG9jYWxpemVkXzEyMDBXeDEyMDBIIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000000TE_0000000000000TE_unlocalized_1200Wx1200H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/jpeg",
+                              "url" : "/medias/oilplants1200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8NTE3MTR8aW1hZ2UvanBlZ3xhR1UxTDJoaU1pODRPREk1TnpnM056QXhNamM0TDI5cGJIQnNZVzUwY3pFeU1EQlhlREV5TURCSUxtcHdad3w4ZDdlYjZlNjQ4YWIyN2ViZjgyOTdhMDcwZDUxZDU3Nzc2ZmY4MzY2OGFlMmYyMWIzNjk4MmU3YzEyOGNhN2Vh",
+                              "downloadUrl" : "/medias/oilplants1200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8NTE3MTR8aW1hZ2UvanBlZ3xhR1UxTDJoaU1pODRPREk1TnpnM056QXhNamM0TDI5cGJIQnNZVzUwY3pFeU1EQlhlREV5TURCSUxtcHdad3w4ZDdlYjZlNjQ4YWIyN2ViZjgyOTdhMDcwZDUxZDU3Nzc2ZmY4MzY2OGFlMmYyMWIzNjk4MmU3YzEyOGNhN2Vh&attachment=true"
+                           },
+                           "iconMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDA1RkVfMDAwMDAwMDAwMDAwNUZFX3VubG9jYWxpemVkXzEyMDBXeDEyMDBIIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000005FE_0000000000005FE_unlocalized_1200Wx1200H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/png",
+                              "url" : "/medias/sonnenblume-invers1200Wx1200H.png?context=bWFzdGVyfHJvb3R8OTY5NTl8aW1hZ2UvcG5nfGFETmlMMmhsWWk4NE9EUTFOelV4TnpRMk5Ua3dMM052Ym01bGJtSnNkVzFsWDJsdWRtVnljekV5TURCWGVERXlNREJJTG5CdVp3fDU1YjE5ZDQwNmUyMTZlMDMwZTYzZjFhMGFjMjA3MzY5NzFiNjMwZTJiNzhlN2Q4OGFjNmJhMTYzYWJhZmY4ZDI",
+                              "downloadUrl" : "/medias/sonnenblume-invers1200Wx1200H.png?context=bWFzdGVyfHJvb3R8OTY5NTl8aW1hZ2UvcG5nfGFETmlMMmhsWWk4NE9EUTFOelV4TnpRMk5Ua3dMM052Ym01bGJtSnNkVzFsWDJsdWRtVnljekV5TURCWGVERXlNREJJTG5CdVp3fDU1YjE5ZDQwNmUyMTZlMDMwZTYzZjFhMGFjMjA3MzY5NzFiNjMwZTJiNzhlN2Q4OGFjNmJhMTYzYWJhZmY4ZDI&attachment=true"
+                           },
+                           "url" : "CATEG5",
+                           "bgColor" : "#F39E1E",
+                           "visibleInProductButler" : "true",
+                           "visibleInAllesSaatbau" : "true",
+                           "visibleInSortenberater" : "true"
+                        }
+                     }
+                  },
+                  "row0" : {
+                     "categories" : {
+                        "category0" : {
+                           "text" : "Mais",
+                           "mediaUrl" : {
+                           },
+                           "backgroundMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDAwVENfMDAwMDAwMDAwMDAwMFRDX3VubG9jYWxpemVkXzEyMDBXeDEyMDBIIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000000TC_0000000000000TC_unlocalized_1200Wx1200H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/jpeg",
+                              "url" : "/medias/corn-mais5-1024x5761200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8MTAwODk0fGltYWdlL2pwZWd8YURRd0wyaGxZUzg0T0RJNU56ZzJPVEUwT0RRMkwyTnZjbTR0YldGcGN6VXRNVEF5TkhnMU56WXhNakF3VjNneE1qQXdTQzVxY0djfDEyM2I2NThmZTgwMTEzNjVlN2JmNzUyM2IxYjQxOTcyOWI0MDBlZmQ3OWUyODkyN2NmNDNkYzA3NWYyMjk0ZDk",
+                              "downloadUrl" : "/medias/corn-mais5-1024x5761200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8MTAwODk0fGltYWdlL2pwZWd8YURRd0wyaGxZUzg0T0RJNU56ZzJPVEUwT0RRMkwyTnZjbTR0YldGcGN6VXRNVEF5TkhnMU56WXhNakF3VjNneE1qQXdTQzVxY0djfDEyM2I2NThmZTgwMTEzNjVlN2JmNzUyM2IxYjQxOTcyOWI0MDBlZmQ3OWUyODkyN2NmNDNkYzA3NWYyMjk0ZDk&attachment=true"
+                           },
+                           "iconMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDA1RjhfMDAwMDAwMDAwMDAwNUY4X3VubG9jYWxpemVkXzMwMFd4MzAwSCIsImNhdGFsb2dJZCI6Im1lZGlhQ2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiRGVmYXVsdCJ9",
+                              "code" : "0000000000005F8_0000000000005F8_unlocalized_300Wx300H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/png",
+                              "url" : "/medias/mais-invers300Wx300H.png?context=bWFzdGVyfHJvb3R8MTg0MTB8aW1hZ2UvcG5nfGFHTmxMMmczT1M4NE9EUTFOelE1TXpnM01qazBMMjFoYVhOZmFXNTJaWEp6TXpBd1YzZ3pNREJJTG5CdVp3fDM5MWRjZjVkMjFmMjk4ZWUyNmU4MmY2Njk2ODUwODMzODAzNDI1ODJkNzViNmY1YzEzYWIwOTFhOGE1NTBlZjA",
+                              "downloadUrl" : "/medias/mais-invers300Wx300H.png?context=bWFzdGVyfHJvb3R8MTg0MTB8aW1hZ2UvcG5nfGFHTmxMMmczT1M4NE9EUTFOelE1TXpnM01qazBMMjFoYVhOZmFXNTJaWEp6TXpBd1YzZ3pNREJJTG5CdVp3fDM5MWRjZjVkMjFmMjk4ZWUyNmU4MmY2Njk2ODUwODMzODAzNDI1ODJkNzViNmY1YzEzYWIwOTFhOGE1NTBlZjA&attachment=true"
+                           },
+                           "url" : "CATEG1",
+                           "bgColor" : "#F39E1E",
+                           "visibleInProductButler" : "true",
+                           "visibleInAllesSaatbau" : "true",
+                           "visibleInSortenberater" : "true"
+                        }
+                     }
+                  },
+                  "row3" : {
+                     "categories" : {
+                        "category2" : {
+                           "text" : "Zwischenfrüchte",
+                           "mediaUrl" : {
+                           },
+                           "backgroundMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDE0NElfMDAwMDAwMDAwMDAxNDRJX3VubG9jYWxpemVkIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "00000000000144I_00000000000144I_unlocalized",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/jpeg",
+                              "url" : "/medias/Wasserg-te-Fr-h-IMG-2745-bearb.jpg?context=bWFzdGVyfHJvb3R8MTMxOTk5NDV8aW1hZ2UvanBlZ3xhRFl4TDJoaE1pODVPREU0TXprd05qSTJNek0wTDFkaGMzTmxjbWZEdkhSbExVWnl3N3hvSUVsTlIxOHlOelExWDJKbFlYSmlMbXB3Wnd8MDczN2U0YjEzZWE2OWYxMWE1YzQ1MGJmNzQ3ODI4ZTU1N2JhNzA3ZDY0YTVhOTdkNDRhMWExODNlZDA2OWY0NA",
+                              "downloadUrl" : "/medias/Wasserg-te-Fr-h-IMG-2745-bearb.jpg?context=bWFzdGVyfHJvb3R8MTMxOTk5NDV8aW1hZ2UvanBlZ3xhRFl4TDJoaE1pODVPREU0TXprd05qSTJNek0wTDFkaGMzTmxjbWZEdkhSbExVWnl3N3hvSUVsTlIxOHlOelExWDJKbFlYSmlMbXB3Wnd8MDczN2U0YjEzZWE2OWYxMWE1YzQ1MGJmNzQ3ODI4ZTU1N2JhNzA3ZDY0YTVhOTdkNDRhMWExODNlZDA2OWY0NA&attachment=true"
+                           },
+                           "iconMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDA1Rk5fMDAwMDAwMDAwMDAwNUZOX3VubG9jYWxpemVkXzMwMFd4MzAwSCIsImNhdGFsb2dJZCI6Im1lZGlhQ2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiRGVmYXVsdCJ9",
+                              "code" : "0000000000005FN_0000000000005FN_unlocalized_300Wx300H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/png",
+                              "url" : "/medias/zwischenfr-invers300Wx300H.png?context=bWFzdGVyfHJvb3R8MjMwMzl8aW1hZ2UvcG5nfGFERTBMMmc0WXk4NE9EUTFOelkxTURVd016azRMM3AzYVhOamFHVnVabkpmYVc1MlpYSnpNekF3VjNnek1EQklMbkJ1Wnd8NTFiN2E3OTI4MGJkOGNhOWJmOWNhODY3YmIyZDcxMTFmZDAxYzBjZDE0MzRhYTA0ODE4YTY5Mzc2MWVhNGFhMw",
+                              "downloadUrl" : "/medias/zwischenfr-invers300Wx300H.png?context=bWFzdGVyfHJvb3R8MjMwMzl8aW1hZ2UvcG5nfGFERTBMMmc0WXk4NE9EUTFOelkxTURVd016azRMM3AzYVhOamFHVnVabkpmYVc1MlpYSnpNekF3VjNnek1EQklMbkJ1Wnd8NTFiN2E3OTI4MGJkOGNhOWJmOWNhODY3YmIyZDcxMTFmZDAxYzBjZDE0MzRhYTA0ODE4YTY5Mzc2MWVhNGFhMw&attachment=true"
+                           },
+                           "url" : "CATEG8",
+                           "bgColor" : "#808cff",
+                           "visibleInProductButler" : "true",
+                           "visibleInAllesSaatbau" : "true",
+                           "visibleInSortenberater" : "true"
+                        },
+                        "category3" : {
+                           "text" : "Wintergetreide",
+                           "mediaUrl" : {
+                           },
+                           "backgroundMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDAwVE5fMDAwMDAwMDAwMDAwMFROX3VubG9jYWxpemVkIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000000TN_0000000000000TN_unlocalized",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/jpeg",
+                              "url" : "/medias/wintergrain.jpg?context=bWFzdGVyfHJvb3R8MTMzMjkxfGltYWdlL2pwZWd8YUdGaEwyZ3pZUzg0T0RJek16TXdORGN4T1RZMkwzZHBiblJsY21keVlXbHVMbXB3Wnd8NzlmMTBiYmEyNTU2ODY5NjA2ZmM0Nzk0NTZjNGRhOWE0NmM3ODU5M2U3NmMwNGMxYWIzNTc2ZWE0MTk4N2Y2OQ",
+                              "downloadUrl" : "/medias/wintergrain.jpg?context=bWFzdGVyfHJvb3R8MTMzMjkxfGltYWdlL2pwZWd8YUdGaEwyZ3pZUzg0T0RJek16TXdORGN4T1RZMkwzZHBiblJsY21keVlXbHVMbXB3Wnd8NzlmMTBiYmEyNTU2ODY5NjA2ZmM0Nzk0NTZjNGRhOWE0NmM3ODU5M2U3NmMwNGMxYWIzNTc2ZWE0MTk4N2Y2OQ&attachment=true"
+                           },
+                           "iconMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDA1RVhfMDAwMDAwMDAwMDAwNUVYX3VubG9jYWxpemVkXzEyMDBXeDEyMDBIIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000005EX_0000000000005EX_unlocalized_1200Wx1200H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/png",
+                              "url" : "/medias/dinkel-invers1200Wx1200H.png?context=bWFzdGVyfHJvb3R8MzIyMjB8aW1hZ2UvcG5nfGFHWTJMMmczT1M4NE9EUTFOelEwT0RZMU16RXdMMlJwYm10bGJGOXBiblpsY25NeE1qQXdWM2d4TWpBd1NDNXdibWN8ODhmOTQzZDRjNTQxOGRkYWJjMDBiOTI2MmQxYjViMzZhMGRhNzdlZDFkOTkzN2YyMzk3YTM2YmNlNWQwMjhmMQ",
+                              "downloadUrl" : "/medias/dinkel-invers1200Wx1200H.png?context=bWFzdGVyfHJvb3R8MzIyMjB8aW1hZ2UvcG5nfGFHWTJMMmczT1M4NE9EUTFOelEwT0RZMU16RXdMMlJwYm10bGJGOXBiblpsY25NeE1qQXdWM2d4TWpBd1NDNXdibWN8ODhmOTQzZDRjNTQxOGRkYWJjMDBiOTI2MmQxYjViMzZhMGRhNzdlZDFkOTkzN2YyMzk3YTM2YmNlNWQwMjhmMQ&attachment=true"
+                           },
+                           "url" : "CATEG12",
+                           "bgColor" : "#c25b3a",
+                           "visibleInProductButler" : "true",
+                           "visibleInAllesSaatbau" : "true",
+                           "visibleInSortenberater" : "true"
+                        },
+                        "category0" : {
+                           "text" : "Blühmischung und Wildäsung",
+                           "mediaUrl" : {
+                           },
+                           "backgroundMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDE0NEhfMDAwMDAwMDAwMDAxNDRIX3VubG9jYWxpemVkIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "00000000000144H_00000000000144H_unlocalized",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/jpeg",
+                              "url" : "/medias/Bienenkorb-SAN-8185.jpg?context=bWFzdGVyfHJvb3R8NTQyNTk1NXxpbWFnZS9qcGVnfGFHTTNMMmhoT0M4NU9ERTRNemt3TkRZeU5EazBMMEpwWlc1bGJtdHZjbUpmVTBGT1h6Z3hPRFV1YW5Cbnw1OWI5Nzg4YzZhMjgzMDc4NmZmNDdiZTBhY2FjY2E2MzhkZGQyYzMwNjRiZjY3MDlhMmIxZmMyYWE3MjNiZjI5",
+                              "downloadUrl" : "/medias/Bienenkorb-SAN-8185.jpg?context=bWFzdGVyfHJvb3R8NTQyNTk1NXxpbWFnZS9qcGVnfGFHTTNMMmhoT0M4NU9ERTRNemt3TkRZeU5EazBMMEpwWlc1bGJtdHZjbUpmVTBGT1h6Z3hPRFV1YW5Cbnw1OWI5Nzg4YzZhMjgzMDc4NmZmNDdiZTBhY2FjY2E2MzhkZGQyYzMwNjRiZjY3MDlhMmIxZmMyYWE3MjNiZjI5&attachment=true"
+                           },
+                           "iconMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDA1Rk5fMDAwMDAwMDAwMDAwNUZOX3VubG9jYWxpemVkIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000005FN_0000000000005FN_unlocalized",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/png",
+                              "url" : "/medias/zwischenfr-invers.png?context=bWFzdGVyfHJvb3R8MTI5ODE2fGltYWdlL3BuZ3xhR0kyTDJnNE5TODRPRFExTmpBMU5ETTNORGN3TDNwM2FYTmphR1Z1Wm5KZmFXNTJaWEp6TG5CdVp3fDM1NmVlNzQxYmNiMDFhMDI0YTE5ZDAyOGEwNTBkZTA4MmQ4YTFiMDdhYjUzMWJiMDI0NmJhM2Q4ODU0ZWQxZjA",
+                              "downloadUrl" : "/medias/zwischenfr-invers.png?context=bWFzdGVyfHJvb3R8MTI5ODE2fGltYWdlL3BuZ3xhR0kyTDJnNE5TODRPRFExTmpBMU5ETTNORGN3TDNwM2FYTmphR1Z1Wm5KZmFXNTJaWEp6TG5CdVp3fDM1NmVlNzQxYmNiMDFhMDI0YTE5ZDAyOGEwNTBkZTA4MmQ4YTFiMDdhYjUzMWJiMDI0NmJhM2Q4ODU0ZWQxZjA&attachment=true"
+                           },
+                           "url" : "CATEG975",
+                           "bgColor" : "#808cff",
+                           "visibleInProductButler" : "true",
+                           "visibleInAllesSaatbau" : "true",
+                           "visibleInSortenberater" : "true"
+                        },
+                        "category1" : {
+                           "text" : "Futter- und Grünland",
+                           "mediaUrl" : {
+                           },
+                           "backgroundMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDAwVERfMDAwMDAwMDAwMDAwMFREX3VubG9jYWxpemVkXzEyMDBXeDEyMDBIIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000000TD_0000000000000TD_unlocalized_1200Wx1200H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/jpeg",
+                              "url" : "/medias/grassland1200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8MjU4NDA2fGltYWdlL2pwZWd8YURnMkwyaGpNQzg0T0RJNU56ZzNNekE0TURZeUwyZHlZWE56YkdGdVpERXlNREJYZURFeU1EQklMbXB3Wnd8YzdjNmFmMjBjNjg2OWNlODIyMTQ2NTc3ZGZjYWY4MzcwMzM3ZTRlZjc3MDBmNTg2ZDRhNTQxNzg5YTI0NWVmNg",
+                              "downloadUrl" : "/medias/grassland1200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8MjU4NDA2fGltYWdlL2pwZWd8YURnMkwyaGpNQzg0T0RJNU56ZzNNekE0TURZeUwyZHlZWE56YkdGdVpERXlNREJYZURFeU1EQklMbXB3Wnd8YzdjNmFmMjBjNjg2OWNlODIyMTQ2NTc3ZGZjYWY4MzcwMzM3ZTRlZjc3MDBmNTg2ZDRhNTQxNzg5YTI0NWVmNg&attachment=true"
+                           },
+                           "iconMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDA1RjJfMDAwMDAwMDAwMDAwNUYyX3VubG9jYWxpemVkXzEyMDBXeDEyMDBIIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000005F2_0000000000005F2_unlocalized_1200Wx1200H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/png",
+                              "url" : "/medias/gras-invers1200Wx1200H.png?context=bWFzdGVyfHJvb3R8NjMwMTd8aW1hZ2UvcG5nfGFHWTNMMmcxT1M4NE9EUTFOelEyT0RrMk9USTJMMmR5WVhOZmFXNTJaWEp6TVRJd01GZDRNVEl3TUVndWNHNW58ZDRkY2RiZTY0YjQ1NDAxNmU1YjE1ODk1YTkxYWVmNGNmYTNmNGNhZjRjNWJjZmZhYzE3NjU4NzkyZThkNzEzNA",
+                              "downloadUrl" : "/medias/gras-invers1200Wx1200H.png?context=bWFzdGVyfHJvb3R8NjMwMTd8aW1hZ2UvcG5nfGFHWTNMMmcxT1M4NE9EUTFOelEyT0RrMk9USTJMMmR5WVhOZmFXNTJaWEp6TVRJd01GZDRNVEl3TUVndWNHNW58ZDRkY2RiZTY0YjQ1NDAxNmU1YjE1ODk1YTkxYWVmNGNmYTNmNGNhZjRjNWJjZmZhYzE3NjU4NzkyZThkNzEzNA&attachment=true"
+                           },
+                           "url" : "CATEG7",
+                           "bgColor" : "#adbd39",
+                           "visibleInProductButler" : "true",
+                           "visibleInAllesSaatbau" : "true",
+                           "visibleInSortenberater" : "true"
+                        }
+                     }
+                  },
+                  "row2" : {
+                     "categories" : {
+                        "category2" : {
+                           "text" : "Proteinpflanzen",
+                           "mediaUrl" : {
+                           },
+                           "backgroundMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDAwVEhfMDAwMDAwMDAwMDAwMFRIX3VubG9jYWxpemVkXzEyMDBXeDEyMDBIIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000000TH_0000000000000TH_unlocalized_1200Wx1200H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/jpeg",
+                              "url" : "/medias/Proteinplants1200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8MTEyMDU2fGltYWdlL2pwZWd8YUdObEwyZzBOQzg0T0RJNU56ZzRPRGd3T1RJMkwxQnliM1JsYVc1d2JHRnVkSE14TWpBd1YzZ3hNakF3U0M1cWNHY3w4NjRmNTgzNWU1N2EzNzM5OGE1ZTliYjBlN2VlMWRjNmFmNDJiMTY4ZDNiODA0NDdhZDZkODNjZDA2MWYwZTg3",
+                              "downloadUrl" : "/medias/Proteinplants1200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8MTEyMDU2fGltYWdlL2pwZWd8YUdObEwyZzBOQzg0T0RJNU56ZzRPRGd3T1RJMkwxQnliM1JsYVc1d2JHRnVkSE14TWpBd1YzZ3hNakF3U0M1cWNHY3w4NjRmNTgzNWU1N2EzNzM5OGE1ZTliYjBlN2VlMWRjNmFmNDJiMTY4ZDNiODA0NDdhZDZkODNjZDA2MWYwZTg3&attachment=true"
+                           },
+                           "iconMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDA1RjdfMDAwMDAwMDAwMDAwNUY3X3VubG9jYWxpemVkXzEyMDBXeDEyMDBIIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000005F7_0000000000005F7_unlocalized_1200Wx1200H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/png",
+                              "url" : "/medias/linse-invers1200Wx1200H.png?context=bWFzdGVyfHJvb3R8MTA3MjczfGltYWdlL3BuZ3xhR00yTDJoa01pODRPRFExTnpRNE9EWXpNREEyTDJ4cGJuTmxYMmx1ZG1WeWN6RXlNREJYZURFeU1EQklMbkJ1Wnd8MTIyMzI5MjQ4M2JkZDA5ODFlNmI1MzU0MjlmZjk5ZjQ5ZTFmY2ZiMmY2NGRiZjYxZmNmOTc2YTFkNGVkNWMzMg",
+                              "downloadUrl" : "/medias/linse-invers1200Wx1200H.png?context=bWFzdGVyfHJvb3R8MTA3MjczfGltYWdlL3BuZ3xhR00yTDJoa01pODRPRFExTnpRNE9EWXpNREEyTDJ4cGJuTmxYMmx1ZG1WeWN6RXlNREJYZURFeU1EQklMbkJ1Wnd8MTIyMzI5MjQ4M2JkZDA5ODFlNmI1MzU0MjlmZjk5ZjQ5ZTFmY2ZiMmY2NGRiZjYxZmNmOTc2YTFkNGVkNWMzMg&attachment=true"
+                           },
+                           "url" : "CATEG6",
+                           "bgColor" : "#779a00",
+                           "visibleInProductButler" : "true",
+                           "visibleInAllesSaatbau" : "true",
+                           "visibleInSortenberater" : "true"
+                        },
+                        "category3" : {
+                           "text" : "Sorghum",
+                           "mediaUrl" : {
+                           },
+                           "backgroundMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDBYWTlfMDAwMDAwMDAwMDAwWFk5X3VubG9jYWxpemVkXzUxNVd4NTE1SCIsImNhdGFsb2dJZCI6Im1lZGlhQ2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiRGVmYXVsdCJ9",
+                              "code" : "000000000000XY9_000000000000XY9_unlocalized_515Wx515H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/jpeg",
+                              "url" : "/medias/DSC-0422-hirse-JUSTUS515Wx515H.jpg?context=bWFzdGVyfHJvb3R8OTE2NjN8aW1hZ2UvanBlZ3xhRFZrTDJneFpDODVOVGd5TkRJeU1UTXdOekU0TDBSVFExOHdOREl5WDJocGNuTmxYMHBWVTFSVlV6VXhOVmQ0TlRFMVNDNXFjR2N8M2E3YjgyODQwYzJhNTE5YjMyNGI1Mzg4ODRlZjExMjhlZTcyODI2Mzk5MDlmYWFiZDRhOTQ5ODY3Yjk0ZTY5Yw",
+                              "downloadUrl" : "/medias/DSC-0422-hirse-JUSTUS515Wx515H.jpg?context=bWFzdGVyfHJvb3R8OTE2NjN8aW1hZ2UvanBlZ3xhRFZrTDJneFpDODVOVGd5TkRJeU1UTXdOekU0TDBSVFExOHdOREl5WDJocGNuTmxYMHBWVTFSVlV6VXhOVmQ0TlRFMVNDNXFjR2N8M2E3YjgyODQwYzJhNTE5YjMyNGI1Mzg4ODRlZjExMjhlZTcyODI2Mzk5MDlmYWFiZDRhOTQ5ODY3Yjk0ZTY5Yw&attachment=true"
+                           },
+                           "iconMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDA1RjRfMDAwMDAwMDAwMDAwNUY0X3VubG9jYWxpemVkXzMwMFd4MzAwSCIsImNhdGFsb2dJZCI6Im1lZGlhQ2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiRGVmYXVsdCJ9",
+                              "code" : "0000000000005F4_0000000000005F4_unlocalized_300Wx300H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/png",
+                              "url" : "/medias/hirse-invers300Wx300H.png?context=bWFzdGVyfHJvb3R8MTM5NTJ8aW1hZ2UvcG5nfGFHVXdMMmhqTWk4NE9EUTFOelEzT0RFME5ETXdMMmhwY25ObFgybHVkbVZ5Y3pNd01GZDRNekF3U0M1d2JtY3w5NTM0Njg3NmI3MDNiYzNkY2QzNDIxZjZiOWRkMTFkYzcwOWQzMmUwYzFjN2FlZTVlZTcwODRhNjBjZmE1MDVl",
+                              "downloadUrl" : "/medias/hirse-invers300Wx300H.png?context=bWFzdGVyfHJvb3R8MTM5NTJ8aW1hZ2UvcG5nfGFHVXdMMmhqTWk4NE9EUTFOelEzT0RFME5ETXdMMmhwY25ObFgybHVkbVZ5Y3pNd01GZDRNekF3U0M1d2JtY3w5NTM0Njg3NmI3MDNiYzNkY2QzNDIxZjZiOWRkMTFkYzcwOWQzMmUwYzFjN2FlZTVlZTcwODRhNjBjZmE1MDVl&attachment=true"
+                           },
+                           "url" : "CATEG4",
+                           "bgColor" : "#006c38",
+                           "visibleInProductButler" : "true",
+                           "visibleInAllesSaatbau" : "true",
+                           "visibleInSortenberater" : "true"
+                        },
+                        "category0" : {
+                           "text" : "Sommergetreide",
+                           "mediaUrl" : {
+                           },
+                           "backgroundMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDA3UUJfMDAwMDAwMDAwMDAwN1FCX3VubG9jYWxpemVkXzEyMDBXeDEyMDBIIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000007QB_0000000000007QB_unlocalized_1200Wx1200H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/jpeg",
+                              "url" : "/medias/obilniny-ovos-siaty-baron-SAN-80341200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8NDYwNDA4fGltYWdlL2pwZWd8YUdJeEwyZzBNeTg0T0RVNU9ETXlNRGt3TmpVMEwyOWlhV3h1YVc1NVgyOTJiM05mYzJsaGRIbGZZbUZ5YjI1ZlUwRk9Yemd3TXpReE1qQXdWM2d4TWpBd1NDNXFjR2N8MGZkNTQ0YzQ5ZjA4ZjE1YTdkNTY0MTVjM2NjZmUyMDMyYjkwYTNhMjM4YWUyNTAxZDA3ZWI3MWI3NjBiMWJkYQ",
+                              "downloadUrl" : "/medias/obilniny-ovos-siaty-baron-SAN-80341200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8NDYwNDA4fGltYWdlL2pwZWd8YUdJeEwyZzBNeTg0T0RVNU9ETXlNRGt3TmpVMEwyOWlhV3h1YVc1NVgyOTJiM05mYzJsaGRIbGZZbUZ5YjI1ZlUwRk9Yemd3TXpReE1qQXdWM2d4TWpBd1NDNXFjR2N8MGZkNTQ0YzQ5ZjA4ZjE1YTdkNTY0MTVjM2NjZmUyMDMyYjkwYTNhMjM4YWUyNTAxZDA3ZWI3MWI3NjBiMWJkYQ&attachment=true"
+                           },
+                           "iconMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDA1RjNfMDAwMDAwMDAwMDAwNUYzX3VubG9jYWxpemVkXzEyMDBXeDEyMDBIIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000005F3_0000000000005F3_unlocalized_1200Wx1200H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/png",
+                              "url" : "/medias/hafer-invers1200Wx1200H.png?context=bWFzdGVyfHJvb3R8NjgyMzJ8aW1hZ2UvcG5nfGFEUTBMMmhoWmk4NE9EUTFOelEzTWprd01UUXlMMmhoWm1WeVgybHVkbVZ5Y3pFeU1EQlhlREV5TURCSUxuQnVad3w0YmY5N2MzMDRiZDAzYWJjZGVlNWI0ZGE0MTZlNjMwNDY3OGY3ZjgxNWRiMTY1MmY1NzAwYTFhMDA4YzhkMzhi",
+                              "downloadUrl" : "/medias/hafer-invers1200Wx1200H.png?context=bWFzdGVyfHJvb3R8NjgyMzJ8aW1hZ2UvcG5nfGFEUTBMMmhoWmk4NE9EUTFOelEzTWprd01UUXlMMmhoWm1WeVgybHVkbVZ5Y3pFeU1EQlhlREV5TURCSUxuQnVad3w0YmY5N2MzMDRiZDAzYWJjZGVlNWI0ZGE0MTZlNjMwNDY3OGY3ZjgxNWRiMTY1MmY1NzAwYTFhMDA4YzhkMzhi&attachment=true"
+                           },
+                           "url" : "CATEG3",
+                           "bgColor" : "#c15c39",
+                           "visibleInProductButler" : "true",
+                           "visibleInAllesSaatbau" : "true",
+                           "visibleInSortenberater" : "true"
+                        },
+                        "category1" : {
+                           "text" : "Betriebsmittel",
+                           "mediaUrl" : {
+                           },
+                           "backgroundMedia" : {
+                              "uuid" : "eyJpdGVtSWQiOiIwMDAwMDAwMDAwMDAwVEZfMDAwMDAwMDAwMDAwMFRGX3VubG9jYWxpemVkXzEyMDBXeDEyMDBIIiwiY2F0YWxvZ0lkIjoibWVkaWFDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJEZWZhdWx0In0=",
+                              "code" : "0000000000000TF_0000000000000TF_unlocalized_1200Wx1200H",
+                              "catalogId" : "mediaCatalog",
+                              "catalogVersion" : "Default",
+                              "mime" : "image/jpeg",
+                              "url" : "/medias/operation-materials1200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8OTUwOTl8aW1hZ2UvanBlZ3xhR1pqTDJnMVppODRPREk1TnpnNE1EazBORGswTDI5d1pYSmhkR2x2YmlCdFlYUmxjbWxoYkhNeE1qQXdWM2d4TWpBd1NDNXFjR2N8Mzc3ZGRkOWE5ZTEzNWYwNmU2MzliZmMwMGM1ZGM0ZmIwNTk4YjZlNmE4OGFmODFlOTFmZjJkNDdmZmIxNTBjYg",
+                              "downloadUrl" : "/medias/operation-materials1200Wx1200H.jpg?context=bWFzdGVyfHJvb3R8OTUwOTl8aW1hZ2UvanBlZ3xhR1pqTDJnMVppODRPREk1TnpnNE1EazBORGswTDI5d1pYSmhkR2x2YmlCdFlYUmxjbWxoYkhNeE1qQXdWM2d4TWpBd1NDNXFjR2N8Mzc3ZGRkOWE5ZTEzNWYwNmU2MzliZmMwMGM1ZGM0ZmIwNTk4YjZlNmE4OGFmODFlOTFmZjJkNDdmZmIxNTBjYg&attachment=true"
+                           },
+                           "iconMedia" : {
+                           },
+                           "url" : "CATEG10",
+                           "bgColor" : "#006c38",
+                           "visibleInProductButler" : "true",
+                           "visibleInAllesSaatbau" : "true",
+                           "visibleInSortenberater" : "true"
+                        }
+                     }
+                  }
+               },
+               "categoryItems" : "cmsitem_00002006 row2 cmsitem_00004001 cmsitem_00003001"
+            } ]
+         }
+      }, {
+         "slotId" : "Section2ASlot-Homepage",
+         "slotUuid" : "eyJpdGVtSWQiOiJTZWN0aW9uMkFTbG90LUhvbWVwYWdlIiwiY2F0YWxvZ0lkIjoic2FhdGJhdS1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+         "position" : "Section2A",
+         "name" : "Section2A Slot for Homepage",
+         "slotShared" : false,
+         "components" : {
+            "component" : [ ]
+         }
+      }, {
+         "slotId" : "HomepageBottomHeaderSlot",
+         "slotUuid" : "eyJpdGVtSWQiOiJIb21lcGFnZUJvdHRvbUhlYWRlclNsb3QiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+         "position" : "BottomHeaderSlot",
+         "name" : "Homepage Bottom Header Slot",
+         "slotShared" : false,
+         "components" : {
+            "component" : [ {
+               "uid" : "PageTitleComponent",
+               "uuid" : "eyJpdGVtSWQiOiJQYWdlVGl0bGVDb21wb25lbnQiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+               "typeCode" : "CMSFlexComponent",
+               "modifiedtime" : "2022-08-08T07:22:34.792Z",
+               "name" : "Page Header Component",
+               "container" : "false",
+               "flexType" : "PageTitleComponent",
+               "synchronizationBlocked" : "false"
+            } ]
+         }
+      }, {
+         "slotId" : "NavigationBarSlot",
+         "slotUuid" : "eyJpdGVtSWQiOiJOYXZpZ2F0aW9uQmFyU2xvdCIsImNhdGFsb2dJZCI6InNhYXRiYXUtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+         "position" : "NavigationBar",
+         "name" : "Navigation Bar",
+         "slotShared" : true,
+         "components" : {
+            "component" : [ {
+               "uid" : "SaatbauCategoryNavComponent",
+               "uuid" : "eyJpdGVtSWQiOiJTYWF0YmF1Q2F0ZWdvcnlOYXZDb21wb25lbnQiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+               "typeCode" : "CategoryNavigationComponent",
+               "modifiedtime" : "2022-08-08T07:22:31.182Z",
+               "name" : "Category Navigation Component",
+               "container" : "false",
+               "wrapAfter" : "10",
+               "synchronizationBlocked" : "false",
+               "navigationNode" : {
+                  "uid" : "SaatbauCategoryNavNode",
+                  "uuid" : "eyJpdGVtSWQiOiJTYWF0YmF1Q2F0ZWdvcnlOYXZOb2RlIiwiY2F0YWxvZ0lkIjoic2FhdGJhdS1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+                  "name" : "Categories",
+                  "entries" : [ ],
+                  "children" : [ ]
+               }
+            } ]
+         }
+      }, {
+         "slotId" : "HeaderLinksSlot",
+         "slotUuid" : "eyJpdGVtSWQiOiJIZWFkZXJMaW5rc1Nsb3QiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+         "position" : "HeaderLinks",
+         "name" : "Header links",
+         "slotShared" : true,
+         "components" : {
+            "component" : [ {
+               "uid" : "SaatbauHeaderLinksComponent",
+               "uuid" : "eyJpdGVtSWQiOiJTYWF0YmF1SGVhZGVyTGlua3NDb21wb25lbnQiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+               "typeCode" : "CMSFlexComponent",
+               "modifiedtime" : "2022-08-08T10:17:30.746Z",
+               "name" : "Saatbau Header Links Component",
+               "container" : "false",
+               "flexType" : "SaatbauHeaderLinksComponent",
+               "synchronizationBlocked" : "false"
+            } ]
+         }
+      }, {
+         "slotId" : "MiniCartSlot",
+         "slotUuid" : "eyJpdGVtSWQiOiJNaW5pQ2FydFNsb3QiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+         "position" : "MiniCart",
+         "name" : "Mini Cart",
+         "slotShared" : true,
+         "components" : {
+            "component" : [ {
+               "uid" : "MiniCart",
+               "uuid" : "eyJpdGVtSWQiOiJNaW5pQ2FydCIsImNhdGFsb2dJZCI6InNhYXRiYXUtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+               "typeCode" : "MiniCartComponent",
+               "modifiedtime" : "2022-08-08T07:22:31.183Z",
+               "name" : "Mini Cart",
+               "shownProductCount" : "3",
+               "container" : "false",
+               "totalDisplay" : "SUBTOTAL",
+               "synchronizationBlocked" : "false",
+               "lightboxBannerComponent" : {
+                  "container" : "false",
+                  "uid" : "LightboxHomeDeliveryBannerComponent",
+                  "external" : "false",
+                  "name" : "Lightbox Home Delivery Banner Component",
+                  "synchronizationBlocked" : "false",
+                  "uuid" : "eyJpdGVtSWQiOiJMaWdodGJveEhvbWVEZWxpdmVyeUJhbm5lckNvbXBvbmVudCIsImNhdGFsb2dJZCI6InNhYXRiYXUtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+                  "typeCode" : "SimpleBannerComponent"
+               }
+            } ]
+         }
+      }, {
+         "slotId" : "TopHeaderSlot",
+         "slotUuid" : "eyJpdGVtSWQiOiJUb3BIZWFkZXJTbG90IiwiY2F0YWxvZ0lkIjoic2FhdGJhdS1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+         "position" : "TopHeaderSlot",
+         "name" : "Top Header",
+         "slotShared" : true,
+         "components" : {
+            "component" : [ ]
+         }
+      }, {
+         "slotId" : "SiteContextSlot",
+         "slotUuid" : "eyJpdGVtSWQiOiJTaXRlQ29udGV4dFNsb3QiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+         "position" : "SiteContext",
+         "name" : "Site Context Slot",
+         "slotShared" : true,
+         "components" : {
+            "component" : [ {
+               "uid" : "LanguageComponent",
+               "uuid" : "eyJpdGVtSWQiOiJMYW5ndWFnZUNvbXBvbmVudCIsImNhdGFsb2dJZCI6InNhYXRiYXUtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+               "typeCode" : "CMSSiteContextComponent",
+               "modifiedtime" : "2022-08-08T07:22:35.284Z",
+               "name" : "Site Languages",
+               "container" : "false",
+               "synchronizationBlocked" : "false",
+               "context" : "LANGUAGE"
+            }, {
+               "uid" : "CurrencyComponent",
+               "uuid" : "eyJpdGVtSWQiOiJDdXJyZW5jeUNvbXBvbmVudCIsImNhdGFsb2dJZCI6InNhYXRiYXUtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+               "typeCode" : "CMSSiteContextComponent",
+               "modifiedtime" : "2022-08-08T07:22:34.753Z",
+               "name" : "Site Currencies",
+               "container" : "false",
+               "synchronizationBlocked" : "false",
+               "context" : "CURRENCY"
+            } ]
+         }
+      }, {
+         "slotId" : "SiteLogoSlot",
+         "slotUuid" : "eyJpdGVtSWQiOiJTaXRlTG9nb1Nsb3QiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+         "position" : "SiteLogo",
+         "name" : "Default Site Logo Slot",
+         "slotShared" : true,
+         "components" : {
+            "component" : [ {
+               "uid" : "SiteLogoComponent",
+               "uuid" : "eyJpdGVtSWQiOiJTaXRlTG9nb0NvbXBvbmVudCIsImNhdGFsb2dJZCI6InNhYXRiYXUtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+               "typeCode" : "SimpleBannerComponent",
+               "modifiedtime" : "2026-01-19T11:32:41.482Z",
+               "name" : "Site Logo Component",
+               "container" : "false",
+               "external" : "false",
+               "synchronizationBlocked" : "false",
+               "media" : {
+                  "code" : "New_logo_sesam",
+                  "mime" : "image/png",
+                  "url" : "/medias/Sesam24-Logo-Claim-RGB.png?context=bWFzdGVyfHJvb3R8NjEwMDB8aW1hZ2UvcG5nfGFERTRMMmhtTkM4NE9EVXlOakkyTkRjeU9Ua3dMMU5sYzJGdE1qUmZURzluYjE5RGJHRnBiVjlTUjBJdWNHNW58ODhmOWM5YmRmYzc1ODgzZjQ4ZjE2YjE4MGUwNDg3ZDM0Yjg2OGJhZWNmYzdjMTJlMGEzNzVlM2YzYmFmYTU3OQ",
+                  "downloadUrl" : "/medias/Sesam24-Logo-Claim-RGB.png?context=bWFzdGVyfHJvb3R8NjEwMDB8aW1hZ2UvcG5nfGFERTRMMmhtTkM4NE9EVXlOakkyTkRjeU9Ua3dMMU5sYzJGdE1qUmZURzluYjE5RGJHRnBiVjlTUjBJdWNHNW58ODhmOWM5YmRmYzc1ODgzZjQ4ZjE2YjE4MGUwNDg3ZDM0Yjg2OGJhZWNmYzdjMTJlMGEzNzVlM2YzYmFmYTU3OQ&attachment=true"
+               },
+               "urlLink" : "/"
+            } ]
+         }
+      }, {
+         "slotId" : "FooterSlot",
+         "slotUuid" : "eyJpdGVtSWQiOiJGb290ZXJTbG90IiwiY2F0YWxvZ0lkIjoic2FhdGJhdS1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+         "position" : "Footer",
+         "name" : "Footer",
+         "slotShared" : true,
+         "components" : {
+            "component" : [ {
+               "uid" : "SaatbauTopLinksFooterComponent",
+               "uuid" : "eyJpdGVtSWQiOiJTYWF0YmF1VG9wTGlua3NGb290ZXJDb21wb25lbnQiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+               "typeCode" : "SaatbauTopLinksFooterComponent",
+               "modifiedtime" : "2022-12-08T08:16:04.915Z",
+               "name" : "Saatbau Top Links Footer Component",
+               "container" : "false",
+               "instagramLink" : "https://www.instagram.com/saatbau_linz/?hl=en",
+               "ordersLink" : "/my-account/orders",
+               "websiteLink" : "https://www.saatbau.com/",
+               "code" : "SaatbauTopLinksFooterComponent",
+               "contactEmail" : "sesam24@saatbau.com",
+               "contractAccountLabel" : "Cookie-Einstellungen",
+               "facebookLink" : "https://www.facebook.com/saatbaulinz",
+               "seedsLabel" : "Produktwelt",
+               "synchronizationBlocked" : "false",
+               "contactNumber" : "+43 732 38900 9999",
+               "youtubeLink" : "https://www.youtube.com/c/Saatbau_egen",
+               "seedsLink" : "/search",
+               "contractAccountLink" : "/user-consents",
+               "ordersLabel" : "Meine Bestellungen"
+            }, {
+               "uid" : "SaatbauNoticeTextParagraphComponent",
+               "uuid" : "eyJpdGVtSWQiOiJTYWF0YmF1Tm90aWNlVGV4dFBhcmFncmFwaENvbXBvbmVudCIsImNhdGFsb2dJZCI6InNhYXRiYXUtc3BhQ29udGVudENhdGFsb2ciLCJjYXRhbG9nVmVyc2lvbiI6Ik9ubGluZSJ9",
+               "typeCode" : "SaatbauFooterComponent",
+               "modifiedtime" : "2022-12-01T11:23:53.372Z",
+               "name" : "Saatbau Footer Notice Text Paragraph Component",
+               "imprintLink" : "/Impressum",
+               "imprintText" : "Impressum",
+               "container" : "false",
+               "termsAndConditionsLink" : "/terms-and-conditions",
+               "code" : "customFooterComponent",
+               "termsAndConditionsText" : "Allgemeine Geschäftsbedingungen",
+               "synchronizationBlocked" : "false",
+               "copyrightNotice" : "© Copyright 2022 SAATBAU LINZ eGen",
+               "privacyPolicyText" : "Datenschutz",
+               "privacyPolicyLink" : "/privacy-policy"
+            } ]
+         }
+      }, {
+         "slotId" : "SiteLinksSlot",
+         "slotUuid" : "eyJpdGVtSWQiOiJTaXRlTGlua3NTbG90IiwiY2F0YWxvZ0lkIjoic2FhdGJhdS1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+         "position" : "SiteLinks",
+         "name" : "Slot contains some links",
+         "slotShared" : true,
+         "components" : {
+            "component" : [ {
+               "uid" : "ContactUsLink",
+               "uuid" : "eyJpdGVtSWQiOiJDb250YWN0VXNMaW5rIiwiY2F0YWxvZ0lkIjoic2FhdGJhdS1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+               "typeCode" : "CMSLinkComponent",
+               "modifiedtime" : "2022-08-08T07:22:31.954Z",
+               "name" : "Contact Us Link",
+               "container" : "false",
+               "external" : "false",
+               "synchronizationBlocked" : "false",
+               "url" : "/contact",
+               "target" : "false"
+            } ]
+         }
+      }, {
+         "slotId" : "PlaceholderContentSlot",
+         "slotUuid" : "eyJpdGVtSWQiOiJQbGFjZWhvbGRlckNvbnRlbnRTbG90IiwiY2F0YWxvZ0lkIjoic2FhdGJhdS1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+         "position" : "PlaceholderContentSlot",
+         "name" : "Placeholder for Addon tag files",
+         "slotShared" : true,
+         "components" : {
+            "component" : [ {
+               "uid" : "cmsitem_00006002",
+               "uuid" : "eyJpdGVtSWQiOiJjbXNpdGVtXzAwMDA2MDAyIiwiY2F0YWxvZ0lkIjoic2FhdGJhdS1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+               "typeCode" : "ProductReferencesComponent",
+               "modifiedtime" : "2026-01-19T11:32:42.244Z",
+               "name" : "Produktreferenzen",
+               "container" : "false",
+               "displayProductPrices" : "false",
+               "maximumNumberProducts" : "5",
+               "displayProductTitles" : "true",
+               "synchronizationBlocked" : "false",
+               "title" : "Weitere Produkte",
+               "backgroundColorDark" : "true"
+            } ]
+         }
+      }, {
+         "slotId" : "SearchBoxSlot",
+         "slotUuid" : "eyJpdGVtSWQiOiJTZWFyY2hCb3hTbG90IiwiY2F0YWxvZ0lkIjoic2FhdGJhdS1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+         "position" : "SearchBox",
+         "name" : "Search Box",
+         "slotShared" : true,
+         "components" : {
+            "component" : [ {
+               "uid" : "SaatbauUserGreetingComponent",
+               "uuid" : "eyJpdGVtSWQiOiJTYWF0YmF1VXNlckdyZWV0aW5nQ29tcG9uZW50IiwiY2F0YWxvZ0lkIjoic2FhdGJhdS1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+               "typeCode" : "CMSFlexComponent",
+               "modifiedtime" : "2022-08-08T10:17:30.746Z",
+               "name" : "Saatbau User Greeting Component",
+               "container" : "false",
+               "flexType" : "SaatbauUserGreetingComponent",
+               "synchronizationBlocked" : "false"
+            }, {
+               "uid" : "SearchBox",
+               "uuid" : "eyJpdGVtSWQiOiJTZWFyY2hCb3giLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+               "typeCode" : "SearchBoxComponent",
+               "modifiedtime" : "2022-08-08T07:22:31.234Z",
+               "name" : "Search Box",
+               "container" : "false",
+               "maxSuggestions" : "5",
+               "maxProducts" : "5",
+               "displaySuggestions" : "true",
+               "synchronizationBlocked" : "false",
+               "displayProducts" : "true",
+               "displayProductImages" : "true",
+               "waitTimeBeforeRequest" : "0",
+               "minCharactersBeforeRequest" : "0"
+            } ]
+         }
+      }, {
+         "slotId" : "HomepageNavLinkSlot",
+         "slotUuid" : "eyJpdGVtSWQiOiJIb21lcGFnZU5hdkxpbmtTbG90IiwiY2F0YWxvZ0lkIjoic2FhdGJhdS1zcGFDb250ZW50Q2F0YWxvZyIsImNhdGFsb2dWZXJzaW9uIjoiT25saW5lIn0=",
+         "position" : "HomepageNavLink",
+         "name" : "Default Homepage Link",
+         "slotShared" : true,
+         "components" : {
+            "component" : [ {
+               "uid" : "HomepageNavLink",
+               "uuid" : "eyJpdGVtSWQiOiJIb21lcGFnZU5hdkxpbmsiLCJjYXRhbG9nSWQiOiJzYWF0YmF1LXNwYUNvbnRlbnRDYXRhbG9nIiwiY2F0YWxvZ1ZlcnNpb24iOiJPbmxpbmUifQ==",
+               "typeCode" : "CMSLinkComponent",
+               "modifiedtime" : "2022-11-02T12:55:52.755Z",
+               "name" : "Home Page Nav Link",
+               "container" : "false",
+               "external" : "false",
+               "contentPage" : "homepage",
+               "synchronizationBlocked" : "false",
+               "contentPageLabelOrId" : "homepage",
+               "url" : "/",
+               "target" : "false"
+            } ]
+         }
+      } ]
+   },
+   "label" : "homepage"
+}

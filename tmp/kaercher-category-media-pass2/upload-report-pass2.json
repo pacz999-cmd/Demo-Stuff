@@ -1,0 +1,287 @@
+{
+  "workspaceId": "0ZuKB000000OFTj0AO",
+  "updated_links": 40,
+  "errors": [],
+  "items": [
+    {
+      "category": "Hochdruckreiniger",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euIb2AI",
+      "productCategoryMediaId": "0OqKB000000gbcN0AQ",
+      "contentKey": "MCOWJAGNCRGNB3DG2YINI77KUZBU"
+    },
+    {
+      "category": "Hochdruckreiniger",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euIg2AI",
+      "productCategoryMediaId": "0OqKB000000gbcS0AQ",
+      "contentKey": "MCUSXB6YDDVJBKTAF2AB7SJANSFU"
+    },
+    {
+      "category": "Sauger",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euIl2AI",
+      "productCategoryMediaId": "0OqKB000000gbcX0AQ",
+      "contentKey": "MC6RG47RJR7BBJFDJYV4PB57RJNE"
+    },
+    {
+      "category": "Sauger",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euIq2AI",
+      "productCategoryMediaId": "0OqKB000000gbcc0AA",
+      "contentKey": "MCCYHXDVROHRDEDPRM4MJKOSB4EU"
+    },
+    {
+      "category": "Nass-/Trockensauger",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euIv2AI",
+      "productCategoryMediaId": "0OqKB000000gbch0AA",
+      "contentKey": "MC2JLMTEWPO5HB7JOSVY2IBVMGSQ"
+    },
+    {
+      "category": "Nass-/Trockensauger",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euJ02AI",
+      "productCategoryMediaId": "0OqKB000000gbcm0AA",
+      "contentKey": "MCEVIB6IJWQ5BRPP4WGAQWJN7PMQ"
+    },
+    {
+      "category": "Reinigungsroboter",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euJ52AI",
+      "productCategoryMediaId": "0OqKB000000gbcr0AA",
+      "contentKey": "MCDTQDYV3CPJBVFF4S6A5RN5OGE4"
+    },
+    {
+      "category": "Reinigungsroboter",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euJA2AY",
+      "productCategoryMediaId": "0OqKB000000gbcw0AA",
+      "contentKey": "MCLGJT6ZOIBFDUPORGCXEBH6B2JQ"
+    },
+    {
+      "category": "Industrielle Absaugtechnik",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euJF2AY",
+      "productCategoryMediaId": "0OqKB000000gbd10AA",
+      "contentKey": "MCOQFPX5EDKZA7ZOPPDXSLKXN6RE"
+    },
+    {
+      "category": "Industrielle Absaugtechnik",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euJK2AY",
+      "productCategoryMediaId": "0OqKB000000gbd60AA",
+      "contentKey": "MCMXAS4DSVX5BCRN4HKZD2IABK2A"
+    },
+    {
+      "category": "Scheuer-/Scheuersaugmaschinen",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euJP2AY",
+      "productCategoryMediaId": "0OqKB000000gbdB0AQ",
+      "contentKey": "MCUOFXCXCWDBBIRJIAI7SISBAOVM"
+    },
+    {
+      "category": "Scheuer-/Scheuersaugmaschinen",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euJU2AY",
+      "productCategoryMediaId": "0OqKB000000gbdG0AQ",
+      "contentKey": "MCBYEAHNFRT5BKRBNCPRHC3I4P2U"
+    },
+    {
+      "category": "Kehr- und Kehrsaugmaschinen",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euJZ2AY",
+      "productCategoryMediaId": "0OqKB000000gbdL0AQ",
+      "contentKey": "MCZ533B7EJI5CYLFCLDFTSCPLLCU"
+    },
+    {
+      "category": "Kehr- und Kehrsaugmaschinen",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euJe2AI",
+      "productCategoryMediaId": "0OqKB000000gbdQ0AQ",
+      "contentKey": "MCR7R7DR4ROJCU5BBAGRZPI45YXM"
+    },
+    {
+      "category": "Fenster- und Oberflaechensauger",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euJj2AI",
+      "productCategoryMediaId": "0OqKB000000gbdV0AQ",
+      "contentKey": "MCETTBCVJ6TRE6ZJVEDJ4IRQYBYY"
+    },
+    {
+      "category": "Fenster- und Oberflaechensauger",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euJo2AI",
+      "productCategoryMediaId": "0OqKB000000gbda0AA",
+      "contentKey": "MCEIFPKCCIQVB3HC2DNQMSJNJ6MA"
+    },
+    {
+      "category": "Kommunaltechnik",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euJt2AI",
+      "productCategoryMediaId": "0OqKB000000gbdf0AA",
+      "contentKey": "MC6ZBCUX6HX5BJTDLROPMTW4MV34"
+    },
+    {
+      "category": "Kommunaltechnik",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euJy2AI",
+      "productCategoryMediaId": "0OqKB000000gbdk0AA",
+      "contentKey": "MCLVXZWSBAJBFEFFBXU44QR67WZQ"
+    },
+    {
+      "category": "Geraete fuer Aussenbereiche",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euK32AI",
+      "productCategoryMediaId": "0OqKB000000gbdp0AA",
+      "contentKey": "MCS7AETQAG4BEWHA6YJDWX2EQRVI"
+    },
+    {
+      "category": "Geraete fuer Aussenbereiche",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euK82AI",
+      "productCategoryMediaId": "0OqKB000000gbdu0AA",
+      "contentKey": "MCQKTQWDXZ2NGYVNBQSI4UQKGPYY"
+    },
+    {
+      "category": "Generatoren und Schmutzwasserpumpe",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euKD2AY",
+      "productCategoryMediaId": "0OqKB000000gbdz0AA",
+      "contentKey": "MC2X5OA6XDUFE7ZDVI5VJ37Q5SUY"
+    },
+    {
+      "category": "Generatoren und Schmutzwasserpumpe",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euKI2AY",
+      "productCategoryMediaId": "0OqKB000000gbcY0AQ",
+      "contentKey": "MC67CB5ZDWIFGLRK44LZB3UN6HHQ"
+    },
+    {
+      "category": "Teppichreiniger",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euKN2AY",
+      "productCategoryMediaId": "0OqKB000000gbe40AA",
+      "contentKey": "MCKFPNVKAF7BHWXAIGSVQTZ32HIQ"
+    },
+    {
+      "category": "Teppichreiniger",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euKS2AY",
+      "productCategoryMediaId": "0OqKB000000gbe90AA",
+      "contentKey": "MCXMQJ3UGU3JCBRESRZCOJKZ3CII"
+    },
+    {
+      "category": "Dampfreiniger/-sauger",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euKX2AY",
+      "productCategoryMediaId": "0OqKB000000gbeE0AQ",
+      "contentKey": "MCLH22FO4W6VCCRNWXQBOGDVAN2I"
+    },
+    {
+      "category": "Dampfreiniger/-sauger",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euKc2AI",
+      "productCategoryMediaId": "0OqKB000000gbeJ0AQ",
+      "contentKey": "MCNXNXGGBXRRHOREIOYSYA24QNXM"
+    },
+    {
+      "category": "Wasserspender",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euKh2AI",
+      "productCategoryMediaId": "0OqKB000000gbeO0AQ",
+      "contentKey": "MCJAUDCXWGDBD7ZB5CIZ46WFX7BA"
+    },
+    {
+      "category": "Wasserspender",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euKm2AI",
+      "productCategoryMediaId": "0OqKB000000gbeT0AQ",
+      "contentKey": "MCPGPD4IPER5CWXISLOTJCZOWLHU"
+    },
+    {
+      "category": "Trockeneisreinigung",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euKr2AI",
+      "productCategoryMediaId": "0OqKB000000gbeY0AQ",
+      "contentKey": "MCM4I6OYDKWZFGNCDU7UKPRO2GTM"
+    },
+    {
+      "category": "Trockeneisreinigung",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euKw2AI",
+      "productCategoryMediaId": "0OqKB000000gbed0AA",
+      "contentKey": "MC3SWRBP7FZ5FRLHND6H5QZIJRJ4"
+    },
+    {
+      "category": "Fahrzeugreinigungssysteme",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euL12AI",
+      "productCategoryMediaId": "0OqKB000000gbei0AA",
+      "contentKey": "MC3B23WUBRINH4HL6W4WU5JJYXPU"
+    },
+    {
+      "category": "Fahrzeugreinigungssysteme",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euL62AI",
+      "productCategoryMediaId": "0OqKB000000gben0AA",
+      "contentKey": "MCL3FXP4SQ55HGFHMML6UD53QV34"
+    },
+    {
+      "category": "Wasserrecycling",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euLB2AY",
+      "productCategoryMediaId": "0OqKB000000gbes0AA",
+      "contentKey": "MCP7SQDNOIBRBWRL65BCZNGP5Q2U"
+    },
+    {
+      "category": "Wasserrecycling",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euLG2AY",
+      "productCategoryMediaId": "0OqKB000000gbex0AA",
+      "contentKey": "MCCXXDCO2QMRH5HPKTT2MLISJL5Y"
+    },
+    {
+      "category": "Manuelles Reinigungsequipment",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euLL2AY",
+      "productCategoryMediaId": "0OqKB000000gbf20AA",
+      "contentKey": "MCV3SAG3Q4H5HLLLSJUW7CWCBIJQ"
+    },
+    {
+      "category": "Manuelles Reinigungsequipment",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euLQ2AY",
+      "productCategoryMediaId": "0OqKB000000gbeP0AQ",
+      "contentKey": "MCO6S4QWRLLNCRZGDS37EZERNZNI"
+    },
+    {
+      "category": "Vernetzte Reinigung",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euLV2AY",
+      "productCategoryMediaId": "0OqKB000000gbf70AA",
+      "contentKey": "MCTE657DKVEBGRDHKQ6WHX5PFVKA"
+    },
+    {
+      "category": "Vernetzte Reinigung",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euLa2AI",
+      "productCategoryMediaId": "0OqKB000000gbfC0AQ",
+      "contentKey": "MC34Z5T2W53RBR3KRHEMSLFEBFOI"
+    },
+    {
+      "category": "Merchandising",
+      "kind": "tile",
+      "managedContentId": "20YKB000002euLf2AI",
+      "productCategoryMediaId": "0OqKB000000gbfH0AQ",
+      "contentKey": "MCEHEYYABRIVHM3BAY6ZTHEGNBIE"
+    },
+    {
+      "category": "Merchandising",
+      "kind": "banner",
+      "managedContentId": "20YKB000002euLk2AI",
+      "productCategoryMediaId": "0OqKB000000gbfM0AQ",
+      "contentKey": "MCNJS6L6Q4GNCVDL25SIU4KM6KPA"
+    }
+  ]
+}

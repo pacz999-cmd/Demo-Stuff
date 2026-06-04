@@ -1,0 +1,53 @@
+<template>
+    <section class="selector-wrap">
+        <div class="toolbar">
+            <input class="zip-input" type="text" value={zip} oninput={handleZipInput} placeholder="PLZ eingeben" />
+            <select class="radius" value={radius} onchange={handleRadiusChange}>
+                <option value="10">10 km</option>
+                <option value="25">25 km</option>
+                <option value="50">50 km</option>
+                <option value="100">100 km</option>
+            </select>
+        </div>
+
+        <div class="layout">
+            <div class="list">
+                <template for:each={filteredDistributors} for:item="item" for:index="index">
+                    <article key={item.id} class={item.cardClass}>
+                        <p class="rank">{indexLabel(index)}</p>
+                        <div class="content">
+                            <p class="name">{item.name}</p>
+                            <p>{item.street}</p>
+                            <p>{item.zip} {item.city}</p>
+                            <p>{item.country}</p>
+                            <button data-id={item.id} onclick={selectDistributor}>Verwenden</button>
+                        </div>
+                    </article>
+                </template>
+                <template if:true={showNoResults}>
+                    <article class="empty-state">
+                        <p>{noResultsText}</p>
+                        <p>Bitte andere PLZ eingeben oder den Radius anpassen.</p>
+                    </article>
+                </template>
+            </div>
+
+            <div class="map">
+                <div class="map-canvas">
+                    <lightning-map
+                        style={mapStyle}
+                        map-markers={mapMarkers}
+                        selected-marker-value={selectedMarkerValue}
+                        zoom-level={zoomLevel}
+                        onmarkerselect={handleMarkerSelect}>
+                    </lightning-map>
+                </div>
+            </div>
+        </div>
+
+        <div class="actions">
+            <a href={backUrl} class="back">Zurück</a>
+            <button class="next" onclick={continueToCheckout} disabled={nextDisabled}>Weiter</button>
+        </div>
+    </section>
+</template>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Guest Lead Form</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="firstNameLabel" label="First Name Label" type="String" default="First Name"/>
+            <property name="firstNamePlaceholder" label="First Name Placeholder" type="String"/>
+            <property name="lastNameLabel" label="Last Name Label" type="String" default="Last Name"/>
+            <property name="lastNamePlaceholder" label="Last Name Placeholder" type="String"/>
+            <property name="phoneLabel" label="Phone Label" type="String" default="Phone #"/>
+            <property name="phonePlaceholder" label="Phone Placeholder" type="String"/>
+            <property name="emailLabel" label="Email Label" type="String" default="Email"/>
+            <property name="emailPlaceholder" label="Email Placeholder" type="String"/>
+            <property name="companyLabel" label="Company Label" type="String" default="* Company"/>
+            <property name="companyPlaceholder" label="Company Placeholder" type="String"/>
+            <property name="buttonLabel" label="Button Label" type="String" default="Submit"/>
+            <property name="successText" label="Success Message" type="String" default="Thank you"/>
+            <property name="errorText" label="Error Message" type="String" default="Looks like something went wrong."/>
+            <property name="leadSource" label="Lead Source" type="String"/>
+            <property name="recordTypeDeveloperName" label="Lead RecordType DeveloperName" type="String"/>
+            <property name="formWidth" label="Form Width (e.g. 100%, 900px)" type="String" default="100%"/>
+            <property name="horizontalAlignment" label="Horizontal Alignment" type="String" datasource="left,center,right" default="left"/>
+
+            <property name="customField1ApiName" label="Custom Field 1 API Name" type="String"/>
+            <property name="customField1Label" label="Custom Field 1 Label" type="String"/>
+            <property name="customField1Placeholder" label="Custom Field 1 Placeholder" type="String"/>
+            <property name="customField2ApiName" label="Custom Field 2 API Name" type="String"/>
+            <property name="customField2Label" label="Custom Field 2 Label" type="String"/>
+            <property name="customField2Placeholder" label="Custom Field 2 Placeholder" type="String"/>
+            <property name="customField3ApiName" label="Custom Field 3 API Name" type="String"/>
+            <property name="customField3Label" label="Custom Field 3 Label" type="String"/>
+            <property name="customField3Placeholder" label="Custom Field 3 Placeholder" type="String"/>
+            <property name="customField4ApiName" label="Custom Field 4 API Name" type="String"/>
+            <property name="customField4Label" label="Custom Field 4 Label" type="String"/>
+            <property name="customField4Placeholder" label="Custom Field 4 Placeholder" type="String"/>
+            <property name="customField5ApiName" label="Custom Field 5 API Name" type="String"/>
+            <property name="customField5Label" label="Custom Field 5 Label" type="String"/>
+            <property name="customField5Placeholder" label="Custom Field 5 Placeholder" type="String"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

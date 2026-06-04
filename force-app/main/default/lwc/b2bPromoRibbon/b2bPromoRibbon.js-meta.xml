@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>B2B Promo Ribbon</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="promo1Kicker" type="String" label="Promo 1 Kicker" />
+            <property name="promo1Title" type="String" label="Promo 1 Titel" />
+            <property name="promo1Text" type="String" label="Promo 1 Text" />
+            <property name="promo1Url" type="String" label="Promo 1 URL" />
+            <property name="promo2Kicker" type="String" label="Promo 2 Kicker" />
+            <property name="promo2Title" type="String" label="Promo 2 Titel" />
+            <property name="promo2Text" type="String" label="Promo 2 Text" />
+            <property name="promo2Url" type="String" label="Promo 2 URL" />
+            <property name="promo3Kicker" type="String" label="Promo 3 Kicker" />
+            <property name="promo3Title" type="String" label="Promo 3 Titel" />
+            <property name="promo3Text" type="String" label="Promo 3 Text" />
+            <property name="promo3Url" type="String" label="Promo 3 URL" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

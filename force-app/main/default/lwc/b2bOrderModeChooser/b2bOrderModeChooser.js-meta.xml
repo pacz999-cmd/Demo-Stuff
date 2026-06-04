@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>B2B Order Mode Chooser</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="eyebrow" type="String" label="Eyebrow" />
+            <property name="title" type="String" label="Titel" />
+            <property name="option1Label" type="String" label="Option 1 Titel" />
+            <property name="option1Text" type="String" label="Option 1 Text" />
+            <property name="option2Label" type="String" label="Option 2 Titel" />
+            <property name="option2Text" type="String" label="Option 2 Text" />
+            <property name="option3Label" type="String" label="Option 3 Titel" />
+            <property name="option3Text" type="String" label="Option 3 Text" />
+            <property name="option3Hint" type="String" label="Option 3 Hinweis" />
+            <property name="nextLabel" type="String" label="Weiter Button Label" />
+            <property name="continueShoppingUrl" type="String" label="Weiterleitung nach Auswahl (legacy, ungenutzt)" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

@@ -1,0 +1,39 @@
+<template>
+    <template if:true={showModal}>
+        <section class="modal-wrap" role="dialog" aria-modal="true" aria-label={title}>
+            <div class="backdrop"></div>
+            <div class="chooser modal">
+                <p class="eyebrow">{eyebrow}</p>
+                <h2>{title}</h2>
+
+                <div class="options">
+                    <button class={option1Class} onclick={selectOption1}>
+                        <span class="check">{option1Check}</span>
+                        <span class="label">{option1Label}</span>
+                        <span class="text">{option1Text}</span>
+                    </button>
+
+                    <button class={option2Class} onclick={selectOption2}>
+                        <span class="check">{option2Check}</span>
+                        <span class="label">{option2Label}</span>
+                        <span class="text">{option2Text}</span>
+                    </button>
+
+                    <button class={option3Class} onclick={selectOption3}>
+                        <span class="check">{option3Check}</span>
+                        <span class="label">{option3Label}</span>
+                        <span class="text">{option3Text}</span>
+                    </button>
+                </div>
+
+                <template if:true={showOption3Hint}>
+                    <p class="hint">{option3Hint}</p>
+                </template>
+
+                <div class="actions">
+                    <button class="cta" onclick={goNext} disabled={nextDisabled}>{nextLabel}</button>
+                </div>
+            </div>
+        </section>
+    </template>
+</template>
