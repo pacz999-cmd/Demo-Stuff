@@ -1,18 +1,28 @@
-# Salesforce DX Project: Next Steps
+# demo-stuff
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Salesforce DX project for carousel and related storefront component experiments.
 
-## How Do You Plan to Deploy Your Changes?
+## Tech Stack
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+- Salesforce DX
+- Lightning Web Components (LWC)
+- Apex
+- Node.js tooling
 
-## Configure Your Salesforce DX Project
+## Repository Structure
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+- `force-app/` metadata including component source
+- `scripts/` helper Apex and SOQL scripts
+- `config/` scratch org/project config
 
-## Read All About It
+## Getting Started
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+1. Install Salesforce CLI and Node.js.
+2. Install dependencies:
+   - `npm install`
+3. Use `sf` commands for auth, deploy, and test workflows.
+
+## Notes
+
+- Do not commit org credentials or secrets.
+- Keep changes isolated in branches before merging to `main`.
