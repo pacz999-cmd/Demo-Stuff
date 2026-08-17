@@ -12,18 +12,6 @@
     "dependencyKind": "apexImport"
   },
   {
-    "id": "dep-apexClass|/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/classes/OrderTrackerController.cls",
-    "name": "OrderTrackerController",
-    "metadataType": "apexClass",
-    "sourcePath": "/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/classes/OrderTrackerController.cls",
-    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/apexClass/pczbutton/OrderTrackerController.cls",
-    "projectRoot": "/Users/pczieso/Documents/VSProjects/PCzButton",
-    "copyMode": "file",
-    "isDependency": true,
-    "dependencyOf": "orderTracker",
-    "dependencyKind": "apexImport"
-  },
-  {
     "id": "dep-apexClass|/Users/pczieso/claude/Rolls/force-app/main/default/classes/RecordFileUploadController.cls",
     "name": "RecordFileUploadController",
     "metadataType": "apexClass",
@@ -42,18 +30,6 @@
     "sourcePath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject/force-app/main/default/classes/OrderTrackerController.cls-meta.xml",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/apexClassMeta/sfproject/OrderTrackerController.cls-meta.xml",
     "projectRoot": "/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject",
-    "copyMode": "file",
-    "isDependency": true,
-    "dependencyOf": "orderTracker",
-    "dependencyKind": "apexImport"
-  },
-  {
-    "id": "dep-apexClassMeta|/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/classes/OrderTrackerController.cls-meta.xml",
-    "name": "OrderTrackerController.cls-meta",
-    "metadataType": "apexClassMeta",
-    "sourcePath": "/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/classes/OrderTrackerController.cls-meta.xml",
-    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/apexClassMeta/pczbutton/OrderTrackerController.cls-meta.xml",
-    "projectRoot": "/Users/pczieso/Documents/VSProjects/PCzButton",
     "copyMode": "file",
     "isDependency": true,
     "dependencyOf": "orderTracker",
@@ -122,42 +98,12 @@
     "isDependency": false
   },
   {
-    "id": "59b0b75461e3",
-    "name": "delivery_Date_Picker",
-    "metadataType": "lwc",
-    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/lwc/delivery_Date_Picker",
-    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/rolls/delivery_Date_Picker",
-    "projectRoot": "/Users/pczieso/claude/Rolls",
-    "copyMode": "directory",
-    "isDependency": false
-  },
-  {
     "id": "84becda2636d",
     "name": "orderTracker",
     "metadataType": "lwc",
     "sourcePath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject/force-app/main/default/lwc/orderTracker",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/sfproject/orderTracker",
     "projectRoot": "/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject",
-    "copyMode": "directory",
-    "isDependency": false
-  },
-  {
-    "id": "53a5a17672bf",
-    "name": "orderTracker",
-    "metadataType": "lwc",
-    "sourcePath": "/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/lwc/orderTracker",
-    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/pczbutton/orderTracker",
-    "projectRoot": "/Users/pczieso/Documents/VSProjects/PCzButton",
-    "copyMode": "directory",
-    "isDependency": false
-  },
-  {
-    "id": "1bfcd60b3733",
-    "name": "orderTracker",
-    "metadataType": "lwc",
-    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/lwc/orderTracker",
-    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/rolls/orderTracker",
-    "projectRoot": "/Users/pczieso/claude/Rolls",
     "copyMode": "directory",
     "isDependency": false
   },
@@ -411,54 +357,6 @@
     "copyMode": "file",
     "isDependency": true,
     "dependencyOf": "sdo_scom_loyalty_greeting",
-    "dependencyKind": "staticResourceImport"
-  },
-  {
-    "id": "dep-staticResourceMeta|/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/staticresources/leaflet_css.resource-meta.xml",
-    "name": "leaflet_css.resource-meta",
-    "metadataType": "staticResourceMeta",
-    "sourcePath": "/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/staticresources/leaflet_css.resource-meta.xml",
-    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/pczbutton/leaflet_css.resource-meta.xml",
-    "projectRoot": "/Users/pczieso/Documents/VSProjects/PCzButton",
-    "copyMode": "file",
-    "isDependency": true,
-    "dependencyOf": "orderTracker",
-    "dependencyKind": "staticResourceImport"
-  },
-  {
-    "id": "dep-staticResourceMeta|/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/leaflet_css.resource-meta.xml",
-    "name": "leaflet_css.resource-meta",
-    "metadataType": "staticResourceMeta",
-    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/leaflet_css.resource-meta.xml",
-    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/rolls/leaflet_css.resource-meta.xml",
-    "projectRoot": "/Users/pczieso/claude/Rolls",
-    "copyMode": "file",
-    "isDependency": true,
-    "dependencyOf": "orderTracker",
-    "dependencyKind": "staticResourceImport"
-  },
-  {
-    "id": "dep-staticResourceMeta|/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/staticresources/leaflet_js.resource-meta.xml",
-    "name": "leaflet_js.resource-meta",
-    "metadataType": "staticResourceMeta",
-    "sourcePath": "/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/staticresources/leaflet_js.resource-meta.xml",
-    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/pczbutton/leaflet_js.resource-meta.xml",
-    "projectRoot": "/Users/pczieso/Documents/VSProjects/PCzButton",
-    "copyMode": "file",
-    "isDependency": true,
-    "dependencyOf": "orderTracker",
-    "dependencyKind": "staticResourceImport"
-  },
-  {
-    "id": "dep-staticResourceMeta|/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/leaflet_js.resource-meta.xml",
-    "name": "leaflet_js.resource-meta",
-    "metadataType": "staticResourceMeta",
-    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/leaflet_js.resource-meta.xml",
-    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/rolls/leaflet_js.resource-meta.xml",
-    "projectRoot": "/Users/pczieso/claude/Rolls",
-    "copyMode": "file",
-    "isDependency": true,
-    "dependencyOf": "orderTracker",
     "dependencyKind": "staticResourceImport"
   }
 ]

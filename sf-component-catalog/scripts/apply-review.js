@@ -40,6 +40,75 @@ function walkFiles(dir, collected = []) {
   return collected;
 }
 
+function getDirectoryStats(dir) {
+  const files = walkFiles(dir);
+  let bytes = 0;
+  for (const file of files) {
+    try {
+      bytes += fs.statSync(file).size;
+    } catch (_error) {
+      // Ignore transient file stat issues.
+    }
+  }
+  return { fileCount: files.length, totalBytes: bytes };
+}
+
+function scoreRootLwc(item) {
+  const stats = getDirectoryStats(item.sourcePath);
+  let bonus = 0;
+  if (item.sourcePath.includes("/Documents/VSProjects/")) bonus += 5000;
+  if (item.sourcePath.includes("/claude/")) bonus -= 5000;
+  return {
+    score: bonus + stats.fileCount * 100 + Math.round(stats.totalBytes / 100),
+    stats,
+  };
+}
+
+function consolidateRootLwcsByName(items) {
+  const grouped = new Map();
+  const kept = [];
+  const dropped = [];
+
+  for (const item of items) {
+    if (item.metadataType !== "lwc") {
+      kept.push(item);
+      continue;
+    }
+    const key = item.name;
+    if (!grouped.has(key)) grouped.set(key, []);
+    grouped.get(key).push(item);
+  }
+
+  for (const [name, variants] of grouped.entries()) {
+    if (variants.length === 1) {
+      kept.push(variants[0]);
+      continue;
+    }
+    const ranked = variants
+      .map((v) => {
+        const scored = scoreRootLwc(v);
+        return {
+          ...v,
+          _score: scored.score,
+          _stats: scored.stats,
+        };
+      })
+      .sort((a, b) => b._score - a._score || a.sourcePath.localeCompare(b.sourcePath));
+
+    kept.push(ranked[0]);
+    for (let i = 1; i < ranked.length; i++) {
+      dropped.push({
+        name,
+        sourcePath: ranked[i].sourcePath,
+        projectRoot: ranked[i].projectRoot,
+        reason: `Lower variant score (${ranked[i]._score}) than kept ${ranked[0]._score}`,
+      });
+    }
+  }
+
+  return { kept, dropped };
+}
+
 function kebabToCamel(value) {
   return value.replace(/-([a-z0-9])/g, (_, ch) => ch.toUpperCase());
 }
@@ -237,8 +306,13 @@ if (rootItems.length === 0) {
   process.exit(0);
 }
 
+const consolidation = consolidateRootLwcsByName(rootItems);
+rootItems = consolidation.kept;
+
 const approvedItems = [];
 const copiedKeys = new Set();
+fs.rmSync(approvedRoot, { recursive: true, force: true });
+ensureDir(approvedRoot);
 for (const item of rootItems) {
   if (!item) continue;
 
@@ -327,6 +401,14 @@ const selectedRoots = approvedItems.filter((x) => !x.isDependency).length;
 const dependencyCount = approvedItems.filter((x) => x.isDependency).length;
 lines.push(`Selected components: ${selectedRoots}`);
 lines.push(`Auto-added dependencies: ${dependencyCount}`);
+lines.push(`Consolidated duplicate LWCs removed: ${consolidation.dropped.length}`);
+if (consolidation.dropped.length > 0) {
+  lines.push("");
+  lines.push("## Consolidation decisions");
+  for (const drop of consolidation.dropped) {
+    lines.push(`- ${drop.name} | dropped=${drop.sourcePath} | reason=${drop.reason}`);
+  }
+}
 lines.push("");
 for (const item of approvedItems) {
   if (item.isDependency) {
@@ -342,4 +424,5 @@ fs.writeFileSync(reportPath, lines.join("\n"), "utf8");
 
 console.log(`Applied selections: ${selectedRoots}`);
 console.log(`Auto-added dependencies: ${dependencyCount}`);
+console.log(`Consolidated duplicate LWCs removed: ${consolidation.dropped.length}`);
 console.log(`Approved index: ${indexPath}`);
