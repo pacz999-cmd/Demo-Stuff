@@ -23,13 +23,18 @@ This local tool helps you build a reusable Salesforce component catalog while pr
 4. Apply selection:
    - `npm run catalog:review:apply`
 
-Only checked components are copied to `catalog/approved/` and written to `index/approved-components.json`.
+Checked LWCs are copied to `catalog/approved/` and written to `index/approved-components.json`.
+During apply, the tool also auto-includes discovered dependencies from the same project:
+- referenced `c/*` LWC components (recursive),
+- Apex classes imported via `@salesforce/apex/...`,
+- Static Resources imported via `@salesforce/resourceUrl/...`.
 
 ## Artifacts
 
 - `reports/review-checklist.md` - your manual checklist
 - `reports/discovered-projects.json` - projects discovered and filtered
 - `reports/applied-summary.md` - what was imported after review
+- `reports/applied-summary.md` includes selected roots plus auto-added dependencies
 - `index/candidates.json` - all candidates from approved sources
 - `index/approved-components.json` - final approved set
 

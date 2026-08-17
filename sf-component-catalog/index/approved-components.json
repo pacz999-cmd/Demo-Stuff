@@ -1,12 +1,85 @@
 [
   {
+    "id": "dep-apexClass|/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject/force-app/main/default/classes/OrderTrackerController.cls",
+    "name": "OrderTrackerController",
+    "metadataType": "apexClass",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject/force-app/main/default/classes/OrderTrackerController.cls",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/apexClass/sfproject/OrderTrackerController.cls",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "orderTracker",
+    "dependencyKind": "apexImport"
+  },
+  {
+    "id": "dep-apexClass|/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/classes/OrderTrackerController.cls",
+    "name": "OrderTrackerController",
+    "metadataType": "apexClass",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/classes/OrderTrackerController.cls",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/apexClass/pczbutton/OrderTrackerController.cls",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/PCzButton",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "orderTracker",
+    "dependencyKind": "apexImport"
+  },
+  {
+    "id": "dep-apexClass|/Users/pczieso/claude/Rolls/force-app/main/default/classes/RecordFileUploadController.cls",
+    "name": "RecordFileUploadController",
+    "metadataType": "apexClass",
+    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/classes/RecordFileUploadController.cls",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/apexClass/rolls/RecordFileUploadController.cls",
+    "projectRoot": "/Users/pczieso/claude/Rolls",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "recordFileUpload",
+    "dependencyKind": "apexImport"
+  },
+  {
+    "id": "dep-apexClassMeta|/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject/force-app/main/default/classes/OrderTrackerController.cls-meta.xml",
+    "name": "OrderTrackerController.cls-meta",
+    "metadataType": "apexClassMeta",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject/force-app/main/default/classes/OrderTrackerController.cls-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/apexClassMeta/sfproject/OrderTrackerController.cls-meta.xml",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "orderTracker",
+    "dependencyKind": "apexImport"
+  },
+  {
+    "id": "dep-apexClassMeta|/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/classes/OrderTrackerController.cls-meta.xml",
+    "name": "OrderTrackerController.cls-meta",
+    "metadataType": "apexClassMeta",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/classes/OrderTrackerController.cls-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/apexClassMeta/pczbutton/OrderTrackerController.cls-meta.xml",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/PCzButton",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "orderTracker",
+    "dependencyKind": "apexImport"
+  },
+  {
+    "id": "dep-apexClassMeta|/Users/pczieso/claude/Rolls/force-app/main/default/classes/RecordFileUploadController.cls-meta.xml",
+    "name": "RecordFileUploadController.cls-meta",
+    "metadataType": "apexClassMeta",
+    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/classes/RecordFileUploadController.cls-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/apexClassMeta/rolls/RecordFileUploadController.cls-meta.xml",
+    "projectRoot": "/Users/pczieso/claude/Rolls",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "recordFileUpload",
+    "dependencyKind": "apexImport"
+  },
+  {
     "id": "24beb35022c9",
     "name": "contiHeaderLogoLoyalty",
     "metadataType": "lwc",
     "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/contiHeaderLogoLoyalty",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/contiHeaderLogoLoyalty",
     "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
     "id": "864337b07414",
@@ -15,7 +88,8 @@
     "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/contiHeaderLoyaltyBadge",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/contiHeaderLoyaltyBadge",
     "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
     "id": "8ab207e4cd39",
@@ -24,7 +98,8 @@
     "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/contiLoyaltyStatus",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/contiLoyaltyStatus",
     "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
     "id": "898b158c05b2",
@@ -33,7 +108,8 @@
     "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/contiUserGreeting",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/contiUserGreeting",
     "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
     "id": "f6d40fcdfbca",
@@ -42,7 +118,8 @@
     "sourcePath": "/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/lwc/delivery_Date_Picker",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/pczbutton/delivery_Date_Picker",
     "projectRoot": "/Users/pczieso/Documents/VSProjects/PCzButton",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
     "id": "59b0b75461e3",
@@ -51,7 +128,8 @@
     "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/lwc/delivery_Date_Picker",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/rolls/delivery_Date_Picker",
     "projectRoot": "/Users/pczieso/claude/Rolls",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
     "id": "84becda2636d",
@@ -60,7 +138,8 @@
     "sourcePath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject/force-app/main/default/lwc/orderTracker",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/sfproject/orderTracker",
     "projectRoot": "/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
     "id": "53a5a17672bf",
@@ -69,7 +148,8 @@
     "sourcePath": "/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/lwc/orderTracker",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/pczbutton/orderTracker",
     "projectRoot": "/Users/pczieso/Documents/VSProjects/PCzButton",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
     "id": "1bfcd60b3733",
@@ -78,7 +158,8 @@
     "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/lwc/orderTracker",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/rolls/orderTracker",
     "projectRoot": "/Users/pczieso/claude/Rolls",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
     "id": "5903576a80e8",
@@ -87,7 +168,8 @@
     "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/lwc/recordFileUpload",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/rolls/recordFileUpload",
     "projectRoot": "/Users/pczieso/claude/Rolls",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
     "id": "3bf9a169fb71",
@@ -96,7 +178,8 @@
     "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/lwc/sdo_scom_loyalty_greeting",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/rolls/sdo_scom_loyalty_greeting",
     "projectRoot": "/Users/pczieso/claude/Rolls",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
     "id": "d6be1cf91b5b",
@@ -105,7 +188,8 @@
     "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/lwc/sdo_scom_loyalty_status",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/rolls/sdo_scom_loyalty_status",
     "projectRoot": "/Users/pczieso/claude/Rolls",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
     "id": "723b9c9da99b",
@@ -114,16 +198,20 @@
     "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/tireSearchResults",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/tireSearchResults",
     "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
-    "id": "0eeced5ea14e",
+    "id": "dep-lwc|/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/tireSizeSelector",
     "name": "tireSizeSelector",
     "metadataType": "lwc",
     "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/tireSizeSelector",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/tireSizeSelector",
     "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": true,
+    "dependencyOf": "tireSearchResults",
+    "dependencyKind": "lwcImport"
   },
   {
     "id": "7f57643d5e64",
@@ -132,7 +220,8 @@
     "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/tireSizeSelectorStandard",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/tireSizeSelectorStandard",
     "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
   },
   {
     "id": "2b79aafdae9c",
@@ -141,6 +230,235 @@
     "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/tireVehicleSelector",
     "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/tireVehicleSelector",
     "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
-    "copyMode": "directory"
+    "copyMode": "directory",
+    "isDependency": false
+  },
+  {
+    "id": "dep-staticResource|/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/ContiLoyaltyBronze.resource",
+    "name": "ContiLoyaltyBronze",
+    "metadataType": "staticResource",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/ContiLoyaltyBronze.resource",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResource/contitires/ContiLoyaltyBronze.resource",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "contiHeaderLogoLoyalty",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResource|/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/ContiLoyaltyGold.resource",
+    "name": "ContiLoyaltyGold",
+    "metadataType": "staticResource",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/ContiLoyaltyGold.resource",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResource/contitires/ContiLoyaltyGold.resource",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "contiHeaderLogoLoyalty",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResource|/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/ContiLoyaltySilver.resource",
+    "name": "ContiLoyaltySilver",
+    "metadataType": "staticResource",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/ContiLoyaltySilver.resource",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResource/contitires/ContiLoyaltySilver.resource",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "contiHeaderLogoLoyalty",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResource|/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/continentalTireProducts.resource",
+    "name": "continentalTireProducts",
+    "metadataType": "staticResource",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/continentalTireProducts.resource",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResource/contitires/continentalTireProducts.resource",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "tireSearchResults",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResource|/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/continentalTireSizeDependencies.resource",
+    "name": "continentalTireSizeDependencies",
+    "metadataType": "staticResource",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/continentalTireSizeDependencies.resource",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResource/contitires/continentalTireSizeDependencies.resource",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "tireSearchResults",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResource|/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/continentalVehicleDependencies.resource",
+    "name": "continentalVehicleDependencies",
+    "metadataType": "staticResource",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/continentalVehicleDependencies.resource",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResource/contitires/continentalVehicleDependencies.resource",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "tireVehicleSelector",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResourceMeta|/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/ContiLoyaltyBronze.resource-meta.xml",
+    "name": "ContiLoyaltyBronze.resource-meta",
+    "metadataType": "staticResourceMeta",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/ContiLoyaltyBronze.resource-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/contitires/ContiLoyaltyBronze.resource-meta.xml",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "contiHeaderLogoLoyalty",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResourceMeta|/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/ContiLoyaltyGold.resource-meta.xml",
+    "name": "ContiLoyaltyGold.resource-meta",
+    "metadataType": "staticResourceMeta",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/ContiLoyaltyGold.resource-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/contitires/ContiLoyaltyGold.resource-meta.xml",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "contiHeaderLogoLoyalty",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResourceMeta|/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/ContiLoyaltySilver.resource-meta.xml",
+    "name": "ContiLoyaltySilver.resource-meta",
+    "metadataType": "staticResourceMeta",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/ContiLoyaltySilver.resource-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/contitires/ContiLoyaltySilver.resource-meta.xml",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "contiHeaderLogoLoyalty",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResourceMeta|/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/continentalTireProducts.resource-meta.xml",
+    "name": "continentalTireProducts.resource-meta",
+    "metadataType": "staticResourceMeta",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/continentalTireProducts.resource-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/contitires/continentalTireProducts.resource-meta.xml",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "tireSearchResults",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResourceMeta|/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/continentalTireSizeDependencies.resource-meta.xml",
+    "name": "continentalTireSizeDependencies.resource-meta",
+    "metadataType": "staticResourceMeta",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/continentalTireSizeDependencies.resource-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/contitires/continentalTireSizeDependencies.resource-meta.xml",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "tireSearchResults",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResourceMeta|/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/continentalVehicleDependencies.resource-meta.xml",
+    "name": "continentalVehicleDependencies.resource-meta",
+    "metadataType": "staticResourceMeta",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/staticresources/continentalVehicleDependencies.resource-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/contitires/continentalVehicleDependencies.resource-meta.xml",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "tireVehicleSelector",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResourceMeta|/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/KarcherLoyaltyBronze.resource-meta.xml",
+    "name": "KarcherLoyaltyBronze.resource-meta",
+    "metadataType": "staticResourceMeta",
+    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/KarcherLoyaltyBronze.resource-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/rolls/KarcherLoyaltyBronze.resource-meta.xml",
+    "projectRoot": "/Users/pczieso/claude/Rolls",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "sdo_scom_loyalty_greeting",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResourceMeta|/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/KarcherLoyaltyGold.resource-meta.xml",
+    "name": "KarcherLoyaltyGold.resource-meta",
+    "metadataType": "staticResourceMeta",
+    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/KarcherLoyaltyGold.resource-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/rolls/KarcherLoyaltyGold.resource-meta.xml",
+    "projectRoot": "/Users/pczieso/claude/Rolls",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "sdo_scom_loyalty_greeting",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResourceMeta|/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/KarcherLoyaltySilver.resource-meta.xml",
+    "name": "KarcherLoyaltySilver.resource-meta",
+    "metadataType": "staticResourceMeta",
+    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/KarcherLoyaltySilver.resource-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/rolls/KarcherLoyaltySilver.resource-meta.xml",
+    "projectRoot": "/Users/pczieso/claude/Rolls",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "sdo_scom_loyalty_greeting",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResourceMeta|/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/staticresources/leaflet_css.resource-meta.xml",
+    "name": "leaflet_css.resource-meta",
+    "metadataType": "staticResourceMeta",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/staticresources/leaflet_css.resource-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/pczbutton/leaflet_css.resource-meta.xml",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/PCzButton",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "orderTracker",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResourceMeta|/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/leaflet_css.resource-meta.xml",
+    "name": "leaflet_css.resource-meta",
+    "metadataType": "staticResourceMeta",
+    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/leaflet_css.resource-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/rolls/leaflet_css.resource-meta.xml",
+    "projectRoot": "/Users/pczieso/claude/Rolls",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "orderTracker",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResourceMeta|/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/staticresources/leaflet_js.resource-meta.xml",
+    "name": "leaflet_js.resource-meta",
+    "metadataType": "staticResourceMeta",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/staticresources/leaflet_js.resource-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/pczbutton/leaflet_js.resource-meta.xml",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/PCzButton",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "orderTracker",
+    "dependencyKind": "staticResourceImport"
+  },
+  {
+    "id": "dep-staticResourceMeta|/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/leaflet_js.resource-meta.xml",
+    "name": "leaflet_js.resource-meta",
+    "metadataType": "staticResourceMeta",
+    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/staticresources/leaflet_js.resource-meta.xml",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/staticResourceMeta/rolls/leaflet_js.resource-meta.xml",
+    "projectRoot": "/Users/pczieso/claude/Rolls",
+    "copyMode": "file",
+    "isDependency": true,
+    "dependencyOf": "orderTracker",
+    "dependencyKind": "staticResourceImport"
   }
 ]

@@ -1,0 +1,63 @@
+:host {
+    --slds-c-button-brand-color-background: #0176d3;
+    --slds-c-button-brand-color-border: #0176d3;
+}
+
+.calendar-header {
+    border-bottom: 1px solid #dddbda;
+}
+
+.calendar-header div {
+    font-size: 0.65rem;
+    color: #747474;
+}
+
+.calendar-grid {
+    border-top: 1px solid #dddbda;
+    border-left: 1px solid #dddbda;
+}
+
+.calendar-day {
+    border-right: 1px solid #dddbda;
+    border-bottom: 1px solid #dddbda;
+    aspect-ratio: 1.8 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar-day.empty {
+    background-color: #f3f3f3;
+}
+
+.calendar-day-btn {
+    width: 100%;
+    height: 100%;
+    border: none !important;
+    border-radius: 0 !important;
+    font-size: 0.75rem;
+    padding: 0;
+    margin: 0;
+}
+
+.calendar-day-btn.disabled {
+    background-color: #f3f3f3 !important;
+    color: #c9c7c5 !important;
+    cursor: not-allowed;
+}
+
+.calendar-day-btn.today {
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.calendar-day-btn.selected {
+    background-color: #0176d3 !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.slds-border_left-blue {
+    border-left: 4px solid #0176d3 !important;
+}
