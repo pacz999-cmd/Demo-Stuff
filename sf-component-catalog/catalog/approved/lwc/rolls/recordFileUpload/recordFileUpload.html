@@ -1,0 +1,165 @@
+<template>
+    <lightning-card title="Upload Files" icon-name="doctype:attachment">
+        <div class="slds-p-around_medium">
+            <!-- Drag and Drop Zone -->
+            <div
+                class={dropZoneClass}
+                ondragover={handleDragOver}
+                ondragleave={handleDragLeave}
+                ondrop={handleDrop}
+            >
+                <input
+                    type="file"
+                    class="slds-file-selector__input slds-assistive-text"
+                    accept={acceptedFormatsString}
+                    id="file-upload-input"
+                    multiple
+                    onchange={handleFileChange}
+                    disabled={uploading}
+                />
+                <label class="slds-file-selector__body" for="file-upload-input">
+                    <span class="slds-file-selector__button slds-button slds-button_neutral">
+                        <lightning-icon
+                            icon-name="utility:upload"
+                            size="small"
+                            class="slds-m-right_x-small"
+                        ></lightning-icon>
+                        Choose Files
+                    </span>
+                    <span class="slds-file-selector__text slds-medium-show">
+                        or drop files here
+                    </span>
+                </label>
+            </div>
+
+            <!-- File Type and Size Info -->
+            <div class="slds-text-body_small slds-text-color_weak slds-m-top_x-small">
+                <lightning-icon
+                    icon-name="utility:info"
+                    size="xx-small"
+                    class="slds-m-right_xx-small"
+                ></lightning-icon>
+                Accepted: Images (JPG, PNG, GIF), PDFs, Documents (DOC, XLS, PPT, TXT) | Max: 10 MB per file
+            </div>
+
+            <!-- Selected Files List -->
+            <template if:true={hasSelectedFiles}>
+                <div class="slds-m-top_large">
+                    <h3 class="slds-text-heading_small slds-m-bottom_small">
+                        Selected Files ({selectedFiles.length})
+                    </h3>
+                    <ul class="slds-has-dividers_around-space">
+                        <template for:each={selectedFiles} for:item="file">
+                            <li key={file.id} class="slds-item slds-p-around_small">
+                                <div class="slds-grid slds-grid_align-spread slds-grid_vertical-align-center">
+                                    <div class="slds-col slds-grid slds-grid_vertical-align-center">
+                                        <lightning-icon
+                                            icon-name="doctype:attachment"
+                                            size="small"
+                                            class="slds-m-right_small"
+                                        ></lightning-icon>
+                                        <div>
+                                            <div class="slds-text-body_regular slds-text-color_default">
+                                                {file.name}
+                                            </div>
+                                            <div class="slds-text-body_small slds-text-color_weak">
+                                                {file.size}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slds-col_bump-left">
+                                        <lightning-button-icon
+                                            icon-name="utility:close"
+                                            alternative-text="Remove file"
+                                            variant="bare"
+                                            data-id={file.id}
+                                            onclick={handleRemoveFile}
+                                            disabled={uploading}
+                                        ></lightning-button-icon>
+                                    </div>
+                                </div>
+                            </li>
+                        </template>
+                    </ul>
+
+                    <!-- Upload Button -->
+                    <div class="slds-m-top_medium slds-text-align_center">
+                        <lightning-button
+                            variant="brand"
+                            label={uploadButtonLabel}
+                            onclick={handleUpload}
+                            disabled={uploading}
+                            class="slds-m-right_x-small"
+                        ></lightning-button>
+                        <template if:true={uploading}>
+                            <lightning-spinner
+                                alternative-text="Uploading files..."
+                                size="small"
+                                class="slds-m-left_small"
+                            ></lightning-spinner>
+                        </template>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Uploaded Files List -->
+            <template if:true={hasUploadedFiles}>
+                <div class="slds-m-top_large">
+                    <h3 class="slds-text-heading_small slds-m-bottom_small">
+                        <lightning-icon
+                            icon-name="utility:success"
+                            size="x-small"
+                            variant="success"
+                            class="slds-m-right_x-small"
+                        ></lightning-icon>
+                        Uploaded Files ({uploadedFiles.length})
+                    </h3>
+                    <ul class="slds-has-dividers_around-space">
+                        <template for:each={uploadedFiles} for:item="file">
+                            <li key={file.id} class="slds-item slds-p-around_small">
+                                <div class="slds-grid slds-grid_vertical-align-center">
+                                    <lightning-icon
+                                        icon-name="doctype:attachment"
+                                        size="small"
+                                        class="slds-m-right_small"
+                                    ></lightning-icon>
+                                    <div>
+                                        <div class="slds-text-body_regular slds-text-color_default">
+                                            {file.name}
+                                        </div>
+                                        <div class="slds-text-body_small slds-text-color_weak">
+                                            {file.size}
+                                        </div>
+                                    </div>
+                                    <div class="slds-col_bump-left">
+                                        <lightning-icon
+                                            icon-name="utility:check"
+                                            size="small"
+                                            variant="success"
+                                        ></lightning-icon>
+                                    </div>
+                                </div>
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+            </template>
+
+            <!-- Empty State -->
+            <template if:false={hasSelectedFiles}>
+                <template if:false={hasUploadedFiles}>
+                    <div class="slds-text-align_center slds-m-top_large slds-m-bottom_large">
+                        <lightning-icon
+                            icon-name="utility:upload"
+                            size="large"
+                            class="slds-m-bottom_small"
+                        ></lightning-icon>
+                        <p class="slds-text-body_regular slds-text-color_weak">
+                            No files selected. Choose files or drag them here to get started.
+                        </p>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>

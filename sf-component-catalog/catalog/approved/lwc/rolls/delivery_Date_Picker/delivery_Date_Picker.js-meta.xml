@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Delivery Date Picker</masterLabel>
+    <description>A B2B delivery date selector defaulting to the current month, with past dates greyed out and configured weekdays selectable.</description>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage,lightning__RecordPage,lightning__HomePage,lightningCommunity__Default">
+            <property name="allowSunday" type="Boolean" label="Allow Sunday" default="false"/>
+            <property name="allowMonday" type="Boolean" label="Allow Monday" default="true"/>
+            <property name="allowTuesday" type="Boolean" label="Allow Tuesday" default="true"/>
+            <property name="allowWednesday" type="Boolean" label="Allow Wednesday" default="true"/>
+            <property name="allowThursday" type="Boolean" label="Allow Thursday" default="true"/>
+            <property name="allowFriday" type="Boolean" label="Allow Friday" default="true"/>
+            <property name="allowSaturday" type="Boolean" label="Allow Saturday" default="false"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

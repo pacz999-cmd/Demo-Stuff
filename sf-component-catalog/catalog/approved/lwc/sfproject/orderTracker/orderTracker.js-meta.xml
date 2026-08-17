@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <objects>
+                <object>Order</object>
+                <object>OrderSummary</object>
+            </objects>
+        </targetConfig>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="recordId" type="String" label="Record Id" description="Order or Order Summary record Id (usually bound automatically on record pages)" />
+            <property name="warehouseStreet" type="String" default="Schlüterstraße 3" label="Warehouse Street" description="Street address of the warehouse" />
+            <property name="warehouseCity" type="String" default="Düsseldorf" label="Warehouse City" description="City where the warehouse is located" />
+            <property name="warehouseState" type="String" default="" label="Warehouse State/Province" description="State or province (optional)" />
+            <property name="warehousePostalCode" type="String" default="40235" label="Warehouse Postal Code" description="Postal/ZIP code of the warehouse" />
+            <property name="warehouseCountry" type="String" default="Germany" label="Warehouse Country" description="Country where the warehouse is located" />
+            <property name="destinationStreet" type="String" default="" label="Destination Street (optional override)" description="Optional. Leave blank to use Shipment ship-to, then Order shipping, then Account." />
+            <property name="destinationCity" type="String" default="" label="Destination City (optional override)" description="Optional override; blank uses resolved address from Shipment / Order / Account." />
+            <property name="destinationState" type="String" default="" label="Destination State/Province (optional override)" description="Optional override; blank uses resolved address from Shipment / Order / Account." />
+            <property name="destinationPostalCode" type="String" default="" label="Destination Postal Code (optional override)" description="Optional override; blank uses resolved address from Shipment / Order / Account." />
+            <property name="destinationCountry" type="String" default="" label="Destination Country (optional override)" description="Optional override; blank uses resolved address from Shipment / Order / Account." />
+            <property name="debugExpressionOutput" type="Boolean" default="false" label="Debug Expression Output" description="Enable to print raw expression values to the browser console (dev only)" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

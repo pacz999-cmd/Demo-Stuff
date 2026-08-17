@@ -1,0 +1,35 @@
+<template>
+    <template if:true={isLoaded}>
+        <template if:true={status}>
+            <div class="loyalty-card">
+                <div class="loyalty-card-header">
+                    <img class="loyalty-tier-badge" src={badgeUrl} alt={badgeAlt} />
+                    <div class="loyalty-tier-info">
+                        <div class="loyalty-tier-label">Continental Loyalty Status</div>
+                        <div class="loyalty-tier-name">{tierDisplayName}</div>
+                        <div class="loyalty-points">{status.points} pts</div>
+                    </div>
+                </div>
+
+                <template if:false={isGold}>
+                    <div class="loyalty-progress-section">
+                        <div class="loyalty-progress-labels">
+                            <span>{tierDisplayName}</span>
+                            <span>{nextTierDisplayName}</span>
+                        </div>
+                        <div class="loyalty-progress-track">
+                            <div class="loyalty-progress-fill" style={progressBarStyle}></div>
+                        </div>
+                        <div class="loyalty-progress-info">{progressInfo}</div>
+                    </div>
+                </template>
+
+                <template if:true={isGold}>
+                    <div class="loyalty-gold-message">
+                        You have reached the highest Continental loyalty tier.
+                    </div>
+                </template>
+            </div>
+        </template>
+    </template>
+</template>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Conti User Greeting</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property
+                name="prefixText"
+                type="String"
+                label="Prefix Text"
+                description="Text shown before the first name."
+                default="Hi, "
+            />
+            <property
+                name="suffixText"
+                type="String"
+                label="Suffix Text"
+                description="Optional text shown after the first name."
+                default=""
+            />
+            <property
+                name="fontSizePx"
+                type="Integer"
+                label="Text Size (px)"
+                description="Greeting text size in pixels (10-72)."
+                default="16"
+            />
+            <property
+                name="textColor"
+                type="String"
+                label="Text Color"
+                description="CSS color value (for example #ffffff or rgb(255,255,255))."
+                default="#1f1f1f"
+            />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

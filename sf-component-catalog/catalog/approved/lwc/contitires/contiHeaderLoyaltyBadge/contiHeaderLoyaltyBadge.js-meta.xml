@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Conti Header Loyalty Badge</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property
+                name="sizePx"
+                type="Integer"
+                label="Badge Size (px)"
+                description="Badge image size in pixels (16-220)."
+                default="30"
+            />
+            <property
+                name="marginLeft"
+                type="Integer"
+                label="Left Margin (px)"
+                description="Space to the left of the badge (0-40)."
+                default="0"
+            />
+            <property
+                name="marginRight"
+                type="Integer"
+                label="Right Margin (px)"
+                description="Space to the right of the badge (0-40)."
+                default="0"
+            />
+            <property
+                name="previewTier"
+                type="String"
+                label="Preview Tier"
+                description="Tier displayed in Experience Builder preview when no user loyalty data is available."
+                default="Bronze"
+            />
+            <property
+                name="showPreviewFallback"
+                type="Boolean"
+                label="Show Preview Fallback Badge"
+                description="If true, shows the preview tier badge when live loyalty data is unavailable."
+                default="true"
+            />
+            <property
+                name="pinNearLogo"
+                type="Boolean"
+                label="Pin Near Logo (Fixed Position)"
+                description="Pins badge using fixed top/left offsets so it can sit near managed site logo."
+                default="true"
+            />
+            <property
+                name="fixedTopPx"
+                type="Integer"
+                label="Fixed Top Offset (px)"
+                description="Distance from top of viewport when Pin Near Logo is enabled."
+                default="14"
+            />
+            <property
+                name="fixedLeftPx"
+                type="Integer"
+                label="Fixed Left Offset (px)"
+                description="Distance from left of viewport when Pin Near Logo is enabled."
+                default="210"
+            />
+            <property
+                name="zIndex"
+                type="Integer"
+                label="Badge Z-Index"
+                description="Stack order for fixed badge placement."
+                default="1000"
+            />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

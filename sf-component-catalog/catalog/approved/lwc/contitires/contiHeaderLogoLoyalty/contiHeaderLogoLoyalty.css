@@ -1,0 +1,17 @@
+.conti-logo-loyalty {
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo-link,
+.logo-link:hover,
+.logo-link:focus,
+.logo-link:active {
+    text-decoration: none;
+}
+
+.logo-image,
+.badge-image {
+    object-fit: contain;
+    display: block;
+}

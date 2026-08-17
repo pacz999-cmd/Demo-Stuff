@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Conti Header Logo + Loyalty</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property
+                name="logoUrl"
+                type="String"
+                label="Company Logo URL"
+                description="URL of the company logo image shown in header."
+            />
+            <property
+                name="logoAlt"
+                type="String"
+                label="Logo Alt Text"
+                default="Continental"
+            />
+            <property
+                name="homeUrl"
+                type="String"
+                label="Logo Link URL"
+                description="Destination URL when clicking the logo."
+                default="/"
+            />
+            <property
+                name="logoSizePx"
+                type="Integer"
+                label="Logo and Badge Size (px)"
+                description="Pixel size for both logo and loyalty badge."
+                default="64"
+            />
+            <property
+                name="gapPx"
+                type="Integer"
+                label="Gap Between Logo and Badge (px)"
+                default="8"
+            />
+            <property
+                name="previewTier"
+                type="String"
+                label="Preview Tier"
+                description="Tier shown when no user loyalty data is available."
+                default="Bronze"
+            />
+            <property
+                name="showPreviewFallback"
+                type="Boolean"
+                label="Show Preview Fallback Badge"
+                description="Show preview tier when live loyalty data is unavailable."
+                default="true"
+            />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

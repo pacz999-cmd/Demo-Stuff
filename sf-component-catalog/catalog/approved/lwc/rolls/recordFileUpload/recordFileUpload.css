@@ -1,0 +1,36 @@
+/* Drag and drop zone styling */
+.slds-file-selector_files {
+    border: 2px dashed #d8dde6;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: #f3f3f3;
+    transition: all 0.2s ease;
+}
+
+.slds-file-selector_files:hover {
+    border-color: #0176d3;
+    background-color: #f9f9f9;
+}
+
+.slds-has-drag-over {
+    border-color: #0176d3;
+    background-color: #e8f4fc;
+    border-style: solid;
+}
+
+/* File selector button */
+.slds-file-selector__button {
+    display: inline-flex;
+    align-items: center;
+}
+
+/* File list items */
+.slds-has-dividers_around-space > .slds-item {
+    background-color: #ffffff;
+    border-radius: 0.25rem;
+    border: 1px solid #dddbda;
+}
+
+.slds-has-dividers_around-space > .slds-item:hover {
+    background-color: #fafaf9;
+}

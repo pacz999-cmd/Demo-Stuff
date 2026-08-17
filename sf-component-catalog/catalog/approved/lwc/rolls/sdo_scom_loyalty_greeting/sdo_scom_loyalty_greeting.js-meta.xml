@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property
+                name="greetingTemplate"
+                type="String"
+                label="Greeting text template"
+                description="Optional. Use tokens: {name}, {tier}, {points}, {nextTier}, {pointsToNextTier}."
+            />
+            <property
+                name="backgroundColor"
+                type="String"
+                label="Background color"
+                description="Optional CSS color value, e.g. #1a1a1a or rgb(26,26,26)."
+            />
+            <property
+                name="textColor"
+                type="String"
+                label="Text color"
+                description="Optional CSS color value, e.g. #ffffff."
+            />
+            <property
+                name="themeTextStyle"
+                type="String"
+                label="Theme text style"
+                datasource="h1,h2,h3,p"
+                default="h2"
+                description="Choose which semantic text style to render so site theme typography applies."
+            />
+            <property
+                name="textOrientation"
+                type="String"
+                label="Text orientation"
+                datasource="left,center,right"
+                default="left"
+                description="Choose horizontal text alignment."
+            />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

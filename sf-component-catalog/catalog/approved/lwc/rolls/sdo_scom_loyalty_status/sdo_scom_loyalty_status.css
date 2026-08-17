@@ -1,0 +1,80 @@
+.loyalty-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.loyalty-card-header {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.loyalty-tier-badge {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.loyalty-tier-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #666;
+    margin-bottom: 0.2rem;
+}
+
+.loyalty-tier-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1;
+    margin-bottom: 0.25rem;
+}
+
+.loyalty-points {
+    font-size: 1rem;
+    color: #444;
+    font-weight: 500;
+}
+
+.loyalty-progress-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 0.4rem;
+}
+
+.loyalty-progress-track {
+    background: #e8e8e8;
+    border-radius: 100px;
+    height: 10px;
+    overflow: hidden;
+}
+
+.loyalty-progress-fill {
+    height: 100%;
+    border-radius: 100px;
+    background-color: rgb(255, 240, 0);
+    transition: width 0.4s ease;
+}
+
+.loyalty-progress-info {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.loyalty-gold-message {
+    text-align: center;
+    color: #c9a84c;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0.5rem 0;
+}

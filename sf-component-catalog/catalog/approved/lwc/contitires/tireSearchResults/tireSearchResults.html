@@ -1,0 +1,75 @@
+<template>
+    <lightning-card title="Find Your Tire" icon-name="utility:product">
+        <div class="slds-p-horizontal_medium slds-p-bottom_medium">
+            <c-tire-size-selector onsearch={handleSelectorSearch}></c-tire-size-selector>
+
+            <template lwc:if={isLoadingCatalog}>
+                <lightning-spinner
+                    class="slds-m-top_medium"
+                    alternative-text="Loading product data"
+                    size="small"
+                ></lightning-spinner>
+            </template>
+
+            <template lwc:elseif={catalogError}>
+                <div class="slds-m-top_medium slds-text-color_error">{catalogError}</div>
+            </template>
+
+            <template lwc:if={hasProducts}>
+                <div class="slds-m-top_medium">
+                    <p class="slds-text-title_bold">Results for {selectedSummary}</p>
+                </div>
+                <ul class="slds-has-dividers_bottom-space slds-m-top_small">
+                    <template for:each={products} for:item="product">
+                        <li key={product.key} class="slds-item slds-p-vertical_small">
+                            <div class="slds-grid slds-grid_align-spread slds-grid_vertical-align-center">
+                                <div class="slds-grid slds-grid_vertical-align-center slds-gutters_small">
+                                    <div class="result-image-wrapper">
+                                        <template lwc:if={product.hasProductImage}>
+                                            <img
+                                                src={product.productImageUrl}
+                                                alt={product.name}
+                                                class="result-image"
+                                            />
+                                        </template>
+                                        <template lwc:else>
+                                            <lightning-icon
+                                                icon-name="utility:image"
+                                                size="small"
+                                                alternative-text="No image available"
+                                            ></lightning-icon>
+                                        </template>
+                                    </div>
+                                    <div>
+                                    <p class="slds-text-heading_small">{product.name}</p>
+                                    <p class="slds-text-body_small">Size: {product.sizeLabel}</p>
+                                    <p class="slds-text-body_small">Load/Speed: {product.loadSpeedIndex}</p>
+                                    <p class="slds-text-body_small">{product.displayPrice}</p>
+                                    </div>
+                                </div>
+                                <lightning-button
+                                    data-url={product.pdpUrl}
+                                    label="View product"
+                                    variant="neutral"
+                                    onclick={handleProductClick}
+                                ></lightning-button>
+                            </div>
+                        </li>
+                    </template>
+                </ul>
+            </template>
+
+            <template lwc:elseif={showEmptyResults}>
+                <div class="slds-m-top_medium slds-text-color_weak">
+                    No products found for this exact size combination. Try another size.
+                </div>
+            </template>
+
+            <template lwc:elseif={showInitialHint}>
+                <div class="slds-m-top_medium slds-text-color_weak">
+                    Select a tire size and click "Show results" to view matching products.
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

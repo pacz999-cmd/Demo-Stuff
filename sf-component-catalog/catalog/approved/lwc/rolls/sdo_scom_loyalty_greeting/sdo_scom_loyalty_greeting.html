@@ -1,0 +1,8 @@
+<template>
+    <template if:true={shouldRender}>
+        <div class="loyalty-greeting-bar" style={containerStyle}>
+            <img class="loyalty-badge" src={badgeUrl} alt={badgeAlt} />
+            <p class={textClass}>{greetingMessage}</p>
+        </div>
+    </template>
+</template>

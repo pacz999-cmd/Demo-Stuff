@@ -1,0 +1,83 @@
+<template>
+    <lightning-card title={computedCardTitle} icon-name="utility:search">
+        <div class="slds-p-horizontal_medium slds-p-bottom_medium">
+            <template lwc:if={isLoading}>
+                <lightning-spinner alternative-text="Loading vehicle data" size="small"></lightning-spinner>
+            </template>
+
+            <template lwc:elseif={hasError}>
+                <div class="slds-text-color_error slds-m-bottom_small">{loadError}</div>
+            </template>
+
+            <template lwc:else>
+                <lightning-combobox
+                    name="brand"
+                    label="Brand"
+                    required
+                    value={selectedBrand}
+                    options={brandOptions}
+                    onchange={handleBrandChange}
+                    placeholder="Select brand"
+                ></lightning-combobox>
+
+                <lightning-combobox
+                    class="slds-m-top_small"
+                    name="model"
+                    label="Model"
+                    required
+                    value={selectedModel}
+                    options={modelOptions}
+                    onchange={handleModelChange}
+                    placeholder="Select model"
+                    disabled={isModelDisabled}
+                ></lightning-combobox>
+
+                <lightning-combobox
+                    class="slds-m-top_small"
+                    name="year"
+                    label="Year (optional)"
+                    value={selectedYear}
+                    options={yearOptions}
+                    onchange={handleYearChange}
+                    placeholder="Select year"
+                    disabled={isYearDisabled}
+                ></lightning-combobox>
+
+                <lightning-combobox
+                    class="slds-m-top_small"
+                    name="version"
+                    label="Version (optional)"
+                    value={selectedVersion}
+                    options={versionOptions}
+                    onchange={handleVersionChange}
+                    placeholder="Select version"
+                    disabled={isVersionDisabled}
+                ></lightning-combobox>
+
+                <lightning-combobox
+                    class="slds-m-top_small"
+                    name="fitment"
+                    label="Fitment (optional)"
+                    value={selectedFitment}
+                    options={fitmentOptions}
+                    onchange={handleFitmentChange}
+                    placeholder="Select fitment"
+                    disabled={isFitmentDisabled}
+                ></lightning-combobox>
+
+                <template lwc:if={scopeMessage}>
+                    <div class="slds-text-color_error slds-m-top_small">{scopeMessage}</div>
+                </template>
+
+                <div class="slds-m-top_medium">
+                    <lightning-button
+                        variant="brand"
+                        label={computedSearchButtonLabel}
+                        onclick={handleShowResults}
+                        disabled={isSearchDisabled}
+                    ></lightning-button>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

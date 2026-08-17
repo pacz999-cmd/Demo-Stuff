@@ -1,0 +1,11 @@
+.conti-loyalty-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conti-loyalty-badge-image {
+    object-fit: contain;
+    border-radius: 50%;
+    max-width: none;
+}

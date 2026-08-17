@@ -1,0 +1,60 @@
+<template>
+    <div class="slds-box slds-theme_default slds-p-around_none">
+        <!-- Header -->
+        <div class="slds-p-around_small slds-border_bottom slds-grid slds-grid_vertical-align-center">
+            <lightning-icon icon-name="utility:event" size="x-small" class="slds-m-right_x-small"></lightning-icon>
+            <h2 class="slds-text-heading_small slds-font-weight_bold">Requested Delivery Date</h2>
+        </div>
+
+        <div class="slds-p-around_medium">
+            <!-- Month Navigation -->
+            <div class="slds-grid slds-grid_align-spread slds-m-bottom_medium">
+                <h3 class="slds-text-title_caps slds-font-weight_bold">{currentMonthName} {currentYear}</h3>
+                <div class="slds-button-group" role="group">
+                    <button class="slds-button slds-button_icon slds-button_icon-border-filled" title="Previous Month" onclick={handlePrevMonth}>
+                        <lightning-icon icon-name="utility:chevronleft" size="x-small"></lightning-icon>
+                    </button>
+                    <button class="slds-button slds-button_icon slds-button_icon-border-filled" title="Next Month" onclick={handleNextMonth}>
+                        <lightning-icon icon-name="utility:chevronright" size="x-small"></lightning-icon>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Days of Week -->
+            <div class="slds-grid slds-wrap calendar-header">
+                <template for:each={daysOfWeek} for:item="day">
+                    <div key={day} class="slds-col slds-size_1-of-7 slds-text-align_center slds-text-title_caps slds-p-vertical_x-small">
+                        {day}
+                    </div>
+                </template>
+            </div>
+
+            <!-- Calendar Grid -->
+            <div class="slds-grid slds-wrap calendar-grid">
+                <template for:each={calendarDays} for:item="day">
+                    <div key={day.id} class={day.containerClass}>
+                        <template if:true={day.date}>
+                            <button 
+                                class={day.buttonClass} 
+                                disabled={day.disabled} 
+                                onclick={handleDateSelect} 
+                                data-date={day.isoString}>
+                                {day.dayNumber}
+                            </button>
+                        </template>
+                    </div>
+                </template>
+            </div>
+
+            <!-- Confirmation Message -->
+            <template if:true={selectedDate}>
+                <div class="slds-m-top_large slds-p-around_small slds-theme_shade slds-border_left slds-border_left-blue">
+                    <p class="slds-text-body_small">
+                        Based on your agreed delivery schedule, your order will be delivered on 
+                        <span class="slds-font-weight_bold">{formattedSelectedDate}</span>.
+                    </p>
+                </div>
+            </template>
+        </div>
+    </div>
+</template>

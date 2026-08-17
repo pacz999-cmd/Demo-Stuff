@@ -1,0 +1,75 @@
+<template>
+    <lightning-card title="Search by tire size" icon-name="utility:search">
+        <div class="slds-p-horizontal_medium slds-p-bottom_medium">
+            <template lwc:if={isLoading}>
+                <lightning-spinner alternative-text="Loading tire sizes" size="small"></lightning-spinner>
+            </template>
+
+            <template lwc:elseif={hasError}>
+                <div class="slds-text-color_error slds-m-bottom_small">{loadError}</div>
+            </template>
+
+            <template lwc:else>
+                <lightning-combobox
+                    name="width"
+                    label="Width"
+                    required
+                    message-when-value-missing="Please select a width."
+                    value={selectedWidth}
+                    options={widthOptions}
+                    onchange={handleWidthChange}
+                    placeholder="e.g. 215"
+                    field-level-help={widthHelpText}
+                ></lightning-combobox>
+
+                <lightning-combobox
+                    class="slds-m-top_small"
+                    name="aspectRatio"
+                    label="Aspect Ratio"
+                    required
+                    message-when-value-missing="Please select an aspect ratio."
+                    value={selectedAspectRatio}
+                    options={aspectRatioOptions}
+                    onchange={handleAspectRatioChange}
+                    placeholder="e.g. 60"
+                    disabled={isAspectDisabled}
+                    field-level-help={aspectHelpText}
+                ></lightning-combobox>
+
+                <lightning-combobox
+                    class="slds-m-top_small"
+                    name="diameter"
+                    label="Diameter"
+                    required
+                    message-when-value-missing="Please select a diameter."
+                    value={selectedDiameter}
+                    options={diameterOptions}
+                    onchange={handleDiameterChange}
+                    placeholder="e.g. 16"
+                    disabled={isDiameterDisabled}
+                    field-level-help={diameterHelpText}
+                ></lightning-combobox>
+
+                <lightning-combobox
+                    class="slds-m-top_small"
+                    name="speedLoadIndex"
+                    label="Speed / Load Index (optional)"
+                    value={selectedLoadSpeedIndex}
+                    options={loadSpeedOptions}
+                    onchange={handleLoadSpeedChange}
+                    placeholder="Select optional value"
+                    disabled={isLoadSpeedDisabled}
+                ></lightning-combobox>
+
+                <div class="slds-m-top_medium">
+                    <lightning-button
+                        variant="brand"
+                        label="Show results"
+                        onclick={handleShowResults}
+                        disabled={isSearchDisabled}
+                    ></lightning-button>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,9 @@
+<template>
+    <template if:true={isLoaded}>
+        <template if:true={hasTier}>
+            <div class="conti-loyalty-badge" title={badgeAlt} style={containerStyle}>
+                <img src={badgeUrl} alt={badgeAlt} class="conti-loyalty-badge-image" style={imageStyle} />
+            </div>
+        </template>
+    </template>
+</template>

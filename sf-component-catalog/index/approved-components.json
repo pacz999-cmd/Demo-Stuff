@@ -1,0 +1,146 @@
+[
+  {
+    "id": "24beb35022c9",
+    "name": "contiHeaderLogoLoyalty",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/contiHeaderLogoLoyalty",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/contiHeaderLogoLoyalty",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "directory"
+  },
+  {
+    "id": "864337b07414",
+    "name": "contiHeaderLoyaltyBadge",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/contiHeaderLoyaltyBadge",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/contiHeaderLoyaltyBadge",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "directory"
+  },
+  {
+    "id": "8ab207e4cd39",
+    "name": "contiLoyaltyStatus",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/contiLoyaltyStatus",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/contiLoyaltyStatus",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "directory"
+  },
+  {
+    "id": "898b158c05b2",
+    "name": "contiUserGreeting",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/contiUserGreeting",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/contiUserGreeting",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "directory"
+  },
+  {
+    "id": "f6d40fcdfbca",
+    "name": "delivery_Date_Picker",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/lwc/delivery_Date_Picker",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/pczbutton/delivery_Date_Picker",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/PCzButton",
+    "copyMode": "directory"
+  },
+  {
+    "id": "59b0b75461e3",
+    "name": "delivery_Date_Picker",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/lwc/delivery_Date_Picker",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/rolls/delivery_Date_Picker",
+    "projectRoot": "/Users/pczieso/claude/Rolls",
+    "copyMode": "directory"
+  },
+  {
+    "id": "84becda2636d",
+    "name": "orderTracker",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject/force-app/main/default/lwc/orderTracker",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/sfproject/orderTracker",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/Cursor Projects/1st project/sfproject",
+    "copyMode": "directory"
+  },
+  {
+    "id": "53a5a17672bf",
+    "name": "orderTracker",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/PCzButton/force-app/main/default/lwc/orderTracker",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/pczbutton/orderTracker",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/PCzButton",
+    "copyMode": "directory"
+  },
+  {
+    "id": "1bfcd60b3733",
+    "name": "orderTracker",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/lwc/orderTracker",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/rolls/orderTracker",
+    "projectRoot": "/Users/pczieso/claude/Rolls",
+    "copyMode": "directory"
+  },
+  {
+    "id": "5903576a80e8",
+    "name": "recordFileUpload",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/lwc/recordFileUpload",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/rolls/recordFileUpload",
+    "projectRoot": "/Users/pczieso/claude/Rolls",
+    "copyMode": "directory"
+  },
+  {
+    "id": "3bf9a169fb71",
+    "name": "sdo_scom_loyalty_greeting",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/lwc/sdo_scom_loyalty_greeting",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/rolls/sdo_scom_loyalty_greeting",
+    "projectRoot": "/Users/pczieso/claude/Rolls",
+    "copyMode": "directory"
+  },
+  {
+    "id": "d6be1cf91b5b",
+    "name": "sdo_scom_loyalty_status",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/claude/Rolls/force-app/main/default/lwc/sdo_scom_loyalty_status",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/rolls/sdo_scom_loyalty_status",
+    "projectRoot": "/Users/pczieso/claude/Rolls",
+    "copyMode": "directory"
+  },
+  {
+    "id": "723b9c9da99b",
+    "name": "tireSearchResults",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/tireSearchResults",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/tireSearchResults",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "directory"
+  },
+  {
+    "id": "0eeced5ea14e",
+    "name": "tireSizeSelector",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/tireSizeSelector",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/tireSizeSelector",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "directory"
+  },
+  {
+    "id": "7f57643d5e64",
+    "name": "tireSizeSelectorStandard",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/tireSizeSelectorStandard",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/tireSizeSelectorStandard",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "directory"
+  },
+  {
+    "id": "2b79aafdae9c",
+    "name": "tireVehicleSelector",
+    "metadataType": "lwc",
+    "sourcePath": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires/force-app/main/default/lwc/tireVehicleSelector",
+    "targetPath": "/Users/pczieso/Documents/VSProjects/Cursor Projects/Carousel/sf-component-catalog/catalog/approved/lwc/contitires/tireVehicleSelector",
+    "projectRoot": "/Users/pczieso/Documents/VSProjects/ContiTires/ContiTires",
+    "copyMode": "directory"
+  }
+]

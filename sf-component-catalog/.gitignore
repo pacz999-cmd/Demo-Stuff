@@ -1,8 +1,6 @@
-# Local generated artifacts
-catalog/approved/
-!catalog/approved/.gitkeep
+# Generated discovery artifacts (large and ephemeral)
+index/candidates.json
+reports/discovered-projects.json
+reports/review-checklist.md
 
-index/*.json
-reports/*.json
-reports/*.md
-!reports/.gitkeep
+# Keep approved catalog and approval result artifacts versioned

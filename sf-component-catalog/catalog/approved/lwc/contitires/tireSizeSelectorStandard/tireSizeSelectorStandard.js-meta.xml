@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Tire Size Selector (Standard Search)</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property
+                name="cardTitle"
+                type="String"
+                label="Card Header"
+                description="Editable header shown at the top of the tire search card."
+                default="Search by Tire Size (Standard Search)"
+            />
+            <property
+                name="searchButtonLabel"
+                type="String"
+                label="Search Button Text"
+                description="Editable label used for the search button."
+                default="Show Standard Results"
+            />
+            <property
+                name="searchTerm"
+                type="String"
+                label="Legacy: Search Term"
+                description="Legacy setting kept for deployed page compatibility."
+                default="tire"
+            />
+            <property
+                name="searchResultsBasePath"
+                type="String"
+                label="Legacy: Search Results Base Path"
+                description="Legacy setting kept for deployed page compatibility."
+                default="/global-search"
+            />
+            <property
+                name="routeMode"
+                type="String"
+                label="Route Mode"
+                description="Use categoryBaseline for all-products facet filtering."
+                default="categoryBaseline"
+            />
+            <property
+                name="baselineMode"
+                type="String"
+                label="Legacy: Baseline Mode"
+                description="Legacy setting kept for deployed page compatibility."
+                default="compositeSizeTerm"
+            />
+            <property
+                name="baselineSearchTerm"
+                type="String"
+                label="Legacy: Baseline Search Term"
+                description="Legacy setting kept for deployed page compatibility."
+            />
+            <property
+                name="useFacetOnlyNavigation"
+                type="Boolean"
+                label="Legacy: Use Facet-Only Navigation"
+                description="Legacy setting kept for deployed page compatibility."
+                default="false"
+            />
+            <property
+                name="includeRefinementsParam"
+                type="Boolean"
+                label="Legacy: Include Refinements Param"
+                description="Legacy setting kept for deployed page compatibility."
+                default="false"
+            />
+            <property
+                name="includeSpeedLoadRefinement"
+                type="Boolean"
+                label="Legacy: Include Speed/Load Refinement"
+                description="Legacy setting kept for deployed page compatibility."
+                default="false"
+            />
+            <property
+                name="useWidthAsSearchTerm"
+                type="Boolean"
+                label="Legacy: Use Width As Search Term"
+                description="Legacy setting kept for deployed page compatibility."
+                default="false"
+            />
+            <property
+                name="omitWidthRefinementWhenUsingWidthTerm"
+                type="Boolean"
+                label="Legacy: Omit Width Refinement"
+                description="Legacy setting kept for deployed page compatibility."
+                default="false"
+            />
+            <property
+                name="categoryRouteBasePath"
+                type="String"
+                label="Category Route Base Path"
+                description="Category route prefix, e.g. /category"
+                default="/category"
+            />
+            <property
+                name="categorySlug"
+                type="String"
+                label="Category Slug"
+                description="Category slug used in route path."
+                default="all-products"
+            />
+            <property
+                name="categoryId"
+                type="String"
+                label="Category ID"
+                description="Category Id used in both path and query."
+                default="0ZGbm000000dmG5GAI"
+            />
+            <property
+                name="defaultCategoryId"
+                type="String"
+                label="Legacy: Default Category ID"
+                description="Legacy setting kept for deployed page compatibility."
+            />
+            <property
+                name="defaultSortRule"
+                type="String"
+                label="Legacy: Default Sort Rule"
+                description="Legacy setting kept for deployed page compatibility."
+            />
+            <property
+                name="widthFieldApiName"
+                type="String"
+                label="Legacy: Width Field API Name"
+                description="Legacy setting kept for deployed page compatibility."
+                default="Tire_Width__c"
+            />
+            <property
+                name="widthFieldNameOrId"
+                type="String"
+                label="Legacy: Width Field NameOrId"
+                description="Legacy setting kept for deployed page compatibility."
+                default="Tire_Width_Facet__c"
+            />
+            <property
+                name="widthAttributeType"
+                type="String"
+                label="Legacy: Width Attribute Type"
+                description="Legacy setting kept for deployed page compatibility."
+                default="Custom"
+            />
+            <property
+                name="aspectFieldApiName"
+                type="String"
+                label="Legacy: Aspect Field API Name"
+                description="Legacy setting kept for deployed page compatibility."
+                default="Tire_Aspect_Ratio__c"
+            />
+            <property
+                name="aspectFieldNameOrId"
+                type="String"
+                label="Legacy: Aspect Field NameOrId"
+                description="Legacy setting kept for deployed page compatibility."
+                default="Tire_Aspect_Facet__c"
+            />
+            <property
+                name="aspectAttributeType"
+                type="String"
+                label="Legacy: Aspect Attribute Type"
+                description="Legacy setting kept for deployed page compatibility."
+                default="Custom"
+            />
+            <property
+                name="diameterFieldApiName"
+                type="String"
+                label="Legacy: Diameter Field API Name"
+                description="Legacy setting kept for deployed page compatibility."
+                default="Tire_Diameter__c"
+            />
+            <property
+                name="diameterFieldNameOrId"
+                type="String"
+                label="Legacy: Diameter Field NameOrId"
+                description="Legacy setting kept for deployed page compatibility."
+                default="Tire_Diameter_Facet__c"
+            />
+            <property
+                name="diameterAttributeType"
+                type="String"
+                label="Legacy: Diameter Attribute Type"
+                description="Legacy setting kept for deployed page compatibility."
+                default="Custom"
+            />
+            <property
+                name="speedLoadFieldApiName"
+                type="String"
+                label="Legacy: Speed/Load Field API Name"
+                description="Legacy setting kept for deployed page compatibility."
+                default="Tire_Speed_Load_Index__c"
+            />
+            <property
+                name="speedLoadFieldNameOrId"
+                type="String"
+                label="Legacy: Speed/Load Field NameOrId"
+                description="Legacy setting kept for deployed page compatibility."
+                default="Tire_Speed_Load_Index__c"
+            />
+            <property
+                name="speedLoadAttributeType"
+                type="String"
+                label="Legacy: Speed/Load Attribute Type"
+                description="Legacy setting kept for deployed page compatibility."
+                default="String"
+            />
+            <property
+                name="includeFacetsParam"
+                type="Boolean"
+                label="Include Native facets Query Param"
+                description="Adds a native-style encoded facets query param for stricter PLP URL compatibility."
+                default="false"
+            />
+            <property
+                name="facetsFieldNameOrId"
+                type="String"
+                label="facets Param Field nameOrId"
+                description="Facet field used to build the optional facets payload."
+                default="Tire_Diameter_Facet__c"
+            />
+            <property
+                name="debugPayload"
+                type="Boolean"
+                label="Debug Payload in Console"
+                description="Logs generated refinement payload and target URL in browser console."
+                default="false"
+            />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

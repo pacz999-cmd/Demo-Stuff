@@ -1,0 +1,69 @@
+<template>
+    <lightning-card title={computedCardTitle} icon-name="utility:search">
+        <div class="slds-p-horizontal_medium slds-p-bottom_medium">
+            <template lwc:if={isLoading}>
+                <lightning-spinner alternative-text="Loading tire sizes" size="small"></lightning-spinner>
+            </template>
+
+            <template lwc:elseif={hasError}>
+                <div class="slds-text-color_error slds-m-bottom_small">{loadError}</div>
+            </template>
+
+            <template lwc:else>
+                <lightning-combobox
+                    name="width"
+                    label="Width"
+                    required
+                    value={selectedWidth}
+                    options={widthOptions}
+                    onchange={handleWidthChange}
+                    placeholder="e.g. 215"
+                ></lightning-combobox>
+
+                <lightning-combobox
+                    class="slds-m-top_small"
+                    name="aspectRatio"
+                    label="Aspect Ratio"
+                    required
+                    value={selectedAspectRatio}
+                    options={aspectRatioOptions}
+                    onchange={handleAspectRatioChange}
+                    placeholder="e.g. 60"
+                    disabled={isAspectDisabled}
+                ></lightning-combobox>
+
+                <lightning-combobox
+                    class="slds-m-top_small"
+                    name="diameter"
+                    label="Diameter"
+                    required
+                    value={selectedDiameter}
+                    options={diameterOptions}
+                    onchange={handleDiameterChange}
+                    placeholder="e.g. 16"
+                    disabled={isDiameterDisabled}
+                ></lightning-combobox>
+
+                <lightning-combobox
+                    class="slds-m-top_small"
+                    name="speedLoadIndex"
+                    label="Speed / Load Index (optional)"
+                    value={selectedLoadSpeedIndex}
+                    options={loadSpeedOptions}
+                    onchange={handleLoadSpeedChange}
+                    placeholder="Select optional value"
+                    disabled={isLoadSpeedDisabled}
+                ></lightning-combobox>
+
+                <div class="slds-m-top_medium">
+                    <lightning-button
+                        variant="brand"
+                        label={computedSearchButtonLabel}
+                        onclick={handleShowResults}
+                        disabled={isSearchDisabled}
+                    ></lightning-button>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+/* orderTracker.css */
+.map-container {
+    height: 400px;
+    width: 100%;
+    border: 1px solid #dddbda;
+    border-radius: 0.25rem;
+    overflow: hidden;
+}
+
+.map-root {
+    height: 100%;
+    width: 100%;
+}
+
+.truck-marker-wrapper {
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
+
+:host {
+    --slds-c-card-header-spacing-block-start: 1rem;
+    font-family: 'Manrope', 'Salesforce Sans', Arial, sans-serif;
+}

@@ -1,0 +1,14 @@
+<template>
+    <div class="conti-logo-loyalty" style={wrapperStyle}>
+        <template if:true={hasLogo}>
+            <a href={homeUrl} class="logo-link" aria-label={logoAlt}>
+                <img src={safeLogoUrl} alt={logoAlt} class="logo-image" style={logoStyle} />
+            </a>
+        </template>
+        <template if:true={isLoaded}>
+            <template if:true={hasTier}>
+                <img src={badgeUrl} alt={badgeAlt} class="badge-image" style={badgeStyle} />
+            </template>
+        </template>
+    </div>
+</template>
