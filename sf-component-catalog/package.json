@@ -1,0 +1,11 @@
+{
+  "name": "sf-component-catalog",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Local Salesforce component catalog with checkbox review",
+  "scripts": {
+    "catalog:scan": "node scripts/generate-review.js",
+    "catalog:review:generate": "node scripts/generate-review.js",
+    "catalog:review:apply": "node scripts/apply-review.js"
+  }
+}

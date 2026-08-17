@@ -1,0 +1,13 @@
+{
+  "scanRoots": [
+    "/"
+  ],
+  "allowedProjectRoots": [],
+  "reviewMetadataTypes": [
+    "lwc"
+  ],
+  "excludedPathSubstrings": [
+    "/Library/CloudStorage/GoogleDrive"
+  ],
+  "excludeAlreadyApproved": true
+}

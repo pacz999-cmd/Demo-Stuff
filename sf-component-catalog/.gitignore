@@ -1,0 +1,8 @@
+# Local generated artifacts
+catalog/approved/
+!catalog/approved/.gitkeep
+
+index/*.json
+reports/*.json
+reports/*.md
+!reports/.gitkeep
